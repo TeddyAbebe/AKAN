@@ -28,14 +28,14 @@ const Home = () => {
               </div>
 
               <div className="w-64">
-                <img src={woman} />
+                <img src={woman} alt="Smile Woman" />
               </div>
             </div>
           ))}
         </div>
 
         <div>
-          <img className="h-44 w-full" src={lines} />
+          <img className="h-44 w-full" src={lines} alt="lines" />
         </div>
       </div>
     </>

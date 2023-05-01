@@ -2,15 +2,15 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Nav from "../common/Nav";
 import Home from "./Home";
-import { ExecutiveSummary } from "./ExecutiveSummary";
-import { OnsiteAnalysis } from "./OnsiteAnalysis";
-import { ExperienceMapping } from "./ExperienceMapping";
-import { Consideration } from "./Consideration";
-import { Decision } from "./Decision";
-import { Loyallity } from "./Loyallity";
-import { UserFeedback } from "./UserFeedback";
-import { Conclusion } from "./Conclusion";
-import { About } from "./About";
+// import { ExecutiveSummary } from "./ExecutiveSummary";
+// import { OnsiteAnalysis } from "./OnsiteAnalysis";
+// import { ExperienceMapping } from "./ExperienceMapping";
+// import { Consideration } from "./Consideration";
+// import { Decision } from "./Decision";
+// import { Loyallity } from "./Loyallity";
+// import { UserFeedback } from "./UserFeedback";
+// import { Conclusion } from "./Conclusion";
+// import { About } from "./About";
 
 export const Pages = () => {
   return (
