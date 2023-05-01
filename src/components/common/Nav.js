@@ -8,7 +8,7 @@ const Nav = () => {
   return (
     <>
       <div className="nav h-screen">
-        <div className="logo ">
+        <div className="logo border-none ">
           <img src={logo} alt="Logo" />
         </div>
 
