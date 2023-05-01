@@ -1,5 +1,5 @@
 import React from "react";
-import { navlink } from "../data/data";
+import { navlink, socials } from "../data/data";
 import { Link } from "react-router-dom";
 import "./nav.css";
 import logo from "../data/files/Images/logo.png";
@@ -23,6 +23,19 @@ const Nav = () => {
                   </div>
                 </div>
               </Link>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <div>
+            {socials.map((social, i) => (
+              <div className="flex m-8 space-x-8">
+                {social.icon1}
+                {social.icon2}
+                {social.icon3}
+                {social.icon4}
+              </div>
             ))}
           </div>
         </div>
