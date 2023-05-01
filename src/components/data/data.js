@@ -419,10 +419,10 @@ export const home = [
   },
 ];
 
-export const ExecutiveSummary = [
+export const executiveSummary = [
   {
-    header: "",
-    note: "",
+    header: "Executive Summery",
+    note: "Journey Mapping Exercise presents an opportunity to transform an unmanaged Customer Experience by building on the solid foundation laid by it’s founders. At the halfway point of 2022 the Partner’s [TP] JeS* score and Onsite Conversion Rate (CvR) highlights a need to optimise all phases of the customer journey: A CvR increase to industry average is estimated to generate incremental ~£53k p.a for the business. The Consideration Phase of the journey identified as the highest friction point in the journey and therefore requires urgent attention. Onsite visits are volatile and only 13% of visitors return to the site. users are leaving the Partner’s [TP] website at almost twice the rate of the industry average after landing on the homepage",
     image: "",
   },
 ];

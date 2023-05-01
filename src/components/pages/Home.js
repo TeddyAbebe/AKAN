@@ -7,7 +7,7 @@ import lines from "../data/files/Images/lines.png";
 const Home = () => {
   return (
     <>
-      <div className="bg-black text-white">
+      <div className="bg-black text-white  w-screen h-screen">
         <div className="p-14">
           {home.map((val, i) => (
             <div className="flex w-[60rem] h-[24rem]">

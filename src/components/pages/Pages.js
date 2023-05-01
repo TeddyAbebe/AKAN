@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Nav from "../common/Nav";
 import Home from "./Home";
-// import { ExecutiveSummary } from "./ExecutiveSummary";
+import  ExecutiveSummary from "./ExecutiveSummary";
 // import { OnsiteAnalysis } from "./OnsiteAnalysis";
 // import { ExperienceMapping } from "./ExperienceMapping";
 // import { Consideration } from "./Consideration";
@@ -20,7 +20,7 @@ export const Pages = () => {
           <Nav />
           <Routes>
             <Route exact path="/" element={<Home />} />
-            {/* <Route exact path="/summary" element={<ExecutiveSummary />} /> */}
+            <Route exact path="/summary" element={<ExecutiveSummary />} />
             {/* <Route exact path="/analysis" element={<OnsiteAnalysis />} /> */}
             {/* <Route exact path="/mapping" element={<ExperienceMapping />} /> */}
             {/* <Route exact path="/consideration" element={<Consideration />} /> */}
