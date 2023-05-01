@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  width: 314px;
+  background: linear-gradient(180deg, #497E4F -10.74%, #040404 100%);
+}
+.logo img {
+  height: 50px;
+  width: 180px;
+  margin-left: 50px;
+  padding-top: 10px;
+}
