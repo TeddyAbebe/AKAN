@@ -1,10 +1,4 @@
 import React from "react";
-import {
-  HomeOutlined,
-  ChatBubbleOutlineOutlined,
-  ListOutlined,
-  MapOutlined,
-} from "@mui/icons-material";
 
 export const navlink = [
   {
