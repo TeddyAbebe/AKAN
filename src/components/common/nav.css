@@ -19,3 +19,7 @@ a {
   margin-left: 50px;
   padding-top: 10px;
 }
+.click:hover {
+  background-color: #497e4f;
+  border-radius: 10px;
+}
