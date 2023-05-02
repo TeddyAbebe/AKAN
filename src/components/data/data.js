@@ -24,7 +24,7 @@ export const navlink = [
   },
   {
     url: "/summary",
-    text: "ExecutiveSummary",
+    text: "Executive Summary",
     icon: (
       <svg
         width="20"
@@ -45,7 +45,7 @@ export const navlink = [
   },
   {
     url: "/analysis",
-    text: "OnsiteAnalysis",
+    text: "Onsite Analysis",
     icon: (
       <svg
         width="24"
@@ -101,7 +101,7 @@ export const navlink = [
   },
   {
     url: "/mapping",
-    text: "ExperienceMapping",
+    text: "Experience Mapping",
     icon: (
       <svg
         width="24"
@@ -230,7 +230,7 @@ export const navlink = [
   },
   {
     url: "/feedback",
-    text: "UserFeedback",
+    text: "User Feedback",
     icon: (
       <svg
         width="24"
@@ -424,5 +424,19 @@ export const executiveSummary = [
     header: "Executive Summery",
     note: "Journey Mapping Exercise presents an opportunity to transform an unmanaged Customer Experience by building on the solid foundation laid by it’s founders. At the halfway point of 2022 the Partner’s [TP] JeS* score and Onsite Conversion Rate (CvR) highlights a need to optimise all phases of the customer journey: A CvR increase to industry average is estimated to generate incremental ~£53k p.a for the business. The Consideration Phase of the journey identified as the highest friction point in the journey and therefore requires urgent attention. Onsite visits are volatile and only 13% of visitors return to the site. users are leaving the Partner’s [TP] website at almost twice the rate of the industry average after landing on the homepage",
     image: "",
+  },
+];
+
+export const onsiteAnalysis = [
+  {
+    header: "Onsite Analytics",
+    note: "The goal of a customer journey onsite analysis is to identify opportunities for improving the customer experience and increase customer satisfaction and loyalty. This analysis can provide valuable insights to help companies optimize their online and offline presence and enhance the overall customer experience.",
+  },
+];
+
+export const experienceMapping = [
+  {
+    header: "Experience Mapping",
+    note: "At [Your Company Name], we help businesses understand their customers' journey through our Experience Mapping service. We identify touchpoints and pain points, then provide customized plans for improvement. With our expertise, you can deliver a seamless, engaging experience that drives results. Contact us today to learn more.",
   },
 ];

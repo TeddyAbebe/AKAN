@@ -13,10 +13,10 @@ const Nav = () => {
         </div>
 
         <div>
-          <div className="m-12 ">
+          <div className="my-12 mx-8">
             {navlink.map((links, i) => (
               <Link to={links.url} key={i}>
-                <div className="click flex my-2 p-2">
+                <div className="click flex my-2 p-1">
                   <div className="mr-4">{links.icon}</div>
                   <div className="font-sans text-white font-normal ">
                     {links.text}
@@ -30,7 +30,7 @@ const Nav = () => {
         <div>
           <div>
             {socials.map((social, i) => (
-              <div className="flex m-8 space-x-8" key={i}>
+              <div className="flex m-8 space-x-8 absolute" key={i}>
                 {social.icon1}
                 {social.icon2}
                 {social.icon3}

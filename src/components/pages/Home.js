@@ -7,27 +7,27 @@ import lines from "../data/files/Images/lines.png";
 const Home = () => {
   return (
     <>
-      <div className="bg-black text-white  w-screen h-screen">
-        <div className="p-14">
+      <div className="bg-black text-white  w-screen h-screen lg:-py-24">
+        <div className="p-8">
           {home.map((val, i) => (
-            <div className="flex w-[60rem] h-[24rem]">
+            <div className=" flex w-auto h-auto justify-center ">
               <div>
-                <h1 className="text-6xl font-serif mb-14 w-[35rem]">
+                <h1 className="text-6xl font-serif mb-14 w-[35rem] 2xl:w-[44rem] 2xl:text-7xl">
                   {val.header}
                 </h1>
 
                 <div>
-                  <p className="font-medium w-[25rem] mb-5">{val.note}</p>
+                  <p className="font-medium w-[25rem] 2xl:w-[40rem] 2xl:text-3xl mb-5">{val.note}</p>
                 </div>
 
                 <div>
-                  <button className="bg-[#497E4F] h-12 w-48 text-white font-bold font-sans rounded-md ">
+                  <button className="bg-[#497E4F] h-12 w-48 text-white font-bold font-sans rounded-md 2xl:w-[15rem] 2xl:text-2xl ">
                     Start <TelegramIcon />
                   </button>
                 </div>
               </div>
 
-              <div className="w-64">
+              <div className="w-64 2xl:w-[26rem]">
                 <img src={woman} alt="Smile Woman" />
               </div>
             </div>
@@ -35,7 +35,7 @@ const Home = () => {
         </div>
 
         <div>
-          <img className="h-44 w-full" src={lines} alt="lines" />
+          <img className="lg:h-44 2xl:h-fit w-full" src={lines} alt="lines" />
         </div>
       </div>
     </>

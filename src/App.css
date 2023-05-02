@@ -2,3 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+.analysis {
+  background-image: url("./components/data/files/Images/analysisBG.png");
+  background-size: cover;
+}
+
+.mapping {
+  background-image: url("./components/data/files/Images/mapping.png");
+  background-size: cover;
+  position: relative;
+}
+
+.mapping::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
