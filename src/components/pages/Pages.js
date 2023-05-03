@@ -10,7 +10,7 @@ import Decision from "./Decision";
 import Loyallity from "./Loyallity";
 import UserFeedback from "./UserFeedback";
 import Conclusion from "./Conclusion";
-import About from "./About";
+// import About from "./About";
 
 export const Pages = () => {
   return (
@@ -28,7 +28,7 @@ export const Pages = () => {
             <Route exact path="/loyality" element={<Loyallity />} />
             <Route exact path="/feedback" element={<UserFeedback />} />
             <Route exact path="/conclusion" element={<Conclusion />} />
-            <Route exact path="/about" element={<About />} />
+            {/* <Route exact path="/about" element={<About />} /> */}
           </Routes>
         </div>
       </Router>
