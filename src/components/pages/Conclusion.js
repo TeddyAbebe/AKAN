@@ -1,12 +1,19 @@
 import React from "react";
 import { conclusion } from "../data/data";
-// import key from "../data/files/Images/"
+import conclusionBG from "../data/files/Images/conclusion.png";
 
 const Conclusion = () => {
   return (
     <>
-      <div className="conclusion text-black w-screen h-screen">
-        <div>
+      <div className=" text-white w-screen min-h-screen relative">
+        <div className="flex-1 h-screen absolute top-0 left-0 overflow-hidden">
+          <img
+            src={conclusionBG}
+            className="flex-1 object-contain min-h-screen"
+            alt=""
+          />
+        </div>
+        <div className="flex flex-row absolute inset-0 bg-black bg-opacity-60 justify-center items-center backdrop-blur-sm">
           {conclusion.map((val, i) => (
             <div key={i}>
               <div className="font-serif font-semibold lg:text-5xl lg:my-10 2xl:text-8xl">
