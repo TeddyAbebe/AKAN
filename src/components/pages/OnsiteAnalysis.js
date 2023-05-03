@@ -1,19 +1,26 @@
 import React from "react";
 import { onsiteAnalysis } from "../data/data";
+import analysis from "../data/files/Images/analysisBG.png";
+
+
 
 const OnsiteAnalysis = () => {
   return (
     <>
-      <div className="analysis lg:py-40 2xl:p-52 items-center text-white w-screen h-screen">
-        <div>
+      <div className="text-white w-screen min-h-screen relative">
+        <div className="flex-1 h-screen absolute top-0 left-0 overflow-hidden">
+          <img src={analysis} className="flex-1 object-contain" alt="" />
+        </div>
+
+        <div className="flex flex-row absolute inset-2 justify-center items-center ">
           {onsiteAnalysis.map((val, i) => (
-            <div className="">
-              <div className="">
-                <h1 className="text-center font-serif font-semibold lg:text-5xl 2xl:text-7xl py-10">
+            <div className=" flex flex-col items-center">
+              <div>
+                <h1 className="text-center font-serif font-semibold text-3xl lg:text-5xl 2xl:text-7xl py-10">
                   {val.header}
                 </h1>
               </div>
-              <div className="text-center lg:ml-[17rem] lg:w-[33rem] 2xl:w-[60rem] 2xl:text-3xl font-medium font-sans 2xl:ml-[30rem]">
+              <div className="text-center 2xl:text-3xl font-medium font-sans w-full md:w-3/4 lg:w-1/2 ">
                 <p className="">{val.note}</p>
               </div>
             </div>

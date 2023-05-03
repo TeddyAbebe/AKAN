@@ -10,7 +10,7 @@ a {
   flex-direction: column;
 }
 .nav {
-  width: 314px;
+  width: 30%;
   background: linear-gradient(180deg, #598f5f -10.74%, #040404 100%);
 }
 .logo img {
@@ -20,6 +20,11 @@ a {
   padding-top: 10px;
 }
 .click:hover {
+  background-color: #497e4f;
+  border-radius: 10px;
+}
+
+.selected {
   background-color: #497e4f;
   border-radius: 10px;
 }

@@ -7,10 +7,10 @@ import lines from "../data/files/Images/lines.png";
 const Home = () => {
   return (
     <>
-      <div className="bg-black text-white  w-screen h-screen lg:-py-24">
+      <div className="bg-black text-white  w-screen min-h-screen lg:-py-24">
         <div className="p-8">
           {home.map((val, i) => (
-            <div className=" flex w-auto h-auto justify-center ">
+            <div className=" flex w-auto h-auto justify-center " key={i}>
               <div>
                 <h1 className="text-6xl font-serif mb-14 w-[35rem] 2xl:w-[44rem] 2xl:text-7xl">
                   {val.header}
