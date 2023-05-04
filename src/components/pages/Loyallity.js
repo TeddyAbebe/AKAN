@@ -1,53 +1,63 @@
 import React from "react";
 import { loyality } from "../data/data";
+import dotmap from "../data/files/Images/dotmap.png";
 
 const Loyallity = () => {
   return (
     <>
-      <div className=" bg-black text-white w-screen min-h-screen">
+      <div className="bg-black text-white w-screen min-h-screen relative">
+        <div className="flex-1 h-screen absolute top-0 left-0 overflow-hidden">
+          <img
+            src={dotmap}
+            className="flex-1 object-cover min-h-screen"
+            alt=""
+          />
+        </div>
         <div>
           {loyality.map((val, i) => (
-            <div key={i} className=" px-4">
-              <div className="text-center font-serif font-semibold text-xl md:text-left md:text-3xl lg:text-5xl md:my-10 2xl:text-8xl">
-                <h1>{val.header}</h1>
-              </div>
-              <div className="text-sm lg:my-6 lg:text-xl lg:w-[54rem] 2xl:w-[96rem] 2xl:text-3xl">
-                <p>{val.note1}</p>
-                <br />
-                <p>{val.note2}</p>
-                <br />
-                <p>{val.note3}</p>
-              </div>
-
-              <div className="text-xl mb-3 font-semibold md:my-14 lg:text-2xl 2xl:text-6xl">
-                {val.head}
-              </div>
-
-              <div className="flex flex-col max-w-[60rem] w-[70%] md:flex-row xl:ml-10 md:w-full lg:h-[9rem]">
-                <div className="bg-[#97A5EB] rounded-md max-w-[30rem]">
-                  <div className="flex justify-center items-center">
-                    {val.icon}
+            <div key={i} className="lg:pt-20 px-12">
+              <div className="lg:mb-8">
+                <div className="font-serif w-full text-center font-semibold text-3xl py-2 lg:text-start lg:text-5xl lg:pb-10 2xl:pb-16">
+                  <h1>{val.header}</h1>
+                </div>
+                <div className="flex flex-col font-medium font-sans text-center text-xl gap-y-3 lg:gap-y-4 lg:text-start 2xl:w-[90%] 2xl:text-2xl max-w-[100rem]">
+                  <div>
+                    <p>{val.note1}</p>
                   </div>
-                  <div className="text-center font-semibold">
-                    {val.blueNote}
+                  <div>
+                    <p>{val.note2}</p>
+                  </div>
+                  <div>
+                    <p>{val.note3}</p>
                   </div>
                 </div>
+              </div>
 
-                <div className="bg-[#7EB073] rounded-md max-w-[30rem] my-4 md:my-0 md:mx-3">
-                  <div className="flex justify-center items-center">
-                    {val.icon}
-                  </div>
-                  <div className="text-center font-semibold">
-                    {val.greenNote}
-                  </div>
+              <div className="flex flex-col ">
+                <div className="text-2xl font-medium text-center mb-4 lg:text-start lg:text-4xl">
+                  {val.head}
                 </div>
 
-                <div className="bg-[#E1929E] rounded-md max-w-[30rem]">
-                  <div className="flex justify-center items-center">
-                    {val.icon}
+                <div className="flex flex-wrap flex-co w-full justify-start md:justify-evenly lg:justify-between lg:ml-24 lg:w-[80%] max-w-[80rem]">
+                  <div className="bg-[#97A5EB] rounded-md w-[50%] md:w-[30%]">
+                    <div className="flex justify-center">{val.icon}</div>
+                    <div className="text-center xl:text-xl 2xl:text-3xl ">
+                      {val.blueNote}
+                    </div>
                   </div>
-                  <div className="text-center font-semibold">
-                    {val.pinkNote}
+
+                  <div className="bg-[#7EB073] rounded-md w-[50%] md:w-[30%]">
+                    <div className="flex justify-center">{val.icon}</div>
+                    <div className="text-center xl:text-xl 2xl:text-3xl">
+                      {val.greenNote}
+                    </div>
+                  </div>
+
+                  <div className="bg-[#E1929E] rounded-md w-[50%] md:w-[30%]">
+                    <div className="flex justify-center">{val.icon}</div>
+                    <div className="text-center xl:text-xl 2xl:text-3xl">
+                      {val.pinkNote}
+                    </div>
                   </div>
                 </div>
               </div>

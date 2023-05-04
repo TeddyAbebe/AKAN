@@ -8,8 +8,8 @@ import ExperienceMapping from "./ExperienceMapping";
 import Consideration from "./Consideration";
 import Decision from "./Decision";
 import Loyallity from "./Loyallity";
-import UserFeedback from "./UserFeedback";
-import Conclusion from "./Conclusion";
+// import UserFeedback from "./UserFeedback";
+// import Conclusion from "./Conclusion";
 // import About from "./About";
 
 export const Pages = () => {
@@ -26,8 +26,8 @@ export const Pages = () => {
             <Route exact path="/consideration" element={<Consideration />} />
             <Route exact path="/decision" element={<Decision />} />
             <Route exact path="/loyality" element={<Loyallity />} />
-            <Route exact path="/feedback" element={<UserFeedback />} />
-            <Route exact path="/conclusion" element={<Conclusion />} />
+            {/* <Route exact path="/feedback" element={<UserFeedback />} /> */}
+            {/* <Route exact path="/conclusion" element={<Conclusion />} /> */}
             {/* <Route exact path="/about" element={<About />} /> */}
           </Routes>
         </div>

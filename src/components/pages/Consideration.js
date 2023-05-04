@@ -7,46 +7,52 @@ const Consideration = () => {
     <>
       <div className="text-white w-screen min-h-screen relative">
         <div className="flex-1 h-screen top-0 left-0 overflow-hidden">
-          <img src={considerationBG} className="flex-1 object-contain min-h-screen" alt="" />
+          <img
+            src={considerationBG}
+            className="flex-1 object-cover w-full min-h-screen"
+            alt=""
+          />
         </div>
         <div className="flex flex-row absolute inset-0 bg-black bg-opacity-60 justify-center items-center backdrop-blur-sm">
           {consideration.map((val, i) => (
-            <div className="flex lg:py-40 lg:px-28 justify-center" key={i}>
+            <div key={i} className="flex flex-col lg:px-4">
               <div>
-                <h1 className="font-serif font-semibold text-3xl  lg:text-5xl lg:my-10 2xl:text-7xl">
+                <h1 className="font-serif text-center font-semibold text-3xl py-2 lg:text-5xl lg:text-start 2xl:text-7xl  lg:pb-6">
                   {val.header}
                 </h1>
-
-                <div>
-                  <p className="lg:text-2xl lg:w-[80%] lg:mx-4 2xl:text-4xl ">
-                    {val.note}
-                  </p>
-                </div>
-                
-                <div className="space-y-2 font-serif font-semibold lg:w-[42rem] lg:text-2xl lg:mx-4 mt-5 2xl:mt-10 2xl:text-4xl 2xl:w-[82rem]">
-                  <div className="flex flex-row">
-                    <div className="mr-2">{val.icon1}</div>
-                    <div>{val.list1}</div>
-                  </div>
-
-                  <div className="flex flex-row">
-                    <div className="mr-2">{val.icon2}</div>
-                    <div>{val.list2}</div>
-                  </div>
-
-                  <div className="flex flex-row">
-                    <div className="mr-2">{val.icon3}</div>
-                    <div>{val.list3}</div>
-                  </div>
-
-                  <div className="flex flex-row">
-                    <div className="mr-2">{val.icon4}</div>
-                    <div>{val.list4}</div>
-                  </div>
-                </div>
-
-                <div></div>
               </div>
+
+              <div>
+                <p className="text-center text-xl font-medium font-sans py-4 md:pl-3 lg:pb-16 lg:w-[75%] lg:text-start lg:text-2xl">
+                  {val.note}
+                </p>
+              </div>
+
+              <div className="font-serif font-medium flex flex-col pl-4 gap-3 text-2xl lg:text-3xl lg:font-semibold">
+                <div className="flex flex-row">
+                  <img className="mr-3" src={val.icon1} alt="" />
+                  <div>{val.list1}</div>
+                </div>
+
+                <div className="flex flex-row">
+                  <img className="mr-3" src={val.icon2} alt="" />
+
+                  <div>{val.list2}</div>
+                </div>
+
+                <div className="flex flex-row">
+                  <img className="mr-3" src={val.icon3} alt="" />
+
+                  <div>{val.list3}</div>
+                </div>
+
+                <div className="flex flex-row">
+                  <img className="mr-3" src={val.icon4} alt="" />
+                  <div>{val.list4}</div>
+                </div>
+              </div>
+
+              <div></div>
             </div>
           ))}
         </div>

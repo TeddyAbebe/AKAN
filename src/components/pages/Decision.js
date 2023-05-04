@@ -9,55 +9,51 @@ const Decision = () => {
         <div className="flex-1 h-screen absolute top-0 left-0 overflow-hidden">
           <img
             src={decisionBG}
-            className="flex-1 object-contain min-h-screen"
+            className="flex-1 object-cover min-h-screen w-screen"
             alt=""
           />
         </div>
 
         <div className="flex flex-row absolute inset-0 bg-black bg-opacity-60 justify-center items-center backdrop-blur-sm">
           {decision.map((val, i) => (
-            <div key={i} className="lg:px-10 2xl:w-full">
-              <div className="font-serif font-semibold lg:text-5xl lg:my-10 2xl:text-7xl">
-                <h1>{val.header}</h1>
+            <div key={i} className="flex flex-col items-center">
+              <div className="lg:ml-10">
+                <div className="font-serif w-full text-center font-semibold text-3xl py-2 lg:pb-12 md:text-5xl lg:text-start xl:text-6xl">
+                  <h1>{val.header}</h1>
+                </div>
+
+                <div className="font-medium font-sans text-center text-xl pb-4 md:text-2xl lg:text-xl lg:text-start lg:w-[90%] 2xl:text-3xl">
+                  <p>{val.note1}</p>
+                </div>
               </div>
 
-              <div className="lg:my-6 lg:text-xl lg:w-[68%] 2xl:w-full 2xl:text-2xl">
-                <p>{val.note1}</p>
-              </div>
-
-              <div className="lg:mx-12 ">
-                <div className="flex lg:my-8 2xl:my-12">
-                  <div className="lg:mr-2">{val.icon}</div>
-                  <div className="lg:font-semibold lg:text-2xl 2xl:text-4xl">
+              <div className="lg:w-[70%]">
+                <div className="flex justify-center gap-2 my-2 lg:justify-normal">
+                  <div className="">{val.icon}</div>
+                  <div className="text-xl font-medium md:text-2xl md:mb-4 2xl:text-3xl">
                     {val.iconNote}
                   </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row ">
-                  <div className="bg-[#97A5EB] md:w-[25%] 2xl:w-[30%] rounded-md">
-                    <div className="lg:mx-24 lg:px-2 lg:mt-2 lg:mb-2 2xl:mx-40  2xl:mt-4 2xl:mb-4">
-                      {val.bulb}
-                    </div>
-                    <div className="text-center">{val.blueNote}</div>
+                <div className="flex flex-wrap w-full justify-evenly lg:justify-between">
+                  <div className="bg-[#97A5EB] rounded-md w-[30%]">
+                    <div className="flex justify-center">{val.bulb}</div>
+                    <div className="text-center xl:text-xl 2xl:text-3xl ">{val.blueNote}</div>
                   </div>
 
-                  <div className="bg-[#7EB073] my-4 md:my-0 md:mx-4 md:w-[25%] 2xl:w-[30%] rounded-md">
-                    <div className="lg:mx-24 lg:px-2 lg:mt-2 lg:mb-2 2xl:mx-40  2xl:mt-4 2xl:mb-4">
-                      {val.bulb}
-                    </div>
-                    <div className="text-center">{val.greenNote}</div>
+                  <div className="bg-[#7EB073] rounded-md w-[30%]">
+                    <div className="flex justify-center">{val.bulb}</div>
+                    <div className="text-center xl:text-xl 2xl:text-3xl">{val.greenNote}</div>
                   </div>
 
-                  <div className="bg-[#E1929E] md:w-[25%] 2xl:w-[30%] rounded-md">
-                    <div className="lg:mx-24 lg:px-2 lg:mt-2 lg:mb-2 2xl:mx-40  2xl:mt-4 2xl:mb-4">
-                      {val.bulb}
-                    </div>
-                    <div className="text-center">{val.pinkNote}</div>
+                  <div className="bg-[#E1929E] rounded-md w-[30%]">
+                    <div className="flex justify-center">{val.bulb}</div>
+                    <div className="text-center xl:text-xl 2xl:text-3xl">{val.pinkNote}</div>
                   </div>
                 </div>
               </div>
 
-              <div className="lg:my-6 lg:text-xl lg:w-[68%] 2xl:my-8 2xl:w-full 2xl:text-2xl ">
+              <div className="hidden sm:block font-medium font-sans text-center text-xl pt-4 md:text-2xl lg:text-xl lg:text-start lg:w-[90%] 2xl:text-3xl">
                 <p>{val.note2}</p>
               </div>
             </div>

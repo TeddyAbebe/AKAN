@@ -9,7 +9,11 @@ const OnsiteAnalysis = () => {
     <>
       <div className="text-white w-screen min-h-screen relative">
         <div className="flex-1 h-screen absolute top-0 left-0 overflow-hidden">
-          <img src={analysis} className="flex-1 object-contain" alt="" />
+          <img
+            src={analysis}
+            className="flex-1 object-cover min-h-screen"
+            alt=""
+          />
         </div>
 
         <div className="flex flex-row absolute inset-2 justify-center items-center ">

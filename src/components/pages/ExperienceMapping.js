@@ -9,7 +9,7 @@ const ExperienceMapping = () => {
         <div className="flex-1 h-screen absolute top-0 left-0 overflow-hidden">
           <img
             src={mappingImage}
-            className="flex-1 object-contain min-h-screen"
+            className="flex-1 object-cover min-h-screen"
             alt=""
           />
         </div>
@@ -18,10 +18,11 @@ const ExperienceMapping = () => {
           {experienceMapping.map((val, i) => (
             <div className="flex flex-col items-center">
               <div>
-                <h1 className="text-center font-serif font-semibold text-3xl lg:text-5xl 2xl:text-7xl py-10">
+                <h1 className="text-center font-serif font-semibold text-3xl lg:text-5xl 2xl:text-7xl py-2 lg:py-10">
                   {val.header}
                 </h1>
               </div>
+              
               <div className="text-center 2xl:text-3xl font-medium font-sans w-full md:w-3/4 lg:w-1/2">
                 <p className="">{val.note}</p>
               </div>

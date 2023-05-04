@@ -2,28 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.mapping {
-  background-image: url("./components/data/files/Images/mapping.png");
-  background-size: cover;
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
 }
-
-.decision {
-  background-image: url("./components/data/files/Images/decision.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+.grid3 {
+  grid-template-columns: repeat(2, 1fr);
 }
-.feedback {
-  background-image: url("./components/data/files/Images/feedback.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.conclusion {
-  background-image: url("./components/data/files/Images/conclusion.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.about {
-  background-image: url("./components/data/files/Images/about.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
+.services .box {
+  background-color: var(--primaryBackground);
+  padding: 35px;
 }

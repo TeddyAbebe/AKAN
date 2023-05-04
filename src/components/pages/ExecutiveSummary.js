@@ -7,34 +7,30 @@ import SmileMan from "../data/files/Images/SmileMan.png";
 const ExecutiveSummary = () => {
   return (
     <>
-      <div className="bg-black text-white w-screen h-screen">
-        <div className="lg:px-[10rem] 2xl:px-[35rem] py-[4rem]">
+      <div className="bg-black text-white min-w-screen min-h-screen lg:w-screen">
+        <div className="">
           {executiveSummary.map((val, i) => (
-            <div className="">
+            <div className="flex flex-col justify-center items-center">
               <div>
-                <h1 className="lg:w-[35rem] lg:text-5xl lg:ml-[5rem]  2xl:w-[50rem] 2xl:ml-[20rem]  2xl:text-7xl font-serif font-semibold">
+                <h1 className="text-2xl pt-6 lg:text-5xl 2xl:text-7xl font-serif font-semibold">
                   {val.header}
                 </h1>
               </div>
 
-              <div className=" lg:w-[40rem] 2xl:w-[60rem] 2xl:ml-[14rem] py-8 ">
-                <p className="lg:text-sm 2xl:text-2xl text-center">{val.note}</p>
+              <div className="w-full py-4 lg:w-[72%] 2xl:w-full xl:py-8 ">
+                <p className="text-lg xl:text-xl 2xl:text-2xl text-center">{val.note}</p>
               </div>
 
-              <div className="lg:w-[32rem] 2xl:ml-[7rem] 2xl:w-[75rem] flex space-x-12 absolute">
-                <img className="lg:w-[16rem] 2xl:w-[36rem] " src={man} alt="" />
-                <img
-                  className="lg:w-[16rem] 2xl:w-[36rem]"
-                  src={SmileMan}
-                  alt=""
-                />
+              <div className="flex px-2 xl:w-full lg:justify-center lg:gap-8 ">
+                <img className="w-1/2 lg:w-1/4" src={man} alt="" />
+                <img className="w-1/2 lg:w-1/4" src={SmileMan} alt="" />
               </div>
             </div>
           ))}
         </div>
 
         <div>
-          <img className="w-full" src={lines} alt="lines" />
+          <img className="w-full border" src={lines} alt="lines" />
         </div>
       </div>
     </>
