@@ -25,7 +25,7 @@ const Conclusion = () => {
                     <h1>{val.header2}</h1>
                   </div>
                   <div className="w-5 h-5">
-                    <img src={val.Key} alt="" />
+                    <img src={val.Key} alt="Key" />
                   </div>
                 </div>
 
