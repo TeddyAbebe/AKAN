@@ -62,7 +62,7 @@ const Conclusion = () => {
               <div className="flex flex-row gap-4 mb-3 w-full md:w-5/6">
                 <div className="flex flex-row">
                   <div className="bg-white rounded-full flex items-center justify-center w-10 h-10">
-                    <img className="h-4 object-contain" src={val.icon} alt="" />
+                    <img className="h-4 object-contain" src={val.icon} alt="Icon" />
                   </div>
                 </div>
 
