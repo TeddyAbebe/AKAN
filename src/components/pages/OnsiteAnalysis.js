@@ -1,22 +1,22 @@
 import React from "react";
 import { onsiteAnalysis } from "../data/data";
-import analysis from "../data/files/Images/analysisBG.png";
+// import analysis from "../data/files/Images/analysisBG.png";
 
 
 
 const OnsiteAnalysis = () => {
   return (
     <>
-      <div className="text-white w-screen min-h-screen relative">
-        <div className="flex-1 h-screen absolute top-0 left-0 overflow-hidden">
+      <div className="text-white w-screen min-h-screen analysisBg">
+        {/* <div className="flex-1 h-screen absolute top-0 left-0 overflow-hidden">
           <img
             src={analysis}
             className="flex-1 object-cover min-h-screen"
             alt=""
           />
-        </div>
+        </div> */}
 
-        <div className="flex flex-row absolute inset-2 justify-center items-center ">
+        <div className="flex flex-row inset-2 justify-center items-center ">
           {onsiteAnalysis.map((val, i) => (
             <div className=" flex flex-col items-center">
               <div>

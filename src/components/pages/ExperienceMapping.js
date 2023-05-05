@@ -1,20 +1,20 @@
 import React from "react";
 import { experienceMapping } from "../data/data";
-import mappingImage from "../data/files/Images/mapping.png";
+// import mappingImage from "../data/files/Images/mapping.png";
 
 const ExperienceMapping = () => {
   return (
     <>
-      <div className="text-white w-screen min-h-screen relative">
-        <div className="flex-1 h-screen absolute top-0 left-0 overflow-hidden">
+      <div className="text-white w-screen min-h-screen mapping ">
+        {/* <div className="flex-1 h-screen absolute top-0 left-0 overflow-hidden">
           <img
             src={mappingImage}
             className="flex-1 object-cover min-h-screen"
             alt=""
           />
-        </div>
+        </div> */}
 
-        <div className="flex flex-row absolute inset-0 bg-black bg-opacity-60 justify-center items-center backdrop-blur-sm">
+        <div className="flex flex-row inset-0 bg-black bg-opacity-60 justify-center items-center backdrop-blur-sm">
           {experienceMapping.map((val, i) => (
             <div className="flex flex-col items-center">
               <div>

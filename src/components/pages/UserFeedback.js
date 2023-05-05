@@ -1,6 +1,6 @@
 import React from "react";
 import { feedback, feedbackData } from "../data/data";
-import feedbackBG from "../data/files/Images/feedback.png";
+// import feedbackBG from "../data/files/Images/feedback.png";
 import messageIcon from "../data/files/Icons/messageIcon.png"
 
 const UserFeedback = () => {
@@ -26,16 +26,16 @@ const UserFeedback = () => {
               </div>
             </div>
 
-            <div className="min-h-screen text-white relative ">
-              <div className="absolute overflow-hidden">
+            <div className="min-h-screen text-white feedback ">
+              {/* <div className="absolute overflow-hidden">
                 <img
                   src={feedbackBG}
                   className="flex-1 object-cover min-h-screen"
                   alt=""
                 />
-              </div>
+              </div> */}
 
-              <div className="absolute">
+              <div className="">
                 <div className="text-2xl md:text-4xl my-2 md:my-6 text-center font-semibold font-sans">
                   {feedbackData.secondaryHeader.Header2}
                 </div>
@@ -46,11 +46,19 @@ const UserFeedback = () => {
                       <div className="bg-white text-black h-full rounded-xl p-4">
                         <div>
                           <div className="flex flex-row gap-4 items-center mb-2">
-                            <img src={val.image} alt="Users" className="w-9 h-9" />
+                            <img
+                              src={val.image}
+                              alt="Users"
+                              className="w-9 h-9"
+                            />
                             <h4 className="text-[#3D9BA2] font-medium">
                               {val.feedbackTitle}
                             </h4>
-                            <img src={messageIcon} alt="Message" className="w-5 h-5 object-contain"/>
+                            <img
+                              src={messageIcon}
+                              alt="Message"
+                              className="w-5 h-5 object-contain"
+                            />
                           </div>
                           <p className="text-sm">{val.feedback}</p>
                         </div>

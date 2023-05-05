@@ -7,7 +7,7 @@ import Sky from "../data/files/Images/Sky.png";
 const About = () => {
   return (
     <>
-      <div className=" about text-white w-screen h-screen">
+      <div className="bg-black text-white w-screen min-h-screen dotmap">
         <div>
           {about.map((val, i) => (
             <div>
@@ -28,10 +28,10 @@ const About = () => {
                   <div>
                     {socials.map((social, i) => (
                       <div className="flex space-x-8" key={i}>
-                        {social.icon1}
-                        {social.icon2}
-                        {social.icon3}
-                        {social.icon4}
+                        <img src={social.icon1} alt="" />
+                        <img src={social.icon2} alt="" />
+                        <img src={social.icon3} alt="" />
+                        <img src={social.icon4} alt="" />
                       </div>
                     ))}
                   </div>

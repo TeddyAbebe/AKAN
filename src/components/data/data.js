@@ -85,6 +85,77 @@ export const onsiteAnalysis = [
   },
 ];
 
+export const analysisPageSec = [
+  {
+    header: "Visitors & Device Type | H1 2022",
+  },
+];
+
+export const analysisPageSecCards = [
+  {
+    card: require("./files/Images/deviceType.png"),
+  },
+  {
+    card: require("./files/Images/visitors.png"),
+  },
+];
+export const analysisPageSecNotes = [
+  {
+    note: require("./files/Images/analysisSecPageNote1.png"),
+  },
+  {
+    note: require("./files/Images/analysisSecPageNote2.png"),
+  },
+  {
+    note: require("./files/Images/analysisSecPageNote3.png"),
+  },
+];
+
+export const analysisPageThird = [
+  {
+    header: "Unique Visitors | H1 2022",
+    graph: require("./files/Images/graph.png"),
+  },
+];
+export const analysisPageThirdNotes = [
+  {
+    note: require("./files/Images/analysisPageThirdNote1.png"),
+  },
+  {
+    note: require("./files/Images/analysisPageThirdNote2.png"),
+  },
+  {
+    note: require("./files/Images/analysisPageThirdNote3.png"),
+  },
+];
+export const analysisPageFour = [
+  {
+    header: "Unique Visitors | H1 2022",
+    pyramid: require("./files/Images/pyramid.png"),
+  },
+];
+export const analysisPageFourNotes = [
+  {
+    note: require("./files/Images/analysisPageFourNote1.png"),
+  },
+  {
+    note: require("./files/Images/analysisPageFourNote2.png"),
+  },
+];
+export const analysisPageFive = [
+  {
+    header: "Traffic Source H1 2022",
+    graph: require("./files/Images/analysisPageFiveGraph.png"),
+    note: require("./files/Images/analysisPageFiveNotes.png"),
+  },
+];
+export const analysisPageSix = [
+  {
+    header: "Journey Experience Score High Level",
+    note: "scores for a customer experience framework that evaluates a company's strategy across different stages of the customer journey. The framework has three touchpoint levels with target scores of <70, <140, and <210. The scores for Consideration, Purchase, and Loyalty are 110, 40, and 60. These scores can help identify areas for improvement and optimize the overall customer experience.",
+  },
+];
+
 export const experienceMapping = [
   {
     header: "Experience Mapping",
@@ -274,4 +345,3 @@ export const about = [
     header4: "Our Work Experience",
   },
 ];
-// learn my lesson count my blessing and look to the rising sun and run run run

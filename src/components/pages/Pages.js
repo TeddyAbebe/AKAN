@@ -12,7 +12,12 @@ import UserFeedback from "./UserFeedback";
 import Conclusion from "./Conclusion";
 import About from "./About";
 import { useState } from "react";
-// import { Menu } from "@material-ui/icons";
+import Menu from '../data/files/Icons/list.png'
+// import AnalysisPage6 from "./nextPages/onSiteAnalysisPages/AnalysisPage6";
+// import AnalysisPage5 from "./nextPages/onSiteAnalysisPages/AnalysisPage5";
+// import AnalysisPage4 from "./nextPages/onSiteAnalysisPages/AnalysisPage4";
+// import AnalysisPage3 from "./nextPages/onSiteAnalysisPages/AnalysisPage3";
+// import AnalysisPage2 from "./nextPages/onSiteAnalysisPages/AnalysisPage2";
 
 export const Pages = () => {
   const [openAppBar, setOpenAppBar] = useState(false);
@@ -26,9 +31,8 @@ export const Pages = () => {
             className="flex md:hidden absolute top-2 left-2"
             onClick={() => setOpenAppBar(!openAppBar)}
           >
-            <div className="px-2 py-1 bg-white rounded-md">
-              {/* <Menu style={{width:18, height:18}} /> */}
-              Click me
+            <div className="px-2 py-1 bg-[#497E4F] rounded-md">
+              <img className="w-18 h-18" src={Menu} alt="" />
             </div>
           </button>
           <Routes>

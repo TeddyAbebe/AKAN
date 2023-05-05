@@ -1,18 +1,18 @@
 import React from "react";
 import { conclusion } from "../data/data";
-import conclusionBG from "../data/files/Images/conclusion.png";
+// import conclusionBG from "../data/files/Images/conclusion.png";
 
 const Conclusion = () => {
   return (
-    <div className=" text-white w-full relative">
-      <div className="min-h-screen absolute top-0 left-0 ">
+    <div className=" text-white w-full conclusion">
+      {/* <div className="min-h-screen absolute top-0 left-0 ">
         <img
           src={conclusionBG}
           className="object-cover h-screen w-full"
           alt=""
         />
-      </div>
-      <div className=" flex flex-col absolute min-h-screen bg-black bg-opacity-60 backdrop-blur-sm px-4 md:px-16 gap-2 ">
+      </div> */}
+      <div className=" flex flex-col min-h-screen bg-black bg-opacity-60 backdrop-blur-sm px-4 md:px-16 gap-2 ">
         {conclusion.map((val, i) => (
           <div key={i} className="flex top-0">
             {i === 0 && (
@@ -62,7 +62,11 @@ const Conclusion = () => {
               <div className="flex flex-row gap-4 mb-3 w-full md:w-5/6">
                 <div className="flex flex-row">
                   <div className="bg-white rounded-full flex items-center justify-center w-10 h-10">
-                    <img className="h-4 object-contain" src={val.icon} alt="Icon" />
+                    <img
+                      className="h-4 object-contain"
+                      src={val.icon}
+                      alt="Icon"
+                    />
                   </div>
                 </div>
 

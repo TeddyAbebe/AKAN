@@ -2,15 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-.grid3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
+.lines {
+  background-image: url("./components//data/files/Images/lines.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
-.grid3 {
-  grid-template-columns: repeat(2, 1fr);
+.analysisBg{
+  background-image: url("./components/data/files/Images/analysisBG.png");
+  background-size: cover;
 }
-.services .box {
-  background-color: var(--primaryBackground);
-  padding: 35px;
+.mapping{
+  background-image: url("./components/data/files/Images/mapping.png");
+  background-size: cover;
+}
+.consideration{
+  background-image: url("./components/data/files/Images/consideration.png");
+  background-size: cover;
+}
+.decision{
+  background-image: url("./components/data/files/Images/decision.png");
+  background-size: cover;
+}
+.dotmap{
+  background-image: url("./components/data/files/Images/dotmap.png");
+  background-size: cover;
+}
+.feedback{
+  background-image: url("./components/data/files/Images/feedback.png");
+  background-size: cover;
+}
+.conclusion{
+  background-image: url("./components/data/files/Images/conclusion.png");
+  background-size: cover;
+}
+.analysisPageSec {
+  background-image: url("./components//data/files/Images/analysisPage2BG.png");
+  background-repeat: no-repeat;
+}
+.analysisPageFour {
+  background-image: url("./components//data/files/Images/about.png");
+  background-repeat: no-repeat;
+
 }

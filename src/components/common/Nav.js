@@ -8,13 +8,18 @@ const Nav = ({open}) => {
   const location = useLocation();
   return (
     <>
-      <div className={`nav min-h-screen  flex-col flex fixed md:static md:flex ` + (open===true ? '' : 'hidden')}>
-        <div className="mx-3 my-2 flex flex-row justify-center w-full">
-          <img src={logo} alt="Logo" className="h-14 object-contain"/>
+      <div
+        className={
+          `sm:w-[30%] nav min-h-screen  flex-col flex fixed md:static md:flex ` +
+          (open === true ? "" : "hidden")
+        }
+      >
+        <div className="flex flex-row justify-center w-full">
+          <img src={logo} alt="Logo" className="h-14 object-contain" />
         </div>
 
         <div>
-          <div className="flex flex-col gap-y-3 2xl:gap-y-10 mx-1 md:mx-6 mt-8">
+          <div className="flex flex-col gap-y-2 2xl:gap-y-10 mx-1 xl:mx-6 mt-8">
             {navlink.map((links, i) => (
               <Link to={links.url} key={i}>
                 <div className="">
@@ -24,7 +29,7 @@ const Nav = ({open}) => {
                       (location.pathname === links.url ? "selected" : "")
                     }
                   >
-                    <div className="flex items-center py-2 px-2 md:px-5 lg:px-1">
+                    <div className="flex items-center py-2 px-2 lg:px-5 lg:px-1">
                       <div className="mr-3">
                         <img
                           className="w-5 h-5 2xl:w-10 2xl:h-10"
@@ -33,7 +38,7 @@ const Nav = ({open}) => {
                         />
                       </div>
 
-                      <div className="font-sans text-white font-normal font-normal text-sm md:text-base lg:text-lg 2xl:text-2xl">
+                      <div className="font-sans text-white font-normal font-normal text-sm md:text-sm lg:text-lg 2xl:text-2xl">
                         {links.text}
                       </div>
                     </div>

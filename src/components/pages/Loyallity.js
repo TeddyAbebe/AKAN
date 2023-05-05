@@ -1,18 +1,18 @@
 import React from "react";
 import { loyality } from "../data/data";
-import dotmap from "../data/files/Images/dotmap.png";
+// import dotmap from "../data/files/Images/dotmap.png";
 
 const Loyallity = () => {
   return (
     <>
-      <div className="bg-black text-white w-screen min-h-screen relative">
-        <div className="flex-1 h-screen absolute top-0 left-0 overflow-hidden">
+      <div className="bg-black text-white w-screen min-h-screen dotmap">
+        {/* <div className="flex-1 h-screen absolute top-0 left-0 overflow-hidden">
           <img
             src={dotmap}
             className="flex-1 object-cover min-h-screen"
             alt=""
           />
-        </div>
+        </div> */}
         <div>
           {loyality.map((val, i) => (
             <div key={i} className="lg:pt-20 px-12">

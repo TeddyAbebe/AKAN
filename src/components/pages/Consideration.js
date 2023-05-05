@@ -1,19 +1,19 @@
 import React from "react";
 import { consideration } from "../data/data";
-import considerationBG from "../data/files/Images/consideration.png";
+// import considerationBG from "../data/files/Images/consideration.png";
 
 const Consideration = () => {
   return (
     <>
-      <div className="text-white w-screen min-h-screen relative">
-        <div className="flex-1 h-screen top-0 left-0 overflow-hidden">
+      <div className="text-white w-screen min-h-screen consideration">
+        {/* <div className="flex-1 h-screen top-0 left-0 overflow-hidden">
           <img
             src={considerationBG}
             className="flex-1 object-cover w-full min-h-screen"
             alt=""
           />
-        </div>
-        <div className="flex flex-row absolute inset-0 bg-black bg-opacity-60 justify-center items-center backdrop-blur-sm">
+        </div> */}
+        <div className="flex flex-row inset-0 bg-black bg-opacity-60 justify-center items-center backdrop-blur-sm">
           {consideration.map((val, i) => (
             <div key={i} className="flex flex-col lg:px-4">
               <div>
