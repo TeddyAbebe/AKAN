@@ -4,64 +4,83 @@ import conclusionBG from "../data/files/Images/conclusion.png";
 
 const Conclusion = () => {
   return (
-    <>
-      <div className=" text-white w-screen min-h-screen relative">
-        <div className="flex-1 h-screen absolute top-0 left-0 overflow-hidden">
-          <img
-            src={conclusionBG}
-            className="flex-1 object-contain min-h-screen"
-            alt=""
-          />
-        </div>
-        <div className="flex flex-row absolute inset-0 bg-black bg-opacity-60 justify-center items-center backdrop-blur-sm">
-          {conclusion.map((val, i) => (
-            <div key={i}>
-              <div className="font-serif font-semibold lg:text-5xl lg:my-10 2xl:text-8xl">
-                <h1>{val.header}</h1>
-              </div>
-              <div className="flex space-x-4">
-                <div className="font-serif font-semibold lg:text-2xl 2xl:text-8xl">
-                  <h1>{val.header2}</h1>
-                </div>
-                {val.icon}
-              </div>
-
-              <div>
-                <p>{val.note1}</p>
-                <p>{val.note2}</p>
-                <p>{val.note3}</p>
-              </div>
-
-              <div className="flex flex-col">
-                <div className="flex">
-                  <div>{val.icon1}</div>
-                  <div>
-                    <h4>{val.head1}</h4>
-                    <p>{val.headNote1}</p>
-                  </div>
-                </div>
-
-                <div className="flex">
-                  <div>{val.icon2}</div>
-                  <div>
-                    <h4>{val.head2}</h4>
-                    <p>{val.headNote2}</p>
-                  </div>
-                </div>
-
-                <div className="flex">
-                  <div>{val.icon3}</div>
-                  <div>
-                    <h4>{val.head3}</h4>
-                    <p>{val.headNote3}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+    <div className=" text-white w-full relative">
+      <div className="min-h-screen absolute top-0 left-0 ">
+        <img
+          src={conclusionBG}
+          className="object-cover h-screen w-full"
+          alt=""
+        />
       </div>
-    </>
+      <div className=" flex flex-col absolute min-h-screen bg-black bg-opacity-60 backdrop-blur-sm px-4 md:px-16 gap-2 ">
+        {conclusion.map((val, i) => (
+          <div key={i} className="flex top-0">
+            {i === 0 && (
+              <div className="flex flex-col mb-5 w-full md:w-[90%]">
+                <div className=" font-serif font-semibold text-3xl text-center mb-4">
+                  <h1>{val.header}</h1>
+                </div>
+                <div className="flex gap-2 items-center mb-3">
+                  <div className="font-serif font-semibold text-xl gap-3 ">
+                    <h1>{val.header2}</h1>
+                  </div>
+                  <div className="w-5 h-5">
+                    <img src={val.Key} alt="" />
+                  </div>
+                </div>
+
+                <div className="text-sm flex flex-col gap-1">
+                  <div className="flex flex-row gap-2">
+                    <div>
+                      <div className="w-1 h-1 rounded-full bg-white mt-2"></div>
+                    </div>
+                    <div>
+                      <p>{val.note1}</p>
+                    </div>
+                  </div>
+                  <div className="flex flex-row gap-2">
+                    <div>
+                      <div className="w-1 h-1 rounded-full bg-white mt-2"></div>
+                    </div>
+                    <div>
+                      <p>{val.note2}</p>
+                    </div>
+                  </div>
+                  <div className="flex flex-row gap-2">
+                    <div>
+                      <div className="w-1 h-1 rounded-full bg-white mt-2"></div>
+                    </div>
+                    <div>
+                      <p>{val.note3}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {i > 0 && (
+              <div className="flex flex-row gap-4 mb-3 w-full md:w-5/6">
+                <div className="flex flex-row">
+                  <div className="bg-white rounded-full flex items-center justify-center w-10 h-10">
+                    <img className="h-4 object-contain" src={val.icon} alt="" />
+                  </div>
+                </div>
+
+                <div className="">
+                  <div>
+                    <h4 className="font-semibold">{val.title}</h4>
+                  </div>
+
+                  <div className=" text-sm">
+                    <p>{val.desc}</p>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
   );
 };
 

@@ -8,16 +8,28 @@ import ExperienceMapping from "./ExperienceMapping";
 import Consideration from "./Consideration";
 import Decision from "./Decision";
 import Loyallity from "./Loyallity";
-// import UserFeedback from "./UserFeedback";
-// import Conclusion from "./Conclusion";
-// import About from "./About";
+import UserFeedback from "./UserFeedback";
+import Conclusion from "./Conclusion";
+import About from "./About";
+import { useState } from "react";
+import { Menu } from "@material-ui/icons";
 
 export const Pages = () => {
+  const [openAppBar, setOpenAppBar] = useState(false);
+
   return (
     <>
       <Router>
         <div className="flex">
-          <Nav />
+          <Nav open={openAppBar} />
+          <button
+            className="flex md:hidden absolute top-2 left-2"
+            onClick={() => setOpenAppBar(!openAppBar)}
+          >
+            <div className="px-2 py-1 bg-white rounded-md">
+              <Menu style={{width:18, height:18}} />
+            </div>
+          </button>
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/summary" element={<ExecutiveSummary />} />
@@ -26,9 +38,9 @@ export const Pages = () => {
             <Route exact path="/consideration" element={<Consideration />} />
             <Route exact path="/decision" element={<Decision />} />
             <Route exact path="/loyality" element={<Loyallity />} />
-            {/* <Route exact path="/feedback" element={<UserFeedback />} /> */}
-            {/* <Route exact path="/conclusion" element={<Conclusion />} /> */}
-            {/* <Route exact path="/about" element={<About />} /> */}
+            <Route exact path="/feedback" element={<UserFeedback />} />
+            <Route exact path="/conclusion" element={<Conclusion />} />
+            <Route exact path="/about" element={<About />} />
           </Routes>
         </div>
       </Router>

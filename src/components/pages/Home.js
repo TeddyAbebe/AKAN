@@ -7,18 +7,18 @@ import lines from "../data/files/Images/lines.png";
 const Home = () => {
   return (
     <>
-      <div className="bg-black text-white  w-screen min-h-screen lg:-py-24">
-        <div className="p-8">
+      <div className="bg-black text-white w-full min-h-screen -pl-10">
+        <div className="flex flex-row p-8">
           {home.map((val, i) => (
-            <div className=" flex w-auto h-auto justify-center " key={i}>
-              <div>
-                <h1 className="text-6xl font-serif mb-14 w-[35rem] 2xl:w-[44rem] 2xl:text-7xl">
+            <div className="px-1 flex flex-row h-auto" key={i}>
+              <div className="w-full lg:w-3/5 ">
+                <h1 className="text-3xl lg:text-6xl font-serif mb-6 md:mb-14">
                   {val.header}
                 </h1>
 
-                <div>
-                  <p className="font-medium w-[25rem] 2xl:w-[40rem] 2xl:text-3xl mb-5">{val.note}</p>
-                </div>
+                <p className="font-normal md:font-medium text-sm lg:text-lg mb-5">
+                  {val.note}
+                </p>
 
                 <div>
                   <button className="bg-[#497E4F] h-12 w-48 text-white font-bold font-sans rounded-md 2xl:w-[15rem] 2xl:text-2xl ">
@@ -27,7 +27,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="w-64 2xl:w-[26rem]">
+              <div className="w-64 hidden lg:flex ml-10">
                 <img src={woman} alt="Smile Woman" />
               </div>
             </div>

@@ -10,15 +10,10 @@ a {
   flex-direction: column;
 }
 .nav {
-  width: 30%;
+  /* width: 30%; */
   background: linear-gradient(180deg, #598f5f -10.74%, #040404 100%);
 }
-.logo img {
-  height: 50px;
-  width: 180px;
-  margin-left: 50px;
-  padding-top: 10px;
-}
+
 .click:hover {
   background-color: #497e4f;
   border-radius: 10px;

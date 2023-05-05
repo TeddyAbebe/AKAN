@@ -17,10 +17,10 @@ const Loyallity = () => {
           {loyality.map((val, i) => (
             <div key={i} className="lg:pt-20 px-12">
               <div className="lg:mb-8">
-                <div className="font-serif w-full text-center font-semibold text-3xl py-2 lg:text-start lg:text-5xl lg:pb-10 2xl:pb-16">
+                <div className="font-serif w-full text-center font-semibold text-2xl py-2 lg:text-start lg:text-5xl lg:pb-10 2xl:pb-16">
                   <h1>{val.header}</h1>
                 </div>
-                <div className="flex flex-col font-medium font-sans text-center text-xl gap-y-3 lg:gap-y-4 lg:text-start 2xl:w-[90%] 2xl:text-2xl max-w-[100rem]">
+                <div className="flex flex-col font-normal font-sans text-cente text-xs md:text-lg gap-y-3 lg:gap-y-4 lg:text-start 2xl:w-[90%] 2xl:text-2xl max-w-[100rem]">
                   <div>
                     <p>{val.note1}</p>
                   </div>
@@ -34,28 +34,34 @@ const Loyallity = () => {
               </div>
 
               <div className="flex flex-col ">
-                <div className="text-2xl font-medium text-center mb-4 lg:text-start lg:text-4xl">
+                <div className="text-xl font-medium text-center mb-2 lg:text-start lg:text-4xl">
                   {val.head}
                 </div>
 
                 <div className="flex flex-wrap flex-co w-full justify-start md:justify-evenly lg:justify-between lg:ml-24 lg:w-[80%] max-w-[80rem]">
                   <div className="bg-[#97A5EB] rounded-md w-[50%] md:w-[30%]">
-                    <div className="flex justify-center">{val.icon}</div>
-                    <div className="text-center xl:text-xl 2xl:text-3xl ">
+                    <div className="flex justify-center">
+                      <img src={val.icon} />
+                    </div>
+                    <div className="text-center text-sm xl:text-xl 2xl:text-3xl ">
                       {val.blueNote}
                     </div>
                   </div>
 
                   <div className="bg-[#7EB073] rounded-md w-[50%] md:w-[30%]">
-                    <div className="flex justify-center">{val.icon}</div>
-                    <div className="text-center xl:text-xl 2xl:text-3xl">
+                    <div className="flex justify-center">
+                      <img src={val.icon} />
+                    </div>
+                    <div className="text-center text-sm xl:text-xl 2xl:text-3xl">
                       {val.greenNote}
                     </div>
                   </div>
 
                   <div className="bg-[#E1929E] rounded-md w-[50%] md:w-[30%]">
-                    <div className="flex justify-center">{val.icon}</div>
-                    <div className="text-center xl:text-xl 2xl:text-3xl">
+                    <div className="flex justify-center">
+                      <img src={val.icon} />
+                    </div>
+                    <div className="text-center text-sm xl:text-xl 2xl:text-3xl">
                       {val.pinkNote}
                     </div>
                   </div>

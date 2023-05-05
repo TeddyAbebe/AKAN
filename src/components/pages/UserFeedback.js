@@ -1,54 +1,65 @@
 import React from "react";
-import { feedback } from "../data/data";
+import { feedback, feedbackData } from "../data/data";
 import feedbackBG from "../data/files/Images/feedback.png";
+import messageIcon from "../data/files/Icons/messageIcon.png"
 
 const UserFeedback = () => {
   return (
     <>
       <div className="w-screen min-h-screen">
         <div>
-          <div>
-            {feedback.map((val, i) => (
-              <div key={i}>
-                <div className="bg-black text-white p-4">
-                  <h1 className="text-4xl mb-2 text-center font-semibold font-sans md:text-7xl">
-                    {val.header}
-                  </h1>
-                  <h2 className="text-3xl mb-2 text-center font-semibold font-sans md:text-5xl">
-                    {val.secHeader}
-                  </h2>
-                  <h3 className="text-2xl mb-2 font-semibold font-sans md:text-3xl">
-                    {val.noteHeader}
-                  </h3>
-                  <p className="text-xl lg:text-left md:text-2xl">{val.note}</p>
+          <div className="flex flex-col">
+            <div className="bg-black text-white p-4 flex flex-col items-center">
+              <div className="w-full md:w-5/6">
+                <h1 className="text-3xl md:text-6xl  text-center font-semibold font-sans">
+                  {feedbackData.mainHeader.header}
+                </h1>
+                <h2 className="text-xl md:text-4xl mb-2 text-center font-semibold font-sans">
+                  {feedbackData.mainHeader.secHeader}
+                </h2>
+                <h3 className="text-base md:text-lg  font-semibold font-sans">
+                  {feedbackData.mainHeader.noteHeader}
+                </h3>
+                <p className="text-sm md:text-base lg:text-left mb-3">
+                  {feedbackData.mainHeader.note}
+                </p>
+              </div>
+            </div>
+
+            <div className="min-h-screen text-white relative ">
+              <div className="absolute overflow-hidden">
+                <img
+                  src={feedbackBG}
+                  className="flex-1 object-cover min-h-screen"
+                  alt=""
+                />
+              </div>
+
+              <div className="absolute">
+                <div className="text-2xl md:text-4xl my-2 md:my-6 text-center font-semibold font-sans">
+                  {feedbackData.secondaryHeader.Header2}
                 </div>
 
-                <div className="min-h-screen text-white relative ">
-                  <div className="absolute overflow-hidden">
-                    <img
-                      src={feedbackBG}
-                      className="flex-1 object-cover min-h-screen"
-                      alt=""
-                    />
-                  </div>
-
-                  <div className="absolute">
-                    <div className="text-3xl my-6 text-center font-semibold font-sans md:text-5xl">
-                      {val.Header2}
-                    </div>
-                    <div className="bg-white text-black">
-                      <div>
+                <div className="flex flex-row flex-wrap">
+                  {feedback.map((val, i) => (
+                    <div key={i} className="sm:w-1/2 lg:w-1/3 p-2 sm:p-4 ">
+                      <div className="bg-white text-black h-full rounded-xl p-4">
                         <div>
-                          <img src={val.image} alt="Users" />
-                          <h4>{val.feedbackTitle}</h4>
+                          <div className="flex flex-row gap-4 items-center mb-2">
+                            <img src={val.image} alt="Users" className="w-9 h-9" />
+                            <h4 className="text-[#3D9BA2] font-medium">
+                              {val.feedbackTitle}
+                            </h4>
+                            <img src={messageIcon} alt="Message" className="w-5 h-5 object-contain"/>
+                          </div>
+                          <p className="text-sm">{val.feedback}</p>
                         </div>
-                        <p>{val.feedback}</p>
                       </div>
                     </div>
-                  </div>
+                  ))}
                 </div>
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </div>

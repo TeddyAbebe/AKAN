@@ -4,17 +4,17 @@ import { Link, useLocation } from "react-router-dom";
 import "./nav.css";
 import logo from "../data/files/Images/logo.png";
 
-const Nav = () => {
+const Nav = ({open}) => {
   const location = useLocation();
   return (
     <>
-      <div className="nav min-h-screen flex flex-col hidden lg:block">
-        <div className="logo border-none ">
-          <img src={logo} alt="Logo" />
+      <div className={`nav min-h-screen  flex-col flex fixed md:static md:flex ` + (open===true ? '' : 'hidden')}>
+        <div className="mx-3 my-2 flex flex-row justify-center w-full">
+          <img src={logo} alt="Logo" className="h-14 object-contain"/>
         </div>
 
         <div>
-          <div className="flex flex-col gap-y-3 2xl:gap-y-10 mx-6 mt-8">
+          <div className="flex flex-col gap-y-3 2xl:gap-y-10 mx-1 md:mx-6 mt-8">
             {navlink.map((links, i) => (
               <Link to={links.url} key={i}>
                 <div className="">
@@ -24,7 +24,7 @@ const Nav = () => {
                       (location.pathname === links.url ? "selected" : "")
                     }
                   >
-                    <div className="flex items-center py-2 px-5 lg:px-1">
+                    <div className="flex items-center py-2 px-2 md:px-5 lg:px-1">
                       <div className="mr-3">
                         <img
                           className="w-5 h-5 2xl:w-10 2xl:h-10"
