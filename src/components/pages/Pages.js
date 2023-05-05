@@ -12,7 +12,7 @@ import UserFeedback from "./UserFeedback";
 import Conclusion from "./Conclusion";
 import About from "./About";
 import { useState } from "react";
-import { Menu } from "@material-ui/icons";
+// import { Menu } from "@material-ui/icons";
 
 export const Pages = () => {
   const [openAppBar, setOpenAppBar] = useState(false);
@@ -27,7 +27,8 @@ export const Pages = () => {
             onClick={() => setOpenAppBar(!openAppBar)}
           >
             <div className="px-2 py-1 bg-white rounded-md">
-              <Menu style={{width:18, height:18}} />
+              {/* <Menu style={{width:18, height:18}} /> */}
+              Click me
             </div>
           </button>
           <Routes>

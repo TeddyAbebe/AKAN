@@ -1,8 +1,8 @@
 import React from "react";
 import { home } from "../data/data";
 import woman from "../data/files/Images/woman.png";
-import TelegramIcon from "@mui/icons-material/Telegram";
 import lines from "../data/files/Images/lines.png";
+import send from "../data/files/Icons/send.png";
 
 const Home = () => {
   return (
@@ -22,7 +22,10 @@ const Home = () => {
 
                 <div>
                   <button className="bg-[#497E4F] h-12 w-48 text-white font-bold font-sans rounded-md 2xl:w-[15rem] 2xl:text-2xl ">
-                    Start <TelegramIcon />
+                    Start{" "}
+                    <div>
+                      <img src={send} alt="" />
+                    </div>
                   </button>
                 </div>
               </div>

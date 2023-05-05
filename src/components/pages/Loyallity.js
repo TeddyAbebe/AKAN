@@ -41,7 +41,7 @@ const Loyallity = () => {
                 <div className="flex flex-wrap flex-co w-full justify-start md:justify-evenly lg:justify-between lg:ml-24 lg:w-[80%] max-w-[80rem]">
                   <div className="bg-[#97A5EB] rounded-md w-[50%] md:w-[30%]">
                     <div className="flex justify-center">
-                      <img src={val.icon} />
+                      <img src={val.icon} alt="" />
                     </div>
                     <div className="text-center text-sm xl:text-xl 2xl:text-3xl ">
                       {val.blueNote}
@@ -50,7 +50,7 @@ const Loyallity = () => {
 
                   <div className="bg-[#7EB073] rounded-md w-[50%] md:w-[30%]">
                     <div className="flex justify-center">
-                      <img src={val.icon} />
+                      <img src={val.icon} alt="" />
                     </div>
                     <div className="text-center text-sm xl:text-xl 2xl:text-3xl">
                       {val.greenNote}
@@ -59,7 +59,7 @@ const Loyallity = () => {
 
                   <div className="bg-[#E1929E] rounded-md w-[50%] md:w-[30%]">
                     <div className="flex justify-center">
-                      <img src={val.icon} />
+                      <img src={val.icon} alt="" />
                     </div>
                     <div className="text-center text-sm xl:text-xl 2xl:text-3xl">
                       {val.pinkNote}
