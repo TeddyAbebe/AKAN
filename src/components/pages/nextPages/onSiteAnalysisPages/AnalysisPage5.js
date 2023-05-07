@@ -34,7 +34,7 @@ const AnalysisPage5 = () => {
             <img src={LeftArrow} alt="" />
           </div>
         </Link>
-        <Link to="/analysis/page6">
+        <Link to="">
           <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
             <img src={RightArrow} alt="" />
           </div>
