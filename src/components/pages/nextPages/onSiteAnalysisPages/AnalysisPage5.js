@@ -27,12 +27,12 @@ const AnalysisPage5 = () => {
       <div className="flex mt-3 justify-between gap-10 lg:gap-16">
         <Link to="/analysis/page4">
           <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
-            <img src={LeftArrow} />
+            <img src={LeftArrow} alt="" />
           </div>
         </Link>
         <Link to="">
           <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
-            <img src={RightArrow} />
+            <img src={RightArrow} alt="" />
           </div>
         </Link>
       </div>
