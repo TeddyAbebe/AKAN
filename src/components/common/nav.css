@@ -10,8 +10,7 @@ a {
   flex-direction: column;
 }
 .nav {
-  /* width: 30%; */
-  background: linear-gradient(180deg, #598f5f -10.74%, #040404 100%);
+  background: linear-gradient(180deg, #497E4F 0%, #040404 100%);
 }
 
 .click:hover {

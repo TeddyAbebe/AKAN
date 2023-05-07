@@ -1,6 +1,5 @@
 import React from "react";
 import { feedback, feedbackData } from "../data/data";
-// import feedbackBG from "../data/files/Images/feedback.png";
 import messageIcon from "../data/files/Icons/messageIcon.png"
 
 const UserFeedback = () => {
@@ -20,32 +19,24 @@ const UserFeedback = () => {
                 <h3 className="text-base md:text-lg  font-semibold font-sans">
                   {feedbackData.mainHeader.noteHeader}
                 </h3>
-                <p className="text-sm md:text-base lg:text-left mb-3">
+                <p className="text-sm md:text-base lg:text-left mb-3.5">
                   {feedbackData.mainHeader.note}
                 </p>
               </div>
             </div>
 
-            <div className="min-h-screen text-white feedback ">
-              {/* <div className="absolute overflow-hidden">
-                <img
-                  src={feedbackBG}
-                  className="flex-1 object-cover min-h-screen"
-                  alt=""
-                />
-              </div> */}
-
+            <div className="text-white feedback ">
               <div className="">
-                <div className="text-2xl md:text-4xl my-2 md:my-6 text-center font-semibold font-sans">
+                <div className="text-2xl md:text-4xl my-2 md:mt-7 text-center font-semibold font-sans">
                   {feedbackData.secondaryHeader.Header2}
                 </div>
 
                 <div className="flex flex-row flex-wrap">
                   {feedback.map((val, i) => (
-                    <div key={i} className="sm:w-1/2 lg:w-1/3 p-2 sm:p-4 ">
+                    <div key={i} className="sm:w-1/2 lg:w-1/3 p-2 sm:p-6 ">
                       <div className="bg-white text-black h-full rounded-xl p-4">
                         <div>
-                          <div className="flex flex-row gap-4 items-center mb-2">
+                          <div className="flex flex-row gap-4 items-center mb-2.5">
                             <img
                               src={val.image}
                               alt="Users"

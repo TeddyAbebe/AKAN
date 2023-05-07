@@ -22,7 +22,7 @@ const ExecutiveSummary = () => {
                 </p>
               </div>
 
-              <div className="flex flex-col sm:flex-row justify-center items-center justify-evenly px-2 xl:w-full lg:justify-center lg:gap-8 ">
+              <div className="flex mt-10 gap-3 items-center justify-evenly px-2 xl:w-full lg:justify-center lg:gap-8 ">
                 <img className="w-1/2 sm:w-[30%] lg:w-1/4" src={man} alt="" />
                 <img
                   className="w-1/2 sm:w-[30%] lg:w-1/4"

@@ -1,27 +1,19 @@
 import React from "react";
 import { conclusion } from "../data/data";
-// import conclusionBG from "../data/files/Images/conclusion.png";
 
 const Conclusion = () => {
   return (
     <div className=" text-white w-full conclusion">
-      {/* <div className="min-h-screen absolute top-0 left-0 ">
-        <img
-          src={conclusionBG}
-          className="object-cover h-screen w-full"
-          alt=""
-        />
-      </div> */}
-      <div className=" flex flex-col min-h-screen bg-black bg-opacity-60 backdrop-blur-sm px-4 md:px-16 gap-2 ">
+      <div className="flex flex-col min-h-screen lg:h-full bg-black bg-opacity-60 px-4 md:px-16 gap-2 ">
         {conclusion.map((val, i) => (
-          <div key={i} className="flex top-0">
+          <div key={i} className="flex top-0 xl:max-w-[90%]">
             {i === 0 && (
               <div className="flex flex-col mb-5 w-full md:w-[90%]">
-                <div className=" font-serif font-semibold text-3xl text-center mb-4">
+                <div className=" font-serif font-semibold text-3xl text-center mb-4 lg:mb-10 xl:mb-24 lg:mt-14 lg:text-5xl">
                   <h1>{val.header}</h1>
                 </div>
                 <div className="flex gap-2 items-center mb-3">
-                  <div className="font-serif font-semibold text-xl gap-3 ">
+                  <div className="font-serif font-semibold text-xl gap-3 lg:text-2xl lg:font-medium">
                     <h1>{val.header2}</h1>
                   </div>
                   <div className="w-5 h-5">
@@ -29,7 +21,7 @@ const Conclusion = () => {
                   </div>
                 </div>
 
-                <div className="text-sm flex flex-col gap-1">
+                <div className="text-sm font-medium flex flex-col gap-1">
                   <div className="flex flex-row gap-2">
                     <div>
                       <div className="w-1 h-1 rounded-full bg-white mt-2"></div>
@@ -59,7 +51,7 @@ const Conclusion = () => {
             )}
 
             {i > 0 && (
-              <div className="flex flex-row gap-4 mb-3 w-full md:w-5/6">
+              <div className="flex flex-row gap-4 md:mb-5 w-full md:w-5/6">
                 <div className="flex flex-row">
                   <div className="bg-white rounded-full flex items-center justify-center w-10 h-10">
                     <img
@@ -75,7 +67,7 @@ const Conclusion = () => {
                     <h4 className="font-semibold">{val.title}</h4>
                   </div>
 
-                  <div className=" text-sm">
+                  <div className="font-medium text-sm">
                     <p>{val.desc}</p>
                   </div>
                 </div>

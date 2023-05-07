@@ -1,22 +1,17 @@
 import React from "react";
 import { loyality } from "../data/data";
-// import dotmap from "../data/files/Images/dotmap.png";
+import LeftArrow from "../data/files/Icons/LeftArrow.png";
+import RightArrow from "../data/files/Icons/RightArrow.png";
+import { Link } from "react-router-dom";
 
-const Loyallity = () => {
+const Loyality = () => {
   return (
     <>
-      <div className="bg-black text-white w-screen min-h-screen dotmap">
-        {/* <div className="flex-1 h-screen absolute top-0 left-0 overflow-hidden">
-          <img
-            src={dotmap}
-            className="flex-1 object-cover min-h-screen"
-            alt=""
-          />
-        </div> */}
-        <div>
+      <div className="bg-black text-white w-screen min-h-screen flex flex-col dotmap">
+        <div className="">
           {loyality.map((val, i) => (
-            <div key={i} className="lg:pt-20 px-12">
-              <div className="lg:mb-8">
+            <div key={i} className="lg:pt-14 px-12">
+              <div className="lg:mb-6">
                 <div className="font-serif w-full text-center font-semibold text-2xl py-2 lg:text-start lg:text-5xl lg:pb-10 2xl:pb-16">
                   <h1>{val.header}</h1>
                 </div>
@@ -34,11 +29,11 @@ const Loyallity = () => {
               </div>
 
               <div className="flex flex-col ">
-                <div className="text-xl font-medium text-center mb-2 lg:text-start lg:text-4xl">
+                <div className="text-xl font-medium text-center mb-4 lg:text-start lg:text-4xl">
                   {val.head}
                 </div>
 
-                <div className="flex flex-wrap flex-co w-full justify-start md:justify-evenly lg:justify-between lg:ml-24 lg:w-[80%] max-w-[80rem]">
+                <div className="flex flex-wrap w-full justify-start md:justify-evenly lg:justify-between lg:ml-24 lg:w-[80%] max-w-[80rem]">
                   <div className="bg-[#97A5EB] rounded-md w-[50%] md:w-[30%]">
                     <div className="flex justify-center">
                       <img src={val.icon} alt="" />
@@ -70,9 +65,20 @@ const Loyallity = () => {
             </div>
           ))}
         </div>
+
+        <div className="flex mt-5 justify-center gap-10 lg:gap-16">
+          <div className="bg-[#8ca28f] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
+            <img src={LeftArrow} />
+          </div>
+          <Link to="/loyality/page2">
+            <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
+              <img src={RightArrow} />
+            </div>
+          </Link>
+        </div>
       </div>
     </>
   );
 };
 
-export default Loyallity;
+export default Loyality;

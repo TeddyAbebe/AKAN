@@ -162,6 +162,13 @@ export const experienceMapping = [
     note: "At [Your Company Name], we help businesses understand their customers' journey through our Experience Mapping service. We identify touchpoints and pain points, then provide customized plans for improvement. With our expertise, you can deliver a seamless, engaging experience that drives results. Contact us today to learn more.",
   },
 ];
+export const experienceMappingPageTwo = [
+  {
+    header: "Customer Journey Phases",
+    note: "The customer journey refers to the process that a customer goes through when interacting with a company or brand. The customer journey typically includes the following phases: awareness, consideration, decision, and loyalty. These phases describe the process that a customer goes through when interacting with a brand or company.",
+    image: require("./files/Images/mappingPage2.png"),
+  },
+];
 
 export const consideration = [
   {
@@ -175,6 +182,56 @@ export const consideration = [
     icon2: require("./files/Icons/clock.png"),
     icon3: require("./files/Icons/thick.png"),
     icon4: require("./files/Icons/person.png"),
+  },
+];
+export const ConsiderationPageTwo = [
+  {
+    header: "Homepage | Your store’s entrance",
+  },
+];
+export const ConsiderationPageTwoCards = [
+  {
+    card: require("./files/Images/Card1.png"),
+  },
+  {
+    card: require("./files/Images/Card2.png"),
+  },
+  {
+    card: require("./files/Images/Card3.png"),
+  },
+  {
+    card: require("./files/Images/Card4.png"),
+  },
+];
+export const ConsiderationPageThree = {
+  FirstHeader: {
+    header1: "Onboarding | Tea Finder",
+  },
+  SecondHeader: {
+    header2: "Browsing | Collections",
+  },
+};
+export const ConsiderationPageThreeCards = [
+  {
+    card: require("./files/Images/Card5.png"),
+  },
+  {
+    card: require("./files/Images/Card6.png"),
+  },
+  {
+    card: require("./files/Images/Card7.png"),
+  },
+  {
+    card: require("./files/Images/Card8.png"),
+  },
+];
+
+export const arrows = [
+  {
+    arrow: require("./files/Icons/LeftArrow.png"),
+  },
+  {
+    arrow: require("./files/Icons/RightArrow.png"),
   },
 ];
 
@@ -225,6 +282,82 @@ export const decision = [
     ),
   },
 ];
+export const DecisionPageTwo = [
+  {
+    header: "Product Page | Browsing",
+  },
+];
+export const DecisionPageTwoCards = [
+  {
+    card: require("./files/Images/Card9.png"),
+  },
+  {
+    card: require("./files/Images/Card10.png"),
+  },
+  {
+    card: require("./files/Images/Card11.png"),
+  },
+  {
+    card: require("./files/Images/Card12.png"),
+  },
+];
+export const DecisionPageThree = {
+  FirstHeader: {
+    header: "Product Page | Browsing",
+  },
+  SecondHeader: {
+    header: "Cart | At The Till",
+  },
+};
+export const DecisionPageThreeCards = [
+  {
+    card: require("./files/Images/Card13.png"),
+  },
+  {
+    card: require("./files/Images/Card14.png"),
+  },
+  {
+    card: require("./files/Images/Card15.png"),
+  },
+  {
+    card: require("./files/Images/Card16.png"),
+  },
+];
+export const DecisionPageFour = {
+  FirstHeader: {
+    header: "Cart | At The Till",
+  },
+  SecondHeader: {
+    header: "Cart | At The Till",
+  },
+};
+export const DecisionPageFoueCards = [
+  {
+    card: require("./files/Images/Card17.png"),
+  },
+  {
+    card: require("./files/Images/Card18.png"),
+  },
+  {
+    card: require("./files/Images/Card19.png"),
+  },
+  {
+    card: require("./files/Images/Card20.png"),
+  },
+];
+export const DecisionPageFive = [
+  {
+    header: "Confirmation Email | The Receipt",
+  },
+];
+export const DecisionPageFiveCards = [
+  {
+    card: require("./files/Images/Card21.png"),
+  },
+  {
+    card: require("./files/Images/Card22.png"),
+  },
+];
 
 export const loyality = [
   {
@@ -242,6 +375,54 @@ export const loyality = [
     pinkNote:
       "Reward customers with special promotions or early previews of new products",
     icon: require("../data/files/Icons/loyality.png"),
+  },
+];
+export const loyalityPageTwo = [
+  {
+    header: "Delivery & Packaging | The Proof",
+  },
+];
+export const loyalityPageTwoCards = [
+  {
+    card: require("./files/Images/Card23.png"),
+  },
+  {
+    card: require("./files/Images/Card24.png"),
+  },
+  {
+    card: require("./files/Images/Card25.png"),
+  },
+  {
+    card: require("./files/Images/Card26.png"),
+  },
+];
+export const loyalityPageThree = [
+  {
+    header: "The Proof | Top of Mind",
+  },
+];
+export const loyalityPageThreeCards = [
+  {
+    card: require("./files/Images/Card27.png"),
+  },
+  {
+    card: require("./files/Images/Card28.png"),
+  },
+  {
+    card: require("./files/Images/Card29.png"),
+  },
+  {
+    card: require("./files/Images/Card30.png"),
+  },
+];
+export const loyalityPageFour = [
+  {
+    header: "The Proof | Top of Mind",
+  },
+];
+export const loyalityPageFourCards = [
+  {
+    card: require("./files/Images/Card31.png"),
   },
 ];
 
@@ -334,14 +515,26 @@ export const conclusion = [
 
 export const about = [
   {
-    header: "",
-    header2: "Creating experiences people love",
+    header: "Creating experiences people love",
     note: "Our mission is simple; provide holistic Customer Experience expertise to help our business partners achieve long-term, sustainable growth.  With over a decades worth experience working with companies of all sizes; from global FTSE 100 brands to Start Ups, we blend data, strategy, technology & creativity to build distinctive, memorable experiences that:",
     list1: "- Increase customer loyalty",
     list2: " - Increase conversion",
     list3: "- Increase acquisition",
     list4: "- Reduce cost of service",
     header3: "Get in touch..",
-    header4: "Our Work Experience",
+  },
+];
+export const workExperince = [
+  {
+    header: "Our Work Experience",
+  },
+];
+
+export const company = [
+  {
+    image: require("./files/Images/Regus.png"),
+  },
+  {
+    image: require("./files/Images/Sky.png"),
   },
 ];

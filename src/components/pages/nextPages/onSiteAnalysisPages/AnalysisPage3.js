@@ -1,5 +1,8 @@
 import React from "react";
 import { analysisPageThird, analysisPageThirdNotes } from "../../../data/data";
+import LeftArrow from "../../../data/files/Icons/LeftArrow.png";
+import RightArrow from "../../../data/files/Icons/RightArrow.png";
+import { Link } from "react-router-dom";
 
 const AnalysisPage3 = () => {
   return (
@@ -14,18 +17,31 @@ const AnalysisPage3 = () => {
                 </h1>
               </div>
               <div className="md:w-full">
-                <img className="sm:h-56 xl:h-72" src={val.graph} alt="" />
+                <img className="sm:h-52 xl:h-64" src={val.graph} alt="" />
               </div>
             </div>
           ))}
         </div>
-        
+
         <div className="flex justify-evenly lg:gap-4 ">
           {analysisPageThirdNotes.map((val, i) => (
             <div className="">
-              <img className="sm:h-34 lg:h-52 xl:h-72" src={val.note} alt="" />
+              <img className="sm:h-34 lg:h-40 xl:h-72" src={val.note} alt="" />
             </div>
           ))}
+        </div>
+
+        <div className="flex mt-3 justify-center gap-10 lg:gap-16">
+          <Link to="/analysis/page2">
+            <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
+              <img src={LeftArrow} />
+            </div>
+          </Link>
+          <Link to="/analysis/page4">
+            <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
+              <img src={RightArrow} />
+            </div>
+          </Link>
         </div>
       </div>
     </div>

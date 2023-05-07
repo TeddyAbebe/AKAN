@@ -1,5 +1,8 @@
-import React from 'react'
-import { analysisPageFive } from '../../../data/data';
+import React from "react";
+import { analysisPageFive } from "../../../data/data";
+import LeftArrow from "../../../data/files/Icons/LeftArrow.png";
+import RightArrow from "../../../data/files/Icons/RightArrow.png";
+import { Link } from "react-router-dom";
 
 const AnalysisPage5 = () => {
   return (
@@ -13,16 +16,28 @@ const AnalysisPage5 = () => {
               </h1>
             </div>
             <div className="">
-              <img className="h-36 md:h-52 my-10" src={val.graph} alt="" />
+              <img className="h-36 md:h-52 my-7" src={val.graph} alt="" />
             </div>
             <div className="">
-              <img className="h-48 sm:h-64" src={val.note} alt="" />
+              <img className="h-48 sm:h-56" src={val.note} alt="" />
             </div>
           </div>
         ))}
       </div>
+      <div className="flex mt-3 justify-between gap-10 lg:gap-16">
+        <Link to="/analysis/page4">
+          <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
+            <img src={LeftArrow} />
+          </div>
+        </Link>
+        <Link to="">
+          <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
+            <img src={RightArrow} />
+          </div>
+        </Link>
+      </div>
     </div>
   );
-}
+};
 
-export default AnalysisPage5
+export default AnalysisPage5;

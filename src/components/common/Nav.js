@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import "./nav.css";
 import logo from "../data/files/Images/logo.png";
 
-const Nav = ({open}) => {
+const Nav = ({ open }) => {
   const location = useLocation();
   return (
     <>
@@ -14,7 +14,7 @@ const Nav = ({open}) => {
           (open === true ? "" : "hidden")
         }
       >
-        <div className="flex flex-row justify-center w-full">
+        <div className="flex flex-row mt-8 justify-center w-full">
           <img src={logo} alt="Logo" className="h-14 object-contain" />
         </div>
 
@@ -38,7 +38,7 @@ const Nav = ({open}) => {
                         />
                       </div>
 
-                      <div className="font-sans text-white font-normal font-normal text-sm md:text-sm lg:text-lg 2xl:text-2xl">
+                      <div className="font-sans text-white font-normal text-sm md:text-sm lg:text-lg 2xl:text-2xl">
                         {links.text}
                       </div>
                     </div>
@@ -53,7 +53,7 @@ const Nav = ({open}) => {
           <div>
             {socials.map((social, i) => (
               <div className="" key={i}>
-                <div className="flex flex-row justify-evenly">
+                <div className="flex flex-row justify-center gap-8">
                   <img className="" src={social.icon1} alt="" />
                   <img className="" src={social.icon2} alt="" />
                   <img className="" src={social.icon3} alt="" />

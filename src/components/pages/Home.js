@@ -7,7 +7,7 @@ import send from "../data/files/Icons/send.png";
 const Home = () => {
   return (
     <>
-      <div className="bg-black text-white w-full min-h-screen -pl-10">
+      <div className="bg-black text-white w-full min-h-screen">
         <div className="flex flex-row p-8">
           {home.map((val, i) => (
             <div className="px-1 flex flex-row h-auto" key={i}>
