@@ -7,40 +7,48 @@
   background-repeat: no-repeat;
   background-position: center bottom;
 }
-.analysisBg{
+
+@media only screen and (min-width: 1464px) {
+  .lines {
+    background-size: 100% 50%;
+  }
+}
+
+.analysisBg {
   background-image: url("./components/data/files/Images/analysisBG.png");
   background-size: cover;
 }
-.mapping{
+.mapping {
   background-image: url("./components/data/files/Images/mapping.png");
   background-size: cover;
 }
-.consideration{
+.consideration {
   background-image: url("./components/data/files/Images/consideration.png");
   background-size: cover;
 }
-.decision{
+.decision {
   background-image: url("./components/data/files/Images/decision.png");
   background-size: cover;
 }
-.dotmap{
+.dotmap {
   background-image: url("./components/data/files/Images/dotmap.png");
   background-size: cover;
 }
-.feedback{
+.feedback {
   background-image: url("./components/data/files/Images/feedback.png");
   background-size: cover;
 }
-.conclusion{
+.conclusion {
   background-image: url("./components/data/files/Images/conclusion.png");
   background-size: cover;
 }
 .analysisPageSec {
   background-image: url("./components//data/files/Images/analysisPage2BG.png");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .analysisPageFour {
   background-image: url("./components//data/files/Images/about.png");
+  background-size: cover;
   background-repeat: no-repeat;
-
 }

@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <div className="bg-black text-white w-screen min-h-screen analysisPageFour">
-        <div className="flex flex-col justify-center items-center sm:px-10 md:px-18">
+        <div className="flex flex-col justify-center items-center px-4 sm:px-10 md:px-18">
           <div className="flex justify-center ">
             <img className="lg:mt-10 w-1/2 lg:w-[75%]" src={logo} alt="" />
           </div>
@@ -73,10 +73,8 @@ const About = () => {
                 <img src={American} alt="" />
               </div>
               {company.map((val, i) => (
-                <div>
-                  <div
-                    className="flex justify-center items-center h-[79px] lg:w-[221.44px] rounded-lg bg-white"
-                  >
+                <div className="h-full rounded-lg bg-white px-4">
+                  <div className="flex justify-center items-center h-[79px] lg:w-[221.44px] ">
                     <img className="" src={val.image} alt="" />
                   </div>
                 </div>

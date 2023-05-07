@@ -6,8 +6,8 @@ const UserFeedback = () => {
   return (
     <>
       <div className="w-screen min-h-full">
-        <div>
-          <div className="flex flex-col">
+        <div className="h-full">
+          <div className="flex flex-col h-full">
             <div className="bg-black text-white p-4 flex flex-col items-center">
               <div className="w-full md:w-5/6">
                 <h1 className="text-3xl md:text-6xl  text-center font-semibold font-sans">
@@ -25,13 +25,13 @@ const UserFeedback = () => {
               </div>
             </div>
 
-            <div className="text-white feedback ">
-              <div className="">
-                <div className="text-2xl md:text-4xl my-2 md:mt-7 text-center font-semibold font-sans">
+            <div className="text-white feedback flex flex-grow">
+              <div className="flex flex-col flex-grow h-full">
+                <div className="text-2xl md:text-4xl py-2 md:pt-7 text-center font-semibold font-sans">
                   {feedbackData.secondaryHeader.Header2}
                 </div>
 
-                <div className="flex flex-row flex-wrap">
+                <div className="flex flex-row flex-wrap flex-grow">
                   {feedback.map((val, i) => (
                     <div key={i} className="sm:w-1/2 lg:w-1/3 p-2 sm:p-6 ">
                       <div className="bg-white text-black h-full rounded-xl p-4">
@@ -51,7 +51,7 @@ const UserFeedback = () => {
                               className="w-5 h-5 object-contain"
                             />
                           </div>
-                          <p className="text-sm">{val.feedback}</p>
+                          <p className="text-sm lg:text-base">{val.feedback}</p>
                         </div>
                       </div>
                     </div>

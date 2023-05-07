@@ -26,7 +26,9 @@ const Nav = ({ open }) => {
                   <div
                     className={
                       `click justify-center ` +
-                      (location.pathname === links.url ? "selected" : "")
+                      (`/${location.pathname.split("/")[1]}` === links.url
+                        ? "selected"
+                        : "")
                     }
                   >
                     <div className="flex items-center py-2 px-2 lg:px-5">
