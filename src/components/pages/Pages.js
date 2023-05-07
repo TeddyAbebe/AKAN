@@ -36,7 +36,7 @@ export const Pages = () => {
     <>
       <Router>
         <div className="flex">
-          <Nav open={openAppBar} />
+          <Nav open={openAppBar} close={() => setOpenAppBar(false)} />
           <button
             className="flex md:hidden top-2 left-2"
             onClick={() => setOpenAppBar(!openAppBar)}

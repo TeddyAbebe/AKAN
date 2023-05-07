@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import "./nav.css";
 import logo from "../data/files/Images/logo.png";
 
-const Nav = ({ open }) => {
+const Nav = ({ open, close }) => {
   const location = useLocation();
   return (
     <>
@@ -21,7 +21,7 @@ const Nav = ({ open }) => {
         <div>
           <div className="flex flex-col gap-y-2 2xl:gap-y mx-1 xl:mx-6 mt-8">
             {navlink.map((links, i) => (
-              <Link to={links.url} key={i}>
+              <Link to={links.url} onClick={close} key={i}>
                 <div className="">
                   <div
                     className={
