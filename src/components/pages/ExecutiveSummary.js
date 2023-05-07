@@ -17,15 +17,15 @@ const ExecutiveSummary = () => {
               </div>
 
               <div className="w-full py-1 sm:py-4 lg:w-[72%] 2xl:w-full xl:py-8 ">
-                <p className="text-sm md:text-lg lg:text-xl xl:text-xl 2xl:text-2xl text-center">
+                <p className="2xl:px-56 text-sm md:text-lg lg:text-xl xl:text-xl 2xl:text- lg:text-center">
                   {val.note}
                 </p>
               </div>
 
               <div className="flex mt-10 gap-3 items-center justify-evenly px-2 xl:w-full lg:justify-center lg:gap-8 ">
-                <img className="w-1/2 sm:w-[30%] lg:w-1/4" src={man} alt="" />
+                <img className="w-1/2 sm:w-[30%]" src={man} alt="" />
                 <img
-                  className="w-1/2 sm:w-[30%] lg:w-1/4"
+                  className="w-1/2 sm:w-[30%]"
                   src={SmileMan}
                   alt=""
                 />

@@ -17,12 +17,12 @@ const Decision = () => {
                     <h1>{val.header}</h1>
                   </div>
 
-                  <div className="font-medium font-sans text-center text-base pb-4 md:text-2xl lg:text-xl lg:text-start lg:w-[90%] 2xl:text-3xl">
+                  <div className="font-sans text-center text-base pb-4 md:text-2xl lg:text-xl lg:text-start lg:w-[90%] 2xl:text-3xl">
                     <p>{val.note1}</p>
                   </div>
                 </div>
 
-                <div className="lg:w-[70%]">
+                <div className="lg:w-[75%]">
                   <div className="flex justify-center gap-2 my-2 lg:justify-normal">
                     <div className="">{val.icon}</div>
                     <div className="text-xl font-medium md:text-2xl md:mb-4 2xl:text-3xl">
@@ -30,31 +30,31 @@ const Decision = () => {
                     </div>
                   </div>
 
-                  <div className="flex flex-wrap w-full justify-evenly lg:justify-between">
-                    <div className="bg-[#97A5EB] rounded-md w-[30%]">
+                  <div className="flex w-full justify-evenly lg:justify-between">
+                    <div className="bg-[#97A5EB] rounded-md p-3 w-1/3">
                       <div className="flex justify-center">{val.bulb}</div>
-                      <div className="text-center xl:text-xl 2xl:text-3xl ">
+                      <div className="text-center xl:text-lg 2xl:text-2xl 2xl:font-medium">
                         {val.blueNote}
                       </div>
                     </div>
 
-                    <div className="bg-[#7EB073] rounded-md w-[30%]">
+                    <div className="bg-[#7EB073] rounded-md p-3 w-1/3 mx-6">
                       <div className="flex justify-center">{val.bulb}</div>
-                      <div className="text-center xl:text-xl 2xl:text-3xl">
+                      <div className="text-center xl:text-lg 2xl:text-2xl 2xl:font-medium">
                         {val.greenNote}
                       </div>
                     </div>
 
-                    <div className="bg-[#E1929E] rounded-md w-[30%]">
+                    <div className="bg-[#E1929E] rounded-md p-3 w-1/3">
                       <div className="flex justify-center">{val.bulb}</div>
-                      <div className="text-center xl:text-xl 2xl:text-3xl">
+                      <div className="text-center xl:text-lg 2xl:text-2xl 2xl:font-medium">
                         {val.pinkNote}
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div className="hidden sm:block font-medium font-sans text-center text-xl pt-4 md:text-2xl lg:text-xl lg:text-start lg:w-[90%] 2xl:text-3xl">
+                <div className="hidden sm:block font-sans text-center text-xl pt-4 md:text-2xl lg:text-xl lg:text-start lg:w-[90%] 2xl:text-3xl">
                   <p>{val.note2}</p>
                 </div>
               </div>

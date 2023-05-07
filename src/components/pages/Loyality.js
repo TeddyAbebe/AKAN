@@ -33,30 +33,30 @@ const Loyality = () => {
                   {val.head}
                 </div>
 
-                <div className="flex flex-wrap w-full justify-start md:justify-evenly lg:justify-between lg:ml-24 lg:w-[80%] max-w-[80rem]">
-                  <div className="bg-[#97A5EB] rounded-md w-[50%] md:w-[30%]">
+                <div className="flex w-full justify-start md:justify-evenly lg:justify-between lg:ml-24 lg:w-[80%] max-w-[80rem]">
+                  <div className="bg-[#97A5EB] rounded-md w-[50%] p-2 md:w-1/3">
                     <div className="flex justify-center">
-                      <img src={val.icon} alt="" />
+                      <img className="h-5 xl:h-9" src={val.icon} alt="" />
                     </div>
-                    <div className="text-center text-sm xl:text-xl 2xl:text-3xl ">
+                    <div className="text-center text-sm xl:text-lg 2xl:text-2xl ">
                       {val.blueNote}
                     </div>
                   </div>
 
-                  <div className="bg-[#7EB073] rounded-md w-[50%] md:w-[30%]">
+                  <div className="bg-[#7EB073] rounded-md w-[50%] p-2 md:w-1/3 mx-6">
                     <div className="flex justify-center">
-                      <img src={val.icon} alt="" />
+                      <img className="h-5 xl:h-9" src={val.icon} alt="" />
                     </div>
-                    <div className="text-center text-sm xl:text-xl 2xl:text-3xl">
+                    <div className="text-center text-sm xl:text-lg 2xl:text-2xl">
                       {val.greenNote}
                     </div>
                   </div>
 
-                  <div className="bg-[#E1929E] rounded-md w-[50%] md:w-[30%]">
+                  <div className="bg-[#E1929E] rounded-md w-[50%] p-2 md:w-1/3">
                     <div className="flex justify-center">
-                      <img src={val.icon} alt="" />
+                      <img className="h-5 xl:h-9" src={val.icon} alt="" />
                     </div>
-                    <div className="text-center text-sm xl:text-xl 2xl:text-3xl">
+                    <div className="text-center text-sm xl:text-lg 2xl:text-2xl">
                       {val.pinkNote}
                     </div>
                   </div>

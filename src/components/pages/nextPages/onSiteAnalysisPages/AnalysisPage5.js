@@ -10,27 +10,31 @@ const AnalysisPage5 = () => {
       <div>
         {analysisPageFive.map((val, i) => (
           <div className="flex flex-col justify-center items-center">
-            <div className="sm:mb-10">
-              <h1 className="text-center font-sans font-bold text-3xl sm:text-5xl lg:text-6xl">
+            <div className="sm:mb-8">
+              <h1 className="text-center font-sans font-bold text-3xl sm:text-4xl lg:text-5xl">
                 {val.header}
               </h1>
             </div>
             <div className="">
-              <img className="h-36 md:h-52 my-7" src={val.graph} alt="" />
+              <img
+                className="h-36 md:h-48 my-7 xl:h- 2xl:h-64"
+                src={val.graph}
+                alt=""
+              />
             </div>
-            <div className="">
-              <img className="h-48 sm:h-56" src={val.note} alt="" />
+            <div className="2xl:w-[40rem]">
+              <img className="h-48 sm:h-56 w-full" src={val.note} alt="" />
             </div>
           </div>
         ))}
       </div>
-      <div className="flex mt-3 justify-between gap-10 lg:gap-16">
+      <div className="flex mt-9 2xl:mt-28 justify-between gap-10 lg:gap-16">
         <Link to="/analysis/page4">
           <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
             <img src={LeftArrow} alt="" />
           </div>
         </Link>
-        <Link to="">
+        <Link to="/analysis/page6">
           <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
             <img src={RightArrow} alt="" />
           </div>

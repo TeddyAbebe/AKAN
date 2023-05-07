@@ -4,7 +4,7 @@ import { conclusion } from "../data/data";
 const Conclusion = () => {
   return (
     <div className=" text-white w-full conclusion">
-      <div className="flex flex-col min-h-screen lg:h-full bg-black bg-opacity-60 px-4 md:px-16 gap-2 ">
+      <div className="flex flex-col min-h-screen lg:h-full bg-black bg-opacity-80 px-4 md:px-16 gap-2 ">
         {conclusion.map((val, i) => (
           <div key={i} className="flex top-0 xl:max-w-[90%]">
             {i === 0 && (
@@ -13,7 +13,7 @@ const Conclusion = () => {
                   <h1>{val.header}</h1>
                 </div>
                 <div className="flex gap-2 items-center mb-3">
-                  <div className="font-serif font-semibold text-xl gap-3 lg:text-2xl lg:font-medium">
+                  <div className="font-serif font-semibold text-xl gap-3 lg:text-2xl 2xl:text-3xl lg:font-medium">
                     <h1>{val.header2}</h1>
                   </div>
                   <div className="w-5 h-5">
@@ -26,7 +26,7 @@ const Conclusion = () => {
                     <div>
                       <div className="w-1 h-1 rounded-full bg-white mt-2"></div>
                     </div>
-                    <div>
+                    <div className="2xl:text-lg">
                       <p>{val.note1}</p>
                     </div>
                   </div>
@@ -34,7 +34,7 @@ const Conclusion = () => {
                     <div>
                       <div className="w-1 h-1 rounded-full bg-white mt-2"></div>
                     </div>
-                    <div>
+                    <div className="2xl:text-lg">
                       <p>{val.note2}</p>
                     </div>
                   </div>
@@ -42,7 +42,7 @@ const Conclusion = () => {
                     <div>
                       <div className="w-1 h-1 rounded-full bg-white mt-2"></div>
                     </div>
-                    <div>
+                    <div className="2xl:text-lg">
                       <p>{val.note3}</p>
                     </div>
                   </div>
@@ -64,10 +64,10 @@ const Conclusion = () => {
 
                 <div className="">
                   <div>
-                    <h4 className="font-semibold">{val.title}</h4>
+                    <h4 className="font-semibold 2xl:text-xl">{val.title}</h4>
                   </div>
 
-                  <div className="font-medium text-sm">
+                  <div className="font-medium text-sm 2xl:text-lg">
                     <p>{val.desc}</p>
                   </div>
                 </div>

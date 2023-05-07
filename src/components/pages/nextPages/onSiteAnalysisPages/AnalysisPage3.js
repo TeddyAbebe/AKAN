@@ -17,7 +17,7 @@ const AnalysisPage3 = () => {
                 </h1>
               </div>
               <div className="md:w-full">
-                <img className="sm:h-52 xl:h-64" src={val.graph} alt="" />
+                <img className="sm:h-52 xl:h-64 2xl:h-96" src={val.graph} alt="" />
               </div>
             </div>
           ))}
@@ -31,7 +31,7 @@ const AnalysisPage3 = () => {
           ))}
         </div>
 
-        <div className="flex mt-3 justify-center gap-10 lg:gap-16">
+        <div className="flex mt-1.5 justify-center gap-10 lg:gap-16">
           <Link to="/analysis/page2">
             <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
               <img src={LeftArrow} alt="" />

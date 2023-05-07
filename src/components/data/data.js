@@ -130,7 +130,7 @@ export const analysisPageThirdNotes = [
 ];
 export const analysisPageFour = [
   {
-    header: "Unique Visitors | H1 2022",
+    header: "Conversion Rate H1 2022",
     pyramid: require("./files/Images/pyramid.png"),
   },
 ];
@@ -155,6 +155,11 @@ export const analysisPageSix = [
     note: "scores for a customer experience framework that evaluates a company's strategy across different stages of the customer journey. The framework has three touchpoint levels with target scores of <70, <140, and <210. The scores for Consideration, Purchase, and Loyalty are 110, 40, and 60. These scores can help identify areas for improvement and optimize the overall customer experience.",
   },
 ];
+export const analysisPageSixDiagram = [
+{
+  image: require("./files/Images/diagram.png")
+}
+]
 
 export const experienceMapping = [
   {

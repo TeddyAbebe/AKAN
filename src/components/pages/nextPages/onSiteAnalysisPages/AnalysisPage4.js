@@ -16,7 +16,11 @@ const AnalysisPage4 = () => {
               </h1>
             </div>
             <div className="">
-              <img className="h-52 md:h-64 my-10" src={val.pyramid} alt="" />
+              <img
+                className="h-52 md:h-64 my-10 xl:h-64 2xl:h-96 "
+                src={val.pyramid}
+                alt=""
+              />
             </div>
           </div>
         ))}

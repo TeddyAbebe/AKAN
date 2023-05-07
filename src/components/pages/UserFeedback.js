@@ -5,7 +5,7 @@ import messageIcon from "../data/files/Icons/messageIcon.png"
 const UserFeedback = () => {
   return (
     <>
-      <div className="w-screen min-h-screen">
+      <div className="w-screen min-h-full">
         <div>
           <div className="flex flex-col">
             <div className="bg-black text-white p-4 flex flex-col items-center">
