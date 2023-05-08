@@ -10,7 +10,7 @@ const Loyalitypage3 = () => {
       <div className="mt-32 lg:mt-20 flex flex-col justify-center items-center gap-6">
         <div>
           {loyalityPageThree.map((val, i) => (
-            <div className="text-xl sm:text-2xl font-bold text-center md:text-3xl">
+            <div className="text-xl sm:text-2xl font-joane font-bold text-center md:text-3xl">
               <h1>{val.header}</h1>
             </div>
           ))}
@@ -18,7 +18,7 @@ const Loyalitypage3 = () => {
 
         <div className="w-full gap-6 flex justify-evenly lg:justify-center">
           {loyalityPageThreeCards.map((val, i) => (
-            <div className="border bg-white  flex justify-center items-center rounded-xl sm:rounded-3xl">
+            <div className="border bg-white flex justify-center items-center rounded-xl sm:rounded-3xl">
               <img className="" src={val.card} alt="" />
             </div>
           ))}

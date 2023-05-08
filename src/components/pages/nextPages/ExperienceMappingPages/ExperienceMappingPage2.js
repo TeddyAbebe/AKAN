@@ -10,10 +10,10 @@ const ExperienceMappingPage2 = () => {
       <div>
         {experienceMappingPageTwo.map((val, i) => (
           <div className="mt-24 lg:mt-10 flex flex-col justify-center items-center">
-            <div className="font-bold text-2xl my-5 lg:mb-10 md:text-5xl">
+            <div className="font-joane font-bold text-2xl my-5 lg:mb-10 md:text-5xl">
               <h1>{val.header}</h1>
             </div>
-            <div className="text-center md:font-medium md:text-star max-w-[44rem] mb-16  lg:mb-18">
+            <div className="text-center font-fira font-normal max-w-[44rem] mb-16  lg:mb-18">
               <p>{val.note}</p>
             </div>
             <div>

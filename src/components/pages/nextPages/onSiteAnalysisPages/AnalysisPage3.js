@@ -12,12 +12,16 @@ const AnalysisPage3 = () => {
           {analysisPageThird.map((val, i) => (
             <div className="flex flex-col justify-center items-center">
               <div className="w-2/3 sm:w-[90%]">
-                <h1 className="text-center font-sans font-bold text-3xl sm:text-5xl md:text-5xl">
+                <h1 className="text-center font-joane font-bold text-3xl sm:text-5xl md:text-5xl">
                   {val.header}
                 </h1>
               </div>
               <div className="md:w-full">
-                <img className="sm:h-52 xl:h-64 2xl:h-96" src={val.graph} alt="" />
+                <img
+                  className="sm:h-52 xl:h-64 2xl:h-96"
+                  src={val.graph}
+                  alt=""
+                />
               </div>
             </div>
           ))}

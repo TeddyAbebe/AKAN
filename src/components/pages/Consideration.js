@@ -13,18 +13,18 @@ const Consideration = () => {
             {consideration.map((val, i) => (
               <div key={i} className="flex flex-col lg:px-4">
                 <div>
-                  <h1 className="font-serif text-center font-semibold text-3xl py-2 lg:text-5xl lg:text-start 2xl:text-7xl  lg:pb-6">
+                  <h1 className="text-center font-joane font-bold text-3xl py-2 lg:text-5xl lg:text-start 2xl:text-7xl  lg:pb-6">
                     {val.header}
                   </h1>
                 </div>
 
                 <div>
-                  <p className="text-center text-xl font-medium font-sans py-4 md:pl-3 lg:pb-16 lg:w-[75%] lg:text-start lg:text-2xl">
+                  <p className="text-center text-xl font-fira font-normal py-4 md:pl-3 lg:pb-16 lg:w-[75%] lg:text-start lg:text-2xl">
                     {val.note}
                   </p>
                 </div>
 
-                <div className="font-serif font-medium flex flex-col pl-4 gap-3 text-2xl lg:text-3xl lg:font-semibold">
+                <div className=" flex flex-col pl-4 gap-3 text-2xl lg:text-3xl font-joane font-normal">
                   <div className="flex flex-row">
                     <img className="mr-3" src={val.icon1} alt="" />
                     <div>{val.list1}</div>

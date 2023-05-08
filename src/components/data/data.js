@@ -99,6 +99,7 @@ export const analysisPageSecCards = [
     card: require("./files/Images/visitors.png"),
   },
 ];
+
 export const analysisPageSecNotes = [
   {
     note: require("./files/Images/analysisSecPageNote1.png"),
@@ -117,6 +118,7 @@ export const analysisPageThird = [
     graph: require("./files/Images/graph.png"),
   },
 ];
+
 export const analysisPageThirdNotes = [
   {
     note: require("./files/Images/analysisPageThirdNote1.png"),
@@ -128,12 +130,14 @@ export const analysisPageThirdNotes = [
     note: require("./files/Images/analysisPageThirdNote3.png"),
   },
 ];
+
 export const analysisPageFour = [
   {
     header: "Conversion Rate H1 2022",
     pyramid: require("./files/Images/pyramid.png"),
   },
 ];
+
 export const analysisPageFourNotes = [
   {
     note: require("./files/Images/analysisPageFourNote1.png"),
@@ -142,6 +146,7 @@ export const analysisPageFourNotes = [
     note: require("./files/Images/analysisPageFourNote2.png"),
   },
 ];
+
 export const analysisPageFive = [
   {
     header: "Traffic Source H1 2022",
@@ -149,17 +154,48 @@ export const analysisPageFive = [
     note: require("./files/Images/analysisPageFiveNotes.png"),
   },
 ];
+
 export const analysisPageSix = [
   {
     header: "Journey Experience Score High Level",
     note: "scores for a customer experience framework that evaluates a company's strategy across different stages of the customer journey. The framework has three touchpoint levels with target scores of <70, <140, and <210. The scores for Consideration, Purchase, and Loyalty are 110, 40, and 60. These scores can help identify areas for improvement and optimize the overall customer experience.",
   },
 ];
+
 export const analysisPageSixDiagram = [
-{
-  image: require("./files/Images/diagram.png")
-}
-]
+  {
+    id: 1,
+    head: require("./files/Images/analysisPageSixDiagram/headPic1.png"),
+    number: "70",
+    percentage1: require("./files/Images/analysisPageSixDiagram/percentage1.png"),
+    percentage2: require("./files/Images/analysisPageSixDiagram/percentage2.png"),
+    percentage3: require("./files/Images/analysisPageSixDiagram/percentage3.png"),
+  },
+  {
+    id: 2,
+    head: require("./files/Images/analysisPageSixDiagram/headPic2.png"),
+    number: "75",
+    percentage1: require("./files/Images/analysisPageSixDiagram/percentage4.png"),
+    percentage2: require("./files/Images/analysisPageSixDiagram/percentage8.png"),
+    percentage3: require("./files/Images/analysisPageSixDiagram/percentage8.png"),
+  },
+  {
+    id: 3,
+    head: require("./files/Images/analysisPageSixDiagram/headPic3.png"),
+    number: "30",
+    percentage1: require("./files/Images/analysisPageSixDiagram/percentage7.png"),
+    percentage2: require("./files/Images/analysisPageSixDiagram/percentage8.png"),
+    percentage3: require("./files/Images/analysisPageSixDiagram/percentage8.png"),
+  },
+  {
+    id: 4,
+    head: require("./files/Images/analysisPageSixDiagram/headPic4.png"),
+    number: "30",
+    percentage1: require("./files/Images/analysisPageSixDiagram/percentage7.png"),
+    percentage2: require("./files/Images/analysisPageSixDiagram/percentage8.png"),
+    percentage3: require("./files/Images/analysisPageSixDiagram/percentage8.png"),
+  },
+];
 
 export const experienceMapping = [
   {
@@ -167,6 +203,7 @@ export const experienceMapping = [
     note: "At [Your Company Name], we help businesses understand their customers' journey through our Experience Mapping service. We identify touchpoints and pain points, then provide customized plans for improvement. With our expertise, you can deliver a seamless, engaging experience that drives results. Contact us today to learn more.",
   },
 ];
+
 export const experienceMappingPageTwo = [
   {
     header: "Customer Journey Phases",
@@ -189,11 +226,13 @@ export const consideration = [
     icon4: require("./files/Icons/person.png"),
   },
 ];
+
 export const ConsiderationPageTwo = [
   {
     header: "Homepage | Your store’s entrance",
   },
 ];
+
 export const ConsiderationPageTwoCards = [
   {
     card: require("./files/Images/Card1.png"),
@@ -208,6 +247,7 @@ export const ConsiderationPageTwoCards = [
     card: require("./files/Images/Card4.png"),
   },
 ];
+
 export const ConsiderationPageThree = {
   FirstHeader: {
     header1: "Onboarding | Tea Finder",
@@ -216,6 +256,7 @@ export const ConsiderationPageThree = {
     header2: "Browsing | Collections",
   },
 };
+
 export const ConsiderationPageThreeCards = [
   {
     card: require("./files/Images/Card5.png"),
@@ -287,11 +328,13 @@ export const decision = [
     ),
   },
 ];
+
 export const DecisionPageTwo = [
   {
     header: "Product Page | Browsing",
   },
 ];
+
 export const DecisionPageTwoCards = [
   {
     card: require("./files/Images/Card9.png"),
@@ -306,6 +349,7 @@ export const DecisionPageTwoCards = [
     card: require("./files/Images/Card12.png"),
   },
 ];
+
 export const DecisionPageThree = {
   FirstHeader: {
     header: "Product Page | Browsing",
@@ -314,6 +358,7 @@ export const DecisionPageThree = {
     header: "Cart | At The Till",
   },
 };
+
 export const DecisionPageThreeCards = [
   {
     card: require("./files/Images/Card13.png"),
@@ -328,6 +373,7 @@ export const DecisionPageThreeCards = [
     card: require("./files/Images/Card16.png"),
   },
 ];
+
 export const DecisionPageFour = {
   FirstHeader: {
     header: "Cart | At The Till",
@@ -336,6 +382,7 @@ export const DecisionPageFour = {
     header: "Cart | At The Till",
   },
 };
+
 export const DecisionPageFoueCards = [
   {
     card: require("./files/Images/Card17.png"),
@@ -350,11 +397,13 @@ export const DecisionPageFoueCards = [
     card: require("./files/Images/Card20.png"),
   },
 ];
+
 export const DecisionPageFive = [
   {
     header: "Confirmation Email | The Receipt",
   },
 ];
+
 export const DecisionPageFiveCards = [
   {
     card: require("./files/Images/Card21.png"),
@@ -382,11 +431,13 @@ export const loyality = [
     icon: require("../data/files/Icons/loyality.png"),
   },
 ];
+
 export const loyalityPageTwo = [
   {
     header: "Delivery & Packaging | The Proof",
   },
 ];
+
 export const loyalityPageTwoCards = [
   {
     card: require("./files/Images/Card23.png"),
@@ -401,11 +452,13 @@ export const loyalityPageTwoCards = [
     card: require("./files/Images/Card26.png"),
   },
 ];
+
 export const loyalityPageThree = [
   {
     header: "The Proof | Top of Mind",
   },
 ];
+
 export const loyalityPageThreeCards = [
   {
     card: require("./files/Images/Card27.png"),
@@ -420,11 +473,13 @@ export const loyalityPageThreeCards = [
     card: require("./files/Images/Card30.png"),
   },
 ];
+
 export const loyalityPageFour = [
   {
     header: "The Proof | Top of Mind",
   },
 ];
+
 export const loyalityPageFourCards = [
   {
     card: require("./files/Images/Card31.png"),
@@ -529,6 +584,7 @@ export const about = [
     header3: "Get in touch..",
   },
 ];
+
 export const workExperince = [
   {
     header: "Our Work Experience",

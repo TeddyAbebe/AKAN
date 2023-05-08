@@ -10,7 +10,7 @@ const DecisionPage2 = () => {
       <div className="mt-32 lg:mt-36 flex flex-col justify-center items-center gap-6">
         <div>
           {DecisionPageTwo.map((val, i) => (
-            <div className="text-lg sm:text-2xl font-bold text-center md:text-3xl">
+            <div className="text-lg sm:text-2xl font-joane font-bold text-center md:text-3xl">
               <h1>{val.header}</h1>
             </div>
           ))}

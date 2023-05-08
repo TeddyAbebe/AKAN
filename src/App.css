@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Joane";
+  src: url(./FONTS/HEADING/joane-bold.otf);
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url(./FONTS/BODY/FiraSans-Light.ttf);
+}
+@font-face {
+  font-family: "Nevrada Neue";
+  src: url(./FONTS/HEADING/Nevrada_Neue.otf);
+}
+
 .lines {
   background-image: url("./components//data/files/Images/lines.png");
   background-repeat: no-repeat;

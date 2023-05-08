@@ -11,10 +11,10 @@ import { Link } from "react-router-dom";
 const AnalysisPage2 = () => {
   return (
     <div className="flex flex-col items-center text-white w-screen min-h-screen analysisPageSec ">
-      <div className=" flex text-center items-center justify-center mt-20  lg:mt-5 lg:w-[50%]">
+      <div className="flex text-center items-center justify-center mt-20  lg:mt-5 lg:w-[50%]">
         {analysisPageSec.map((val, i) => (
           <div className="">
-            <h1 className="font-sans font-bold text-4xl sm:text-5xl">
+            <h1 className="font-joane font-bold text-4xl sm:text-5xl">
               {val.header}
             </h1>
           </div>

@@ -13,13 +13,13 @@ const DecisionPage4 = () => {
       <div className="mt-32 lg:mt-36 flex flex-col justify-center items-center gap-6">
         <div className="flex w-full justify-between lg:justify-center md:gap-24">
           <div className="">
-            <div className="text-lg sm:text-2xl font-bold text-center md:text-3xl">
+            <div className="text-lg sm:text-2xl font-joane font-bold text-center md:text-3xl">
               <h1>{DecisionPageFour.FirstHeader.header}</h1>
             </div>
           </div>
 
           <div className="">
-            <div className="text-lg sm:text-2xl font-bold text-center md:text-3xl">
+            <div className="text-lg sm:text-2xl font-joane font-bold text-center md:text-3xl">
               <h1>{DecisionPageFour.SecondHeader.header}</h1>
             </div>
           </div>

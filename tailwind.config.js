@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        joane: ["Joane"],
+        fira: ["Fira Sans"],
+        nevrada: ["Nevrada Neue"],
+      },
+    },
   },
   plugins: [],
 };

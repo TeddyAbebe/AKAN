@@ -40,7 +40,7 @@ const Nav = ({ open, close }) => {
                         />
                       </div>
 
-                      <div className="font-sans text-white font-normal text-sm md:text-sm lg:text-lg 2xl:text-xl">
+                      <div className="text-white font-fira font-normal text-sm md:text-sm lg:text-lg 2xl:text-xl">
                         {links.text}
                       </div>
                     </div>

@@ -12,16 +12,16 @@ const Home = () => {
           {home.map((val, i) => (
             <div className="px-1 flex flex-row h-auto" key={i}>
               <div className="w-full lg:w-3/5 ">
-                <h1 className="text-3xl lg:text-6xl font-serif mb-6 md:mb-14">
+                <h1 className="text-3xl lg:text-6xl mb-6 md:mb-14 font-joane font-bold">
                   {val.header}
                 </h1>
 
-                <p className="font-normal md:font-medium text-sm lg:text-lg mb-5">
+                <p className="font-normal md:font-medium text-sm lg:text-lg mb-5 font-fira">
                   {val.note}
                 </p>
 
                 <div>
-                  <button className="flex justify-center items-center gap-2 bg-[#497E4F] h-12 w-48 text-white font-bold font-sans rounded-md 2xl:w-[15rem] 2xl:text-2xl ">
+                  <button className="flex justify-center items-center gap-2 bg-[#497E4F] h-12 w-48 text-white font-bold rounded-md 2xl:w-[15rem] 2xl:text-2xl ">
                     Start
                     <div className="">
                       <img src={send} alt="" />

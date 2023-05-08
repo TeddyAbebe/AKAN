@@ -11,7 +11,7 @@ const AnalysisPage4 = () => {
         {analysisPageFour.map((val, i) => (
           <div className="flex flex-col justify-center items-center">
             <div className="">
-              <h1 className="text-center font-sans font-bold text-3xl sm:text-5xl lg:text-6xl">
+              <h1 className="text-center font-joane font-bold text-3xl sm:text-5xl lg:text-6xl">
                 {val.header}
               </h1>
             </div>

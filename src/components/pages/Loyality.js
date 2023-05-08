@@ -12,10 +12,10 @@ const Loyality = () => {
           {loyality.map((val, i) => (
             <div key={i} className="lg:pt-14 px-12">
               <div className="lg:mb-6">
-                <div className="font-serif w-full text-center font-semibold text-2xl py-2 lg:text-start lg:text-5xl lg:pb-10 2xl:pb-16">
+                <div className="w-full text-center font-joane font-bold text-2xl py-2 lg:text-start lg:text-5xl lg:pb-10 2xl:pb-16">
                   <h1>{val.header}</h1>
                 </div>
-                <div className="flex flex-col font-normal font-sans text-cente text-xs md:text-lg gap-y-3 lg:gap-y-4 lg:text-start 2xl:w-[90%] 2xl:text-2xl max-w-[100rem]">
+                <div className="flex flex-col font-fira font-normal text-cente text-xs md:text-lg gap-y-3 lg:gap-y-4 lg:text-start 2xl:w-[90%] 2xl:text-2xl max-w-[100rem]">
                   <div>
                     <p>{val.note1}</p>
                   </div>
@@ -29,11 +29,11 @@ const Loyality = () => {
               </div>
 
               <div className="flex flex-col ">
-                <div className="text-xl font-medium text-center mb-4 lg:text-start lg:text-4xl">
+                <div className="text-xl font-joane font-bold text-center mb-4 lg:text-start lg:text-3xl">
                   {val.head}
                 </div>
 
-                <div className="flex w-full justify-start md:justify-evenly lg:justify-between lg:ml-24 lg:w-[80%] max-w-[80rem]">
+                <div className="flex w-full justify-start md:justify-evenly lg:justify-between lg:ml-24 lg:w-[80%] max-w-[80rem] font-fira font-normal">
                   <div className="bg-[#97A5EB] rounded-md w-[50%] p-2 md:w-1/3">
                     <div className="flex justify-center">
                       <img className="h-5 xl:h-9" src={val.icon} alt="" />

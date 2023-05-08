@@ -13,11 +13,11 @@ const OnsiteAnalysis = () => {
             {onsiteAnalysis.map((val, i) => (
               <div className=" flex flex-col items-center">
                 <div>
-                  <h1 className="text-center font-serif font-semibold text-3xl lg:text-5xl 2xl:text-7xl py-10">
+                  <h1 className="text-center font-joane font-bold text-3xl lg:text-5xl 2xl:text-7xl py-10">
                     {val.header}
                   </h1>
                 </div>
-                <div className="text-center 2xl:text-3xl font-medium font-sans w-full md:w-3/4 lg:w-1/2 ">
+                <div className="text-center 2xl:text-3xl font-normal font-fira w-full md:w-3/4 lg:w-1/2 ">
                   <p className="">{val.note}</p>
                 </div>
               </div>

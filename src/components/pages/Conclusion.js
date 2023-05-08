@@ -9,11 +9,11 @@ const Conclusion = () => {
           <div key={i} className="flex top-0 xl:max-w-[90%]">
             {i === 0 && (
               <div className="flex flex-col mb-5 w-full md:w-[90%]">
-                <div className=" font-serif font-semibold text-3xl text-center mb-4 lg:mb-10 xl:mb-24 lg:mt-14 lg:text-5xl">
+                <div className="font-joane font-bold text-3xl text-center mb-4 lg:mb-10 xl:mb-24 lg:mt-14 lg:text-5xl">
                   <h1>{val.header}</h1>
                 </div>
                 <div className="flex gap-2 items-center mb-3">
-                  <div className="font-serif font-semibold text-xl gap-3 lg:text-2xl 2xl:text-3xl lg:font-medium">
+                  <div className="font-fira font-normal text-xl gap-3 lg:text-2xl 2xl:text-3xl">
                     <h1>{val.header2}</h1>
                   </div>
                   <div className="w-5 h-5">
@@ -21,7 +21,7 @@ const Conclusion = () => {
                   </div>
                 </div>
 
-                <div className="text-sm font-medium flex flex-col gap-1">
+                <div className="text-sm font-fira font-normal flex flex-col gap-1">
                   <div className="flex flex-row gap-2">
                     <div>
                       <div className="w-1 h-1 rounded-full bg-white mt-2"></div>
@@ -64,10 +64,12 @@ const Conclusion = () => {
 
                 <div className="">
                   <div>
-                    <h4 className="font-semibold 2xl:text-xl">{val.title}</h4>
+                    <h4 className="font-semibold font-fira 2xl:text-xl">
+                      {val.title}
+                    </h4>
                   </div>
 
-                  <div className="font-medium text-sm 2xl:text-lg">
+                  <div className="font-fira font-normal text-sm 2xl:text-lg">
                     <p>{val.desc}</p>
                   </div>
                 </div>

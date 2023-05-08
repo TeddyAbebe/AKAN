@@ -15,11 +15,11 @@ const About = () => {
           <div className="mb-8">
             {about.map((val, i) => (
               <div className="flex flex-col justify-center items-center md:items-start">
-                <div className="font-bold text-xl mb-4 md:mb-8 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl ">
+                <div className="font-joane font-bold text-xl mb-4 md:mb-8 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl ">
                   <h1>{val.header}</h1>
                 </div>
 
-                <div className="mb-8 font-medium">
+                <div className="mb-8 font-fira font-normal">
                   <div className="">
                     <p>{val.note}</p>
                   </div>
@@ -34,7 +34,7 @@ const About = () => {
 
                 <div className="flex flex-col w-full gap-4">
                   <div className="">
-                    <h3 className="font-bold text-lg sm:text-xl md:text-2xl xl:text-3xl">
+                    <h3 className="font-joane font-bold text-lg sm:text-xl md:text-2xl xl:text-3xl">
                       {val.header3}
                     </h3>
                   </div>
@@ -62,7 +62,7 @@ const About = () => {
             <div>
               {workExperince.map((val, i) => (
                 <div>
-                  <h1 className="font-bold text-lg sm:text-xl md:text-2xl xl:text-3xl">
+                  <h1 className="font-joane font-bold text-lg sm:text-xl md:text-2xl xl:text-3xl">
                     {val.header}
                   </h1>
                 </div>

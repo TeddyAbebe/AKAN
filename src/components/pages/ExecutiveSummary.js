@@ -11,24 +11,20 @@ const ExecutiveSummary = () => {
           {executiveSummary.map((val, i) => (
             <div className="flex flex-col justify-center items-center">
               <div>
-                <h1 className="text-2xl pt-6 lg:text-5xl 2xl:text-7xl font-serif font-semibold">
+                <h1 className="text-2xl pt-6 lg:text-5xl 2xl:text-7xl font-joane font-bold">
                   {val.header}
                 </h1>
               </div>
 
-              <div className="w-full py-1 sm:py-4 lg:w-[72%] 2xl:w-full xl:py-8 ">
-                <p className="2xl:px-56 text-sm md:text-lg lg:text-xl xl:text-xl 2xl:text- lg:text-center">
+              <div className="w-full py-1 sm:py-4 lg:w-[72%] 2xl:w-full xl:py-5 ">
+                <p className="2xl:px-56 text-sm md:text-lg lg:text-xl xl:text-xl 2xl:text- lg:text-center font-fira">
                   {val.note}
                 </p>
               </div>
 
               <div className="flex mt-10 gap-3 items-center justify-evenly px-2 xl:w-full lg:justify-center lg:gap-8 ">
                 <img className="w-1/2 sm:w-[30%]" src={man} alt="" />
-                <img
-                  className="w-1/2 sm:w-[30%]"
-                  src={SmileMan}
-                  alt=""
-                />
+                <img className="w-1/2 sm:w-[30%]" src={SmileMan} alt="" />
               </div>
             </div>
           ))}

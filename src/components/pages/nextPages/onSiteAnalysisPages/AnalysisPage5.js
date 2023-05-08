@@ -11,7 +11,7 @@ const AnalysisPage5 = () => {
         {analysisPageFive.map((val, i) => (
           <div className="flex flex-col justify-center items-center">
             <div className="sm:mb-8">
-              <h1 className="text-center font-sans font-bold text-3xl sm:text-4xl lg:text-5xl">
+              <h1 className="text-center font-joane font-bold text-3xl sm:text-4xl lg:text-5xl">
                 {val.header}
               </h1>
             </div>
@@ -28,13 +28,13 @@ const AnalysisPage5 = () => {
           </div>
         ))}
       </div>
-      <div className="flex mt-9 2xl:mt-28 justify-between gap-10 lg:gap-16">
+      <div className="flex mt-12 2xl:mt-28 justify-between gap-10 lg:gap-16">
         <Link to="/analysis/page4">
           <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
             <img src={LeftArrow} alt="" />
           </div>
         </Link>
-        <Link to="">
+        <Link to="/analysis/page6">
           <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
             <img src={RightArrow} alt="" />
           </div>
