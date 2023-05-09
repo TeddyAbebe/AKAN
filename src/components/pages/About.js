@@ -2,6 +2,7 @@ import React from "react";
 import { about, company, socials, workExperince } from "../data/data";
 import logo from "../data/files/Images/logo.png";
 import American from "../data/files/Images/American.png";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -45,10 +46,33 @@ const About = () => {
                           className="flex justify-start gap-4 sm:gap-6 md:gap-10"
                           key={i}
                         >
-                          <img src={social.icon1} alt="" />
-                          <img src={social.icon2} alt="" />
-                          <img src={social.icon3} alt="" />
-                          <img src={social.icon4} alt="" />
+                          <Link
+                            to=""
+                            className="duration-300 ease-in-out hover:scale-[1.4]"
+                          >
+                            <img src={social.icon1} alt="" />
+                          </Link>
+
+                          <Link
+                            to=""
+                            className="duration-300 ease-in-out hover:scale-[1.4]"
+                          >
+                            <img src={social.icon2} alt="" />
+                          </Link>
+
+                          <Link
+                            to=""
+                            className="duration-300 ease-in-out hover:scale-[1.4]"
+                          >
+                            <img src={social.icon3} alt="" />
+                          </Link>
+
+                          <Link
+                            to=""
+                            className="duration-300 ease-in-out hover:scale-[1.4]"
+                          >
+                            <img src={social.icon4} alt="" />
+                          </Link>
                         </div>
                       ))}
                     </div>
