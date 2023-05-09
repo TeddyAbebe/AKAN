@@ -26,15 +26,15 @@ const UserFeedback = () => {
             </div>
 
             <div className="text-white feedback flex flex-grow">
-              <div className="flex flex-col flex-grow h-full">
+              <div className="flex flex-col flex-grow h-full ">
                 <div className="text-2xl md:text-4xl py-2 md:pt-5 text-center font-joane font-bold">
                   {feedbackData.secondaryHeader.Header2}
                 </div>
 
                 <div className="flex flex-row flex-wrap flex-grow">
                   {feedback.map((val, i) => (
-                    <div key={i} className="sm:w-1/2 lg:w-1/3 p-2 sm:p-4 ">
-                      <div className="bg-white text-black h-full rounded-xl p-4">
+                    <div key={i} className="sm:w-1/2 lg:w-1/3 p-2 sm:p-3">
+                      <div className="bg-white text-black h-full rounded-xl p-4 duration-300 ease-in-out hover:scale-[1.05] cursor-pointer">
                         <div>
                           <div className="flex flex-row gap-4 items-center mb-2.5">
                             <img

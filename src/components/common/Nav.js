@@ -55,7 +55,7 @@ const Nav = ({ open, close }) => {
           <div>
             {socials.map((social, i) => (
               <div className="" key={i}>
-                <div className="flex flex-row justify-center gap-8">
+                <div className="flex flex-row justify-evenly">
                   <img className="" src={social.icon1} alt="" />
                   <img className="" src={social.icon2} alt="" />
                   <img className="" src={social.icon3} alt="" />

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const ConsiderationPage2 = () => {
   return (
-    <div className="lines bg-black text-white w-screen min-h-screen lg:w-screen">
+    <div className="lines flex flex-col bg-black text-white w-screen min-h-screen lg:w-screen">
       <div className="mt-32 lg:mt-36 flex flex-col justify-center items-center gap-6">
         <div>
           {ConsiderationPageTwo.map((val, i) => (
@@ -21,24 +21,26 @@ const ConsiderationPage2 = () => {
 
         <div className="w-full gap-6 flex justify-evenly lg:justify-center lg:gap-14">
           {ConsiderationPageTwoCards.map((val, i) => (
-            <div className="">
+            <div className="duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
               <img className="lg:h-64" src={val.card} alt="" />
             </div>
           ))}
         </div>
+      </div>
 
-        <div className="flex mt-10 justify-between gap-10 lg:gap-16">
-          <Link to="/consideration">
-            <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
-              <img src={LeftArrow} alt="" />
-            </div>
-          </Link>
-          <Link to="/consideration/page3">
-            <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
-              <img src={RightArrow} alt="" />
-            </div>
-          </Link>
-        </div>
+      <div className="flex-grow"></div>
+
+      <div className="flex justify-center sm:justify-end gap-10 p-3">
+        <Link to="/consideration">
+          <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
+            <img src={LeftArrow} alt="" />
+          </div>
+        </Link>
+        <Link to="/consideration/page3">
+          <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
+            <img src={RightArrow} alt="" />
+          </div>
+        </Link>
       </div>
     </div>
   );

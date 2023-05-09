@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Loyality = () => {
   return (
     <>
-      <div className="bg-black text-white w-screen min-h-screen flex flex-col dotmap">
+      <div className="flex flex-col bg-black text-white w-screen min-h-screen dotmap">
         <div className="">
           {loyality.map((val, i) => (
             <div key={i} className="lg:pt-14 px-12">
@@ -34,7 +34,7 @@ const Loyality = () => {
                 </div>
 
                 <div className="flex w-full justify-start md:justify-evenly lg:justify-between lg:ml-24 lg:w-[80%] max-w-[80rem] font-fira font-normal">
-                  <div className="bg-[#97A5EB] rounded-md w-[50%] p-2 md:w-1/3">
+                  <div className="bg-[#97A5EB] rounded-md w-[50%] p-2 md:w-1/3 duration-300 ease-in-out hover:scale-[1.12] cursor-pointer">
                     <div className="flex justify-center">
                       <img className="h-5 xl:h-9" src={val.icon} alt="" />
                     </div>
@@ -43,7 +43,7 @@ const Loyality = () => {
                     </div>
                   </div>
 
-                  <div className="bg-[#7EB073] rounded-md w-[50%] p-2 md:w-1/3 mx-6">
+                  <div className="bg-[#7EB073] rounded-md w-[50%] p-2 md:w-1/3 mx-6 duration-300 ease-in-out hover:scale-[1.12] cursor-pointer">
                     <div className="flex justify-center">
                       <img className="h-5 xl:h-9" src={val.icon} alt="" />
                     </div>
@@ -52,7 +52,7 @@ const Loyality = () => {
                     </div>
                   </div>
 
-                  <div className="bg-[#E1929E] rounded-md w-[50%] p-2 md:w-1/3">
+                  <div className="bg-[#E1929E] rounded-md w-[50%] p-2 md:w-1/3 duration-300 ease-in-out hover:scale-[1.12] cursor-pointer">
                     <div className="flex justify-center">
                       <img className="h-5 xl:h-9" src={val.icon} alt="" />
                     </div>
@@ -66,7 +66,9 @@ const Loyality = () => {
           ))}
         </div>
 
-        <div className="flex mt-5 justify-center gap-10 lg:gap-16">
+        <div className="flex-grow"></div>
+
+        <div className="flex justify-center sm:justify-end gap-10 p-3">
           <div className="bg-[#8ca28f] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
             <img src={LeftArrow} alt="" />
           </div>

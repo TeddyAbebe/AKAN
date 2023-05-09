@@ -33,7 +33,7 @@ export const navlink = [
   },
   {
     url: "/loyality",
-    text: "Loyallity",
+    text: "Loyalty",
     icon: require("../data/files/Icons/loyality.png"),
   },
   {
@@ -460,9 +460,9 @@ export const loyalityPageThree = [
 ];
 
 export const loyalityPageThreeCards = [
-  {
-    card: require("./files/Images/Card27.png"),
-  },
+  // {
+  //   card: require("./files/Images/Card27.png"),
+  // },
   {
     card: require("./files/Images/Card28.png"),
   },

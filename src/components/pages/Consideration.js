@@ -8,8 +8,8 @@ const Consideration = () => {
   return (
     <>
       <div className="text-white w-screen min-h-screen consideration">
-        <div className="flex flex-col inset-0 bg-black bg-opacity-60 h-full justify-center items-center">
-          <div className="">
+        <div className="flex flex-col bg-black bg-opacity-60 h-full">
+          <div className="flex h-full flex-col inset-0 justify-center items-center">
             {consideration.map((val, i) => (
               <div key={i} className="flex flex-col lg:px-4">
                 <div>
@@ -52,8 +52,9 @@ const Consideration = () => {
               </div>
             ))}
           </div>
+          <div className="flex-grow"></div>
 
-          <div className="flex mt-10 justify-between gap-10 lg:gap-16">
+          <div className="flex justify-center sm:justify-end gap-10 p-3">
             <div className="bg-[#8ca28f] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
               <img src={LeftArrow} alt="" />
             </div>

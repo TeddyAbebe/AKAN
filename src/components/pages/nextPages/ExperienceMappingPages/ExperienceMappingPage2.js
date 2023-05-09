@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const ExperienceMappingPage2 = () => {
   return (
-    <div className="bg-black text-white w-screen min-h-screen analysisPageFour">
-      <div>
+    <div className="bg-black text-white flex flex-col w-screen min-h-screen analysisPageFour">
+      <div className="">
         {experienceMappingPageTwo.map((val, i) => (
           <div className="mt-24 lg:mt-10 flex flex-col justify-center items-center">
             <div className="font-joane font-bold text-2xl my-5 lg:mb-10 md:text-5xl">
@@ -22,15 +22,21 @@ const ExperienceMappingPage2 = () => {
           </div>
         ))}
       </div>
-      <div className="flex mt-10 justify-center gap-10 lg:gap-16">
+
+      <div className="flex-grow"></div>
+
+      <div className="flex justify-center sm:justify-end gap-10 p-3">
         <Link to="/mapping">
           <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
             <img src={LeftArrow} alt="" />
           </div>
         </Link>
-        <div className="bg-[#8ca28f] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
-          <img src={RightArrow} alt="" />
-        </div>
+
+        <Link>
+          <div className="bg-[#8ca28f] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
+            <img src={RightArrow} alt="" />
+          </div>
+        </Link>
       </div>
     </div>
   );

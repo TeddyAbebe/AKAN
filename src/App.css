@@ -42,6 +42,8 @@
 .decision {
   background-image: url("./components/data/files/Images/decision.png");
   background-size: cover;
+  background-repeat: no-repeat;
+
 }
 .dotmap {
   background-image: url("./components/data/files/Images/dotmap.png");

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const AnalysisPage5 = () => {
   return (
-    <div className="bg-black flex flex-col pt-24 sm:pt-10 items-center text-white w-screen min-h-screen analysisPageFour">
+    <div className="bg-black flex flex-col pt-24 sm:pt-10 text-white w-screen min-h-screen analysisPageFour">
       <div>
         {analysisPageFive.map((val, i) => (
           <div className="flex flex-col justify-center items-center">
@@ -28,7 +28,10 @@ const AnalysisPage5 = () => {
           </div>
         ))}
       </div>
-      <div className="flex mt-12 2xl:mt-28 justify-between gap-10 lg:gap-16">
+
+      <div className="flex-grow"></div>
+
+      <div className="flex justify-center sm:justify-end gap-10 p-3">
         <Link to="/analysis/page4">
           <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
             <img src={LeftArrow} alt="" />
