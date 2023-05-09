@@ -3,6 +3,7 @@ import { home } from "../data/data";
 import woman from "../data/files/Images/woman.png";
 import lines from "../data/files/Images/lines.png";
 import send from "../data/files/Icons/send.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -21,12 +22,14 @@ const Home = () => {
                 </p>
 
                 <div>
-                  <button className="flex justify-center items-center gap-2 bg-[#497E4F] h-12 w-48 text-white font-bold rounded-md 2xl:w-[15rem] 2xl:text-2xl duration-300 ease-in-out hover:scale-[1.12] cursor-pointer ">
-                    Start
-                    <div className="">
-                      <img src={send} alt="" />
-                    </div>
-                  </button>
+                  <Link to="/summary">
+                    <button className="flex justify-center items-center gap-2 bg-[#497E4F] h-12 w-48 text-white font-bold rounded-md 2xl:w-[15rem] 2xl:text-2xl duration-300 ease-in-out hover:scale-[1.12] cursor-pointer ">
+                      Start
+                      <div className="">
+                        <img src={send} alt="" />
+                      </div>
+                    </button>
+                  </Link>
                 </div>
               </div>
 
