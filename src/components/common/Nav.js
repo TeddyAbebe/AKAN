@@ -22,7 +22,7 @@ const Nav = ({ open, close }) => {
           <div className="flex flex-col gap-y-2 2xl:gap-y mx-1 xl:mx-6 mt-8">
             {navlink.map((links, i) => (
               <Link to={links.url} onClick={close} key={i}>
-                <div className="">
+                <div className="duration-300 ease-in-out hover:scale-[1.1]">
                   <div
                     className={
                       `click justify-center ` +
@@ -56,10 +56,26 @@ const Nav = ({ open, close }) => {
             {socials.map((social, i) => (
               <div className="" key={i}>
                 <div className="flex flex-row justify-evenly">
-                  <img className="" src={social.icon1} alt="" />
-                  <img className="" src={social.icon2} alt="" />
-                  <img className="" src={social.icon3} alt="" />
-                  <img className="" src={social.icon4} alt="" />
+                  <img
+                    className="duration-300 ease-in-out hover:scale-[1.09] cursor-pointer"
+                    src={social.icon1}
+                    alt=""
+                  />
+                  <img
+                    className="duration-300 ease-in-out hover:scale-[1.09] cursor-pointer"
+                    src={social.icon2}
+                    alt=""
+                  />
+                  <img
+                    className="duration-300 ease-in-out hover:scale-[1.09] cursor-pointer"
+                    src={social.icon3}
+                    alt=""
+                  />
+                  <img
+                    className="duration-300 ease-in-out hover:scale-[1.09] cursor-pointer"
+                    src={social.icon4}
+                    alt=""
+                  />
                 </div>
               </div>
             ))}
