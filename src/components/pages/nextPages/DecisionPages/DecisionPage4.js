@@ -42,12 +42,12 @@ const DecisionPage4 = () => {
 
       <div className="flex justify-center sm:justify-end gap-10 p-3">
         <Link to="/decision/page3">
-          <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
+          <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center duration-300 ease-in-out hover:scale-[1.2]">
             <img src={LeftArrow} alt="" />
           </div>
         </Link>
         <Link to="/decision/page5">
-          <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center">
+          <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center duration-300 ease-in-out hover:scale-[1.2]">
             <img src={RightArrow} alt="" />
           </div>
         </Link>
