@@ -43,7 +43,6 @@
   background-image: url("./components/data/files/Images/decision.png");
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 .dotmap {
   background-image: url("./components/data/files/Images/dotmap.png");
@@ -66,4 +65,68 @@
   background-image: url("./components//data/files/Images/about.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.text7,
+.text8,
+.text9,
+.text10,
+.text11,
+.text12,
+.text13,
+.text14,
+.text15 {
+  display: none;
+}
+.firstText:hover .text1 {
+  display: block;
+}
+
+.secondText:hover .text2 {
+  display: block;
+}
+
+.thirdText:hover .text3 {
+  display: block;
+}
+.fourthText:hover .text4 {
+  display: block;
+}
+.fifthText:hover .text5 {
+  display: block;
+}
+.sixthText:hover .text6 {
+  display: block;
+}
+.seventhText:hover .text7 {
+  display: block;
+}
+.eighthText:hover .text8 {
+  display: block;
+}
+.ninthText:hover .text9 {
+  display: block;
+}
+.tenthText:hover .text10 {
+  display: block;
+}
+.elevenText:hover .text11 {
+  display: block;
+}
+.twelveText:hover .text12 {
+  display: block;
+}
+.thirteenText:hover .text13 {
+  display: block;
+}
+.fourteenText:hover .text14 {
+  display: block;
+}
+.fifteenText:hover .text15 {
+  display: block;
 }
