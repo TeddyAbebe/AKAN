@@ -1,10 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { analysisPageFour, analysisPageFourNotes } from "../../../data/data";
 import LeftArrow from "../../../data/files/Icons/LeftArrow.png";
 import RightArrow from "../../../data/files/Icons/RightArrow.png";
 import { Link } from "react-router-dom";
 
 const AnalysisPage4 = () => {
+  const [isAnimating, setIsAnimating] = useState(true);
+
+  useEffect(() => {
+    let stopAnimation, startAnimation;
+
+    if (isAnimating) {
+      // Stop the animation after 2 seconds
+      stopAnimation = setTimeout(() => {
+        setIsAnimating(false);
+      }, 2000);
+    } else {
+      // Start the animation again after 2 seconds
+      startAnimation = setTimeout(() => {
+        setIsAnimating(true);
+      }, 3000);
+    }
+
+    return () => {
+      clearTimeout(stopAnimation);
+      clearTimeout(startAnimation);
+    };
+  }, [isAnimating]);
   return (
     <div className="bg-black flex flex-col pt-24 sm:pt-10 text-white w-screen min-h-screen analysisPageFour">
       <div>
@@ -18,7 +40,9 @@ const AnalysisPage4 = () => {
               </div>
               <div className="">
                 <img
-                  className="h-52 md:h-64 my-10 xl:h-64 2xl:h-96 duration-500 ease-in-out hover:scale-[1.2] cursor-pointer "
+                  className={`h-52 md:h-64 my-10 xl:h-64 2xl:h-96 ${
+                    isAnimating ? "animate-pulse" : ""
+                  }`}
                   src={val.pyramid}
                   alt=""
                 />

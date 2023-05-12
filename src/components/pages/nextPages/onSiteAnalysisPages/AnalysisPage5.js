@@ -33,12 +33,12 @@ const AnalysisPage5 = () => {
       <div>
         {analysisPageFive.map((val, i) => (
           <div className="flex flex-col justify-center items-center">
-            <div className="sm:mb-8">
+            <div className="sm:mb-4">
               <h1 className="text-center font-joane font-bold text-3xl sm:text-4xl lg:text-5xl">
                 {val.header}
               </h1>
             </div>
-            <div className="flex gap-16 mb-10">
+            <div className="flex gap-16 mb-4">
               <img
                 className={`h-36 md:h-48 my-7 xl:h- 2xl:h-64 ${
                   isAnimating ? "animate-spin" : ""
@@ -52,8 +52,25 @@ const AnalysisPage5 = () => {
                 alt=""
               />
             </div>
-            <div className="2xl:w-[40rem] ">
-              <img className="h-48 sm:h-56 w-full " src={val.note} alt="" />
+            <div className="2xl:w-[40rem] flex flex-col justify-center items-center gap-3">
+              <div className="bg-[#497e47] w-[70%] flex rounded-lg duration-700 ease-in-out hover:scale-[1.2] cursor-pointer">
+                <div className="flex h-20 p-4 gap-5 font-fira font-semibold">
+                  <i>{val.icon1}</i>
+                  <p>{val.note1}</p>
+                </div>
+              </div>
+              <div className="bg-[#497e47] w-[70%] flex rounded-lg duration-700 ease-in-out hover:scale-[1.2] cursor-pointer">
+                <div className="flex h-20 p-4 gap-5 font-fira font-semibold">
+                  <i>{val.icon2}</i>
+                  <p>{val.note2}</p>
+                </div>
+              </div>
+              <div className="bg-[#497e47] w-[70%] rounded-lg duration-700 ease-in-out hover:scale-[1.2] cursor-pointer">
+                <div className="flex h-20 p-4 gap-5 font-fira font-semibold">
+                  <i>{val.icon3}</i>
+                  <p>{val.note3}</p>
+                </div>
+              </div>
             </div>
           </div>
         ))}
