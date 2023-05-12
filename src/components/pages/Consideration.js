@@ -1,10 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { consideration } from "../data/data";
 import LeftArrow from "../data/files/Icons/LeftArrow.png";
 import RightArrow from "../data/files/Icons/RightArrow.png";
 import { Link } from "react-router-dom";
 
 const Consideration = () => {
+  const [isAnimating, setIsAnimating] = useState(true);
+
+  useEffect(() => {
+    let stopAnimation, startAnimation;
+
+    if (isAnimating) {
+      // Stop the animation after 3 seconds
+      stopAnimation = setTimeout(() => {
+        setIsAnimating(false);
+      }, 1000);
+    } else {
+      // Start the animation again after 2 seconds
+      startAnimation = setTimeout(() => {
+        setIsAnimating(true);
+      }, 2000);
+    }
+
+    return () => {
+      clearTimeout(stopAnimation);
+      clearTimeout(startAnimation);
+    };
+  }, [isAnimating]);
   return (
     <>
       <div className="text-white w-screen min-h-screen consideration">
@@ -26,24 +48,41 @@ const Consideration = () => {
 
                 <div className=" flex flex-col pl-4 gap-3 text-2xl lg:text-3xl font-joane font-normal">
                   <div className="flex flex-row">
-                    <img className="mr-3" src={val.icon1} alt="" />
+                    <div
+                      className={`mr-3 ${isAnimating ? "animate-spin" : ""}`}
+                    >
+                      {val.icon1}
+                    </div>
                     <div>{val.list1}</div>
                   </div>
 
                   <div className="flex flex-row">
-                    <img className="mr-3" src={val.icon2} alt="" />
+                    <div
+                      className={`mr-3 ${isAnimating ? "animate-spin" : ""}`}
+                    >
+                      {val.icon2}
+                    </div>
 
                     <div>{val.list2}</div>
                   </div>
 
                   <div className="flex flex-row">
-                    <img className="mr-3" src={val.icon3} alt="" />
+                    <div
+                      className={`mr-3 ${isAnimating ? "animate-spin" : ""}`}
+                    >
+                      {val.icon3}
+                    </div>
 
                     <div>{val.list3}</div>
                   </div>
 
                   <div className="flex flex-row">
-                    <img className="mr-3" src={val.icon4} alt="" />
+                    <div
+                      className={`mr-3 ${isAnimating ? "animate-spin" : ""}`}
+                    >
+                      {val.icon4}
+                    </div>
+
                     <div>{val.list4}</div>
                   </div>
                 </div>

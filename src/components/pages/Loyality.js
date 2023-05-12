@@ -1,10 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { loyality } from "../data/data";
 import LeftArrow from "../data/files/Icons/LeftArrow.png";
 import RightArrow from "../data/files/Icons/RightArrow.png";
 import { Link } from "react-router-dom";
 
 const Loyality = () => {
+  const [isAnimating, setIsAnimating] = useState(true);
+
+  useEffect(() => {
+    let stopAnimation, startAnimation;
+
+    if (isAnimating) {
+      // Stop the animation after 2 seconds
+      stopAnimation = setTimeout(() => {
+        setIsAnimating(false);
+      }, 2000);
+    } else {
+      // Start the animation again after 2 seconds
+      startAnimation = setTimeout(() => {
+        setIsAnimating(true);
+      }, 2000);
+    }
+
+    return () => {
+      clearTimeout(stopAnimation);
+      clearTimeout(startAnimation);
+    };
+  }, [isAnimating]);
   return (
     <>
       <div className="flex flex-col bg-black text-white w-screen min-h-screen dotmap">
@@ -36,7 +58,9 @@ const Loyality = () => {
                 <div className="flex w-full justify-start md:justify-evenly lg:justify-between lg:ml-24 lg:w-[80%] max-w-[80rem] font-fira font-normal">
                   <div className="bg-[#97A5EB] rounded-md w-[50%] p-2 md:w-1/3 duration-300 ease-in-out hover:scale-[1.12] cursor-pointer">
                     <div className="flex justify-center">
-                      <img className="h-5 xl:h-9" src={val.icon} alt="" />
+                      <div className={`${isAnimating ? "animate-ping" : ""}`}>
+                        {val.icon}
+                      </div>
                     </div>
                     <div className="text-center text-sm xl:text-lg 2xl:text-2xl ">
                       {val.blueNote}
@@ -45,7 +69,9 @@ const Loyality = () => {
 
                   <div className="bg-[#7EB073] rounded-md w-[50%] p-2 md:w-1/3 mx-6 duration-300 ease-in-out hover:scale-[1.12] cursor-pointer">
                     <div className="flex justify-center">
-                      <img className="h-5 xl:h-9" src={val.icon} alt="" />
+                      <div className={`${isAnimating ? "animate-ping" : ""}`}>
+                        {val.icon}
+                      </div>
                     </div>
                     <div className="text-center text-sm xl:text-lg 2xl:text-2xl">
                       {val.greenNote}
@@ -54,7 +80,9 @@ const Loyality = () => {
 
                   <div className="bg-[#E1929E] rounded-md w-[50%] p-2 md:w-1/3 duration-300 ease-in-out hover:scale-[1.12] cursor-pointer">
                     <div className="flex justify-center">
-                      <img className="h-5 xl:h-9" src={val.icon} alt="" />
+                      <div className={`${isAnimating ? "animate-ping" : ""}`}>
+                        {val.icon}{" "}
+                      </div>
                     </div>
                     <div className="text-center text-sm xl:text-lg 2xl:text-2xl">
                       {val.pinkNote}

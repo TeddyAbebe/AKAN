@@ -49,7 +49,7 @@ const ConsiderationPage3 = () => {
                   8
                 </p>
               </div>
-              <p className="text10 absolute border bg-white text-black rounded-lg text-[8px] sm:text-[10.5px] mx-2 p-0.5 left-[15%] sm:top-[10%]">
+              <p className="text10 absolute border bg-green-800 font-fira font-normal rounded-lg text-[8px] sm:text-[10.5px] mx-2 p-0.5 left-[15%] sm:top-[10%]">
                 Good use of chat box to help users find the right product for
                 their need
               </p>
@@ -77,7 +77,7 @@ const ConsiderationPage3 = () => {
                   9
                 </p>
               </div>
-              <p className="text11 absolute border bg-white text-black rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[50%] right-[8%] sm:top-[50%]">
+              <p className="text11 absolute border bg-green-800 font-fira font-normal rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[50%] right-[8%] sm:top-[50%]">
                 Use of Gifs, while fun could come across as unprofessional so
                 ensure they align with your tone of voice
               </p>
@@ -108,7 +108,7 @@ const ConsiderationPage3 = () => {
                   10
                 </p>
               </div>
-              <p className="text11 absolute border bg-white text-black rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[13%]">
+              <p className="text11 absolute border bg-green-800 font-fira font-normal rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[13%]">
                 Mobile responsive landing page
               </p>
             </div>
@@ -138,7 +138,7 @@ const ConsiderationPage3 = () => {
                   11
                 </p>
               </div>
-              <p className="text11 absolute border bg-white text-black rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[8%] left-[12%]">
+              <p className="text11 absolute border bg-green-800 font-fira font-normal rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[8%] left-[12%]">
                 ‘Filter’ button is hidden and difficult to find
               </p>
             </div>
@@ -164,7 +164,7 @@ const ConsiderationPage3 = () => {
                   12
                 </p>
               </div>
-              <p className="text12 absolute border bg-white text-black rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[43%]">
+              <p className="text12 absolute border bg-green-800 font-fira font-normal rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[45%]">
                 Great use of imagery to showcase products
               </p>
             </div>
@@ -190,7 +190,7 @@ const ConsiderationPage3 = () => {
                   13
                 </p>
               </div>
-              <p className="text13 absolute border bg-white text-black rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[48%]">
+              <p className="text13 absolute border bg-green-800 font-fira font-normal rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[48%]">
                 Missed opportunity to include short and enticing product
                 description
               </p>
@@ -217,7 +217,7 @@ const ConsiderationPage3 = () => {
                   14
                 </p>
               </div>
-              <p className="text14 absolute border bg-white text-black rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[52%] left-[15%]">
+              <p className="text14 absolute border bg-green-800 font-fira font-normal rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[57%] left-[15%]">
                 Opportunity to use pop window provide more detailed product
                 information
               </p>
@@ -248,7 +248,7 @@ const ConsiderationPage3 = () => {
                   15
                 </p>
               </div>
-              <p className="text15 absolute border bg-white text-black rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[40%]">
+              <p className="text15 absolute border bg-green-800 font-fira font-normal rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[40%]">
                 Limited filtering options; enable users to filter by benefit,
                 taste, type (tea/blend) and subscription vs non-subscription
               </p>

@@ -1,11 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { home } from "../data/data";
 import woman from "../data/files/Images/woman.png";
 import lines from "../data/files/Images/lines.png";
-import send from "../data/files/Icons/send.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+    const [isAnimating, setIsAnimating] = useState(true);
+
+    useEffect(() => {
+      let stopAnimation, startAnimation;
+
+      if (isAnimating) {
+        // Stop the animation after 2 seconds
+        stopAnimation = setTimeout(() => {
+          setIsAnimating(false);
+        }, 2000);
+      } else {
+        // Start the animation again after 2 seconds
+        startAnimation = setTimeout(() => {
+          setIsAnimating(true);
+        }, 2000);
+      }
+
+      return () => {
+        clearTimeout(stopAnimation);
+        clearTimeout(startAnimation);
+      };
+    }, [isAnimating]);
   return (
     <>
       <div className="bg-black text-white w-full min-h-screen">
@@ -25,8 +46,12 @@ const Home = () => {
                   <Link to="/summary">
                     <button className="flex justify-center items-center gap-2 bg-[#497E4F] h-12 w-48 text-white font-bold rounded-md 2xl:w-[15rem] 2xl:text-2xl duration-300 ease-in-out hover:scale-[1.12] cursor-pointer ">
                       Start
-                      <div className="">
-                        <img src={send} alt="" />
+                      <div
+                        className={`${
+                          isAnimating ? "animate-spin" : ""
+                        }`}
+                      >
+                        {val.icon}
                       </div>
                     </button>
                   </Link>

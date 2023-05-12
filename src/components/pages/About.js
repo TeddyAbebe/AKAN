@@ -1,16 +1,44 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { about, company, socials, workExperince } from "../data/data";
 import logo from "../data/files/Images/logo.png";
 import American from "../data/files/Images/American.png";
 import { Link } from "react-router-dom";
 
 const About = () => {
+  const [isAnimating, setIsAnimating] = useState(true);
+
+  useEffect(() => {
+    let stopAnimation, startAnimation;
+
+    if (isAnimating) {
+      // Stop the animation after 3 seconds
+      stopAnimation = setTimeout(() => {
+        setIsAnimating(false);
+      }, 2000);
+    } else {
+      // Start the animation again after 2 seconds
+      startAnimation = setTimeout(() => {
+        setIsAnimating(true);
+      }, 5000);
+    }
+
+    return () => {
+      clearTimeout(stopAnimation);
+      clearTimeout(startAnimation);
+    };
+  }, [isAnimating]);
   return (
     <>
       <div className="bg-black text-white w-screen min-h-screen analysisPageFour">
         <div className="flex flex-col justify-center items-center px-4 sm:px-10 md:px-18">
           <div className="flex justify-center ">
-            <img className="lg:mt-10 w-1/2 lg:w-[75%]" src={logo} alt="" />
+            <img
+              className={`lg:mt-10 w-1/2 lg:w-[75%] ${
+                isAnimating ? "animate-ping" : ""
+              }`}
+              src={logo}
+              alt=""
+            />
           </div>
 
           <div className="mb-8">
@@ -50,28 +78,28 @@ const About = () => {
                             to=""
                             className="duration-300 ease-in-out hover:scale-[1.4]"
                           >
-                            <img src={social.icon1} alt="" />
+                            {social.icon1}
                           </Link>
 
                           <Link
                             to=""
                             className="duration-300 ease-in-out hover:scale-[1.4]"
                           >
-                            <img src={social.icon2} alt="" />
+                            {social.icon2}
                           </Link>
 
                           <Link
                             to=""
                             className="duration-300 ease-in-out hover:scale-[1.4]"
                           >
-                            <img src={social.icon3} alt="" />
+                            {social.icon3}
                           </Link>
 
                           <Link
                             to=""
-                            className="duration-300 ease-in-out hover:scale-[1.4]"
+                            className="duration-300 ease-in-out hover:scale-[1.8]"
                           >
-                            <img src={social.icon4} alt="" />
+                            {social.icon4}
                           </Link>
                         </div>
                       ))}
@@ -93,11 +121,11 @@ const About = () => {
               ))}
             </div>
             <div className="flex justify-start gap-4 sm:gap-6 md:gap-10">
-              <div>
+              <div className="duration-300 ease-in-out hover:scale-x-[1.2] cursor-pointer">
                 <img src={American} alt="" />
               </div>
               {company.map((val, i) => (
-                <div className="h-full rounded-lg bg-white px-4">
+                <div className="h-full rounded-lg bg-white px-4 duration-300 ease-in-out hover:scale-x-[1.2] cursor-pointer">
                   <div className="flex justify-center items-center h-[79px] lg:w-[221.44px] ">
                     <img className="" src={val.image} alt="" />
                   </div>

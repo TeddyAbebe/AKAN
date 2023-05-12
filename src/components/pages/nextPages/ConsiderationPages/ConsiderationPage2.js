@@ -50,7 +50,7 @@ const ConsiderationPage2 = () => {
                   1
                 </p>
               </div>
-              <p className="text1 absolute border bg-white text-black rounded-lg text-[8px] sm:text-[10.5px] mx-2 p-0.5 top-[20%]">
+              <p className="text1 absolute border bg-green-800 font-fira font-normal rounded-lg text-[8px] sm:text-[10.5px] mx-2 p-0.5 top-[20%]">
                 Mobile responsive landing page
               </p>
             </div>
@@ -73,7 +73,7 @@ const ConsiderationPage2 = () => {
               <p className="absolute text-[8px] top-[40%] left-[37%] sm:left-[34%]">
                 2
               </p>
-              <p className="text2 absolute border bg-white text-black rounded-lg text-[8px] sm:text-[10.5px] mx-2 p-0.5 top-[46%]">
+              <p className="text2 absolute border bg-green-800 font-fira font-normal rounded-lg text-[8px] sm:text-[10.5px] mx-2 p-0.5 top-[46%]">
                 Good use of imagery colours to grab attention
               </p>
             </div>
@@ -98,7 +98,7 @@ const ConsiderationPage2 = () => {
                   3
                 </p>
               </div>
-              <p className="text3 absolute border bg-white text-black rounded-lg text-[8px] sm:text-[10.5px] p-0.5 mx-2 top-[30%] sm:top-[54.5%]">
+              <p className="text3 absolute border bg-green-800 font-fira font-normal rounded-lg text-[8px] sm:text-[10.5px] p-0.5 mx-2 top-[30%] sm:top-[54.5%]">
                 CTA covering logo and product & links to catalogue without
                 proper onboarding
               </p>
@@ -129,7 +129,7 @@ const ConsiderationPage2 = () => {
                 </p>
               </div>
 
-              <p className="text4 absolute border bg-white text-black rounded-lg text-[8px] sm:text-[10.5px] p-0.5 top-[5%] sm:top-[10%] mx-2">
+              <p className="text4 absolute border bg-green-800 font-fira font-normal rounded-lg text-[8px] sm:text-[10.5px] p-0.5 top-[5%] sm:top-[10%] mx-2">
                 Discount on product so early in the interaction can devalue the
                 brand and it’s products
               </p>
@@ -156,7 +156,7 @@ const ConsiderationPage2 = () => {
                   4b
                 </p>
               </div>
-              <p className="text5 absolute border bg-white text-black rounded-lg mx-2 text-[8px] sm:text-[10.5px] p-0.5 top-[55%] sm:top-[82%]">
+              <p className="text5 absolute border bg-green-800 font-fira font-normal rounded-lg mx-2 text-[8px] sm:text-[10.5px] p-0.5 top-[55%] sm:top-[82%]">
                 So many pop ups not staggered is disruptive
               </p>
             </div>
@@ -182,7 +182,7 @@ const ConsiderationPage2 = () => {
                   4c
                 </p>
               </div>
-              <p className="text6 absolute border bg-white text-black rounded-lg text-[8px] sm:text-[10.5px] mx-2 p-0.5 top-[55%] sm:top-[65%]">
+              <p className="text6 absolute border bg-green-800 font-fira font-normal rounded-lg text-[8px] sm:text-[10.5px] mx-2 p-0.5 top-[55%] sm:top-[65%]">
                 So many pop ups not staggered is disruptive
               </p>
             </div>
@@ -212,7 +212,7 @@ const ConsiderationPage2 = () => {
                   5
                 </p>
               </div>
-              <p className="text7 absolute border bg-white text-black rounded-lg text-[4px] sm:text-[10.5px] mx-2 p-0.5 top-[20%] sm:top-[5%]">
+              <p className="text7 absolute border bg-green-800 font-fira font-normal rounded-lg text-[4px] sm:text-[10.5px] mx-2 p-0.5 top-[20%] sm:top-[5%]">
                 Good use of imagery to grab attention, however it’s a missed
                 opportunity to show the product vs the packaging
               </p>
@@ -239,7 +239,7 @@ const ConsiderationPage2 = () => {
                   6
                 </p>
               </div>
-              <p className="text8 absolute border bg-white text-black rounded-lg text-[4px] sm:text-[10.5px] mx-2 p-0.5 top-[57%] sm:top-[35%]">
+              <p className="text8 absolute border bg-green-800 font-fira font-normal rounded-lg text-[4px] sm:text-[10.5px] mx-2 p-0.5 top-[57%] sm:top-[35%]">
                 ‘Take Quiz’ can make the process seem daunting & tedious - ‘Tea
                 Finder’ could be more fit for purpose and helpful for the user
               </p>
@@ -269,7 +269,7 @@ const ConsiderationPage2 = () => {
                   7
                 </p>
               </div>
-              <p className="text9 absolute border bg-white text-black rounded-lg text-[4px] sm:text-[10.5px] mx-2 p-0.5 top-[48%] sm:top-[43%]">
+              <p className="text9 absolute border bg-green-800 font-fira font-normal rounded-lg text-[4px] sm:text-[10.5px] mx-2 p-0.5 top-[48%] sm:top-[43%]">
                 Good use of ‘Social Proof’ but could be moved above the fold and
                 made prominent
               </p>
