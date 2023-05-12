@@ -14,7 +14,7 @@ const Decision = () => {
       // Stop the animation after 2 seconds
       stopAnimation = setTimeout(() => {
         setIsAnimating(false);
-      }, 2000);
+      }, 1000);
     } else {
       // Start the animation again after 2 seconds
       startAnimation = setTimeout(() => {

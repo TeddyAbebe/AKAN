@@ -526,7 +526,8 @@ export const analysisPageFourNotes = [
 export const analysisPageFive = [
   {
     header: "Traffic Source H1 2022",
-    graph: require("./files/Images/analysisPageFiveGraph.png"),
+    chart: require("./files/Images/Chart.png"),
+    desc: require("./files/Images/desc.png"),
     note: require("./files/Images/analysisPageFiveNotes.png"),
   },
 ];

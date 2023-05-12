@@ -18,7 +18,7 @@ const AnalysisPage4 = () => {
               </div>
               <div className="">
                 <img
-                  className="h-52 md:h-64 my-10 xl:h-64 2xl:h-96 "
+                  className="h-52 md:h-64 my-10 xl:h-64 2xl:h-96 duration-500 ease-in-out hover:scale-[1.2] cursor-pointer "
                   src={val.pyramid}
                   alt=""
                 />
@@ -30,7 +30,11 @@ const AnalysisPage4 = () => {
         <div className="flex flex-col gap-3 mx-4 items-center">
           {analysisPageFourNotes.map((val, i) => (
             <div className="">
-              <img className="md:h-20" src={val.note} alt="" />
+              <img
+                className="md:h-20 duration-500 ease-in-out hover:scale-[1.2] cursor-pointer "
+                src={val.note}
+                alt=""
+              />
             </div>
           ))}
         </div>

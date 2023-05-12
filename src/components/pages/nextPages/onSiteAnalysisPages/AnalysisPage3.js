@@ -18,7 +18,7 @@ const AnalysisPage3 = () => {
               </div>
               <div className="md:w-full">
                 <img
-                  className="sm:h-52 xl:h-64 2xl:h-96"
+                  className="sm:h-52 xl:h-64 2xl:h-96 duration-500 ease-in-out hover:scale-[1.2] cursor-pointer"
                   src={val.graph}
                   alt=""
                 />

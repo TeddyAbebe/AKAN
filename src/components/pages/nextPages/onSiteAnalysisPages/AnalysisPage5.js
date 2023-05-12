@@ -1,10 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { analysisPageFive } from "../../../data/data";
 import LeftArrow from "../../../data/files/Icons/LeftArrow.png";
 import RightArrow from "../../../data/files/Icons/RightArrow.png";
 import { Link } from "react-router-dom";
 
 const AnalysisPage5 = () => {
+  const [isAnimating, setIsAnimating] = useState(true);
+
+  useEffect(() => {
+    let stopAnimation, startAnimation;
+
+    if (isAnimating) {
+      // Stop the animation after 2 seconds
+      stopAnimation = setTimeout(() => {
+        setIsAnimating(false);
+      }, 1000);
+    } else {
+      // Start the animation again after 2 seconds
+      startAnimation = setTimeout(() => {
+        setIsAnimating(true);
+      }, 3000);
+    }
+
+    return () => {
+      clearTimeout(stopAnimation);
+      clearTimeout(startAnimation);
+    };
+  }, [isAnimating]);
+
   return (
     <div className="bg-black flex flex-col pt-24 sm:pt-10 text-white w-screen min-h-screen analysisPageFour">
       <div>
@@ -15,15 +38,22 @@ const AnalysisPage5 = () => {
                 {val.header}
               </h1>
             </div>
-            <div className="">
+            <div className="flex gap-16 mb-10">
+              <img
+                className={`h-36 md:h-48 my-7 xl:h- 2xl:h-64 ${
+                  isAnimating ? "animate-spin" : ""
+                }`}
+                src={val.chart}
+                alt=""
+              />
               <img
                 className="h-36 md:h-48 my-7 xl:h- 2xl:h-64"
-                src={val.graph}
+                src={val.desc}
                 alt=""
               />
             </div>
-            <div className="2xl:w-[40rem]">
-              <img className="h-48 sm:h-56 w-full" src={val.note} alt="" />
+            <div className="2xl:w-[40rem] ">
+              <img className="h-48 sm:h-56 w-full " src={val.note} alt="" />
             </div>
           </div>
         ))}

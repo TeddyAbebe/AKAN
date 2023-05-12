@@ -12,7 +12,7 @@ const AnalysisPage2 = () => {
   return (
     <div className="flex flex-col text-white w-screen min-h-screen analysisPageSec ">
       <div className="flex flex-col items-center">
-        <div className="flex text-center items-center justify-center mt-20  lg:mt-5 lg:w-[50%]">
+        <div className="flex text-center items-center justify-center mt-20 lg:mb-10  lg:mt-5 lg:w-[50%]">
           {analysisPageSec.map((val, i) => (
             <div className="">
               <h1 className="font-joane font-bold text-4xl sm:text-5xl">
@@ -26,7 +26,11 @@ const AnalysisPage2 = () => {
           {analysisPageSecCards.map((val, i) => (
             <div className="w-1/3 md:w-1/4">
               <div className="my-10 lg:my-2">
-                <img className="" src={val.card} alt="" />
+                <img
+                  className="duration-500 ease-in-out hover:scale-[1.3] cursor-pointer"
+                  src={val.card}
+                  alt=""
+                />
               </div>
             </div>
           ))}

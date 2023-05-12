@@ -23,8 +23,16 @@ const ExecutiveSummary = () => {
               </div>
 
               <div className="flex mt-10 gap-3 items-center justify-evenly px-2 xl:w-full lg:justify-center lg:gap-8 ">
-                <img className="w-1/2 sm:w-[30%]" src={man} alt="" />
-                <img className="w-1/2 sm:w-[30%]" src={SmileMan} alt="" />
+                <img
+                  className="w-1/2 sm:w-[30%] duration-500 ease-in-out hover:scale-[1.03] cursor-pointer"
+                  src={man}
+                  alt=""
+                />
+                <img
+                  className="w-1/2 sm:w-[30%] duration-500 ease-in-out hover:scale-[1.03] cursor-pointer"
+                  src={SmileMan}
+                  alt=""
+                />
               </div>
             </div>
           ))}
