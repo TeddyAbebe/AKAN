@@ -27,9 +27,9 @@ const AnalysisPage3 = () => {
           ))}
         </div>
 
-        <div className="flex justify-evenly lg:gap-4 ">
+        <div className="flex justify-evenly lg:gap-10">
           {analysisPageThirdNotes.map((val, i) => (
-            <div className="">
+            <div className="duration-1000 ease-in-out hover:scale-[1.2] cursor-pointer">
               <img className="sm:h-34 lg:h-40 xl:h-60" src={val.note} alt="" />
             </div>
           ))}

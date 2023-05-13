@@ -54,19 +54,19 @@ const AnalysisPage5 = () => {
             </div>
             <div className="2xl:w-[40rem] flex flex-col justify-center items-center gap-3">
               <div className="bg-[#497e47] w-[70%] flex rounded-lg duration-700 ease-in-out hover:scale-[1.2] cursor-pointer">
-                <div className="flex h-20 p-4 gap-5 font-fira font-semibold">
+                <div className="flex items-center h-30 md:h-20 p-4 gap-5 font-fira font-semibold">
                   <i>{val.icon1}</i>
                   <p>{val.note1}</p>
                 </div>
               </div>
               <div className="bg-[#497e47] w-[70%] flex rounded-lg duration-700 ease-in-out hover:scale-[1.2] cursor-pointer">
-                <div className="flex h-20 p-4 gap-5 font-fira font-semibold">
+                <div className="flex items-center h-30 md:h-20 p-4 gap-5 font-fira font-semibold">
                   <i>{val.icon2}</i>
                   <p>{val.note2}</p>
                 </div>
               </div>
               <div className="bg-[#497e47] w-[70%] rounded-lg duration-700 ease-in-out hover:scale-[1.2] cursor-pointer">
-                <div className="flex h-20 p-4 gap-5 font-fira font-semibold">
+                <div className="flex items-center h-30 md:h-20 p-4 gap-5 font-fira font-semibold">
                   <i>{val.icon3}</i>
                   <p>{val.note3}</p>
                 </div>

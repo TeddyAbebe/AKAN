@@ -47,11 +47,7 @@ const Decision = () => {
 
                 <div className="lg:w-[75%]">
                   <div className="flex justify-center gap-2 my-2 lg:justify-normal">
-                    <div
-                      className={`${
-                        isAnimating ? "animate-ping" : ""
-                      }`}
-                    >
+                    <div className={`${isAnimating ? "animate-ping" : ""}`}>
                       {val.icon}
                     </div>
                     <div className="text-xl font-nevrada md:text-2xl md:mb-4 2xl:text-3xl">
@@ -60,40 +56,22 @@ const Decision = () => {
                   </div>
 
                   <div className="flex w-full justify-evenly lg:justify-between">
-                    <div className="bg-[#97A5EB] rounded-md p-3 w-1/3 duration-300 ease-in-out hover:scale-[1.12] cursor-pointer">
-                      <div
-                        className={`flex justify-center ${
-                          isAnimating ? "animate-spin" : ""
-                        }`}
-                      >
-                        {val.bulb}
-                      </div>
+                    <div className="bg-[#97A5EB] rounded-md p-3 w-1/3 duration-1000 ease-in-out hover:scale-[1.12] cursor-pointer">
+                      <div className="flex justify-center">{val.bulb}</div>
                       <div className="text-center text-sm xl:text-lg 2xl:text-2xl font-fira font-normal">
                         {val.blueNote}
                       </div>
                     </div>
 
-                    <div className="bg-[#7EB073] rounded-md p-3 w-1/3 duration-300 ease-in-out hover:scale-[1.12] cursor-pointer mx-6">
-                      <div
-                        className={`flex justify-center ${
-                          isAnimating ? "animate-spin" : ""
-                        }`}
-                      >
-                        {val.bulb}
-                      </div>
+                    <div className="bg-[#7EB073] rounded-md p-3 w-1/3 duration-1000 ease-in-out hover:scale-[1.12] cursor-pointer mx-6">
+                      <div className="flex justify-center">{val.bulb}</div>
                       <div className="text-center text-sm xl:text-lg 2xl:text-2xl font-fira font-normal">
                         {val.greenNote}
                       </div>
                     </div>
 
-                    <div className="bg-[#E1929E] rounded-md p-3 w-1/3 duration-300 ease-in-out hover:scale-[1.12] cursor-pointer">
-                      <div
-                        className={`flex justify-center ${
-                          isAnimating ? "animate-spin" : ""
-                        }`}
-                      >
-                        {val.bulb}
-                      </div>
+                    <div className="bg-[#E1929E] rounded-md p-3 w-1/3 duration-1000 ease-in-out hover:scale-[1.12] cursor-pointer">
+                      <div className="flex justify-center">{val.bulb}</div>
                       <div className="text-center text-sm xl:text-lg 2xl:text-2xl font-fira font-normal">
                         {val.pinkNote}
                       </div>
@@ -111,13 +89,13 @@ const Decision = () => {
 
           <div className="flex justify-center sm:justify-end gap-10 p-3">
             <Link>
-              <div className="bg-[#8ca28f] rounded-lg p-3 w-8 h-8 flex justify-center items-center duration-300 ease-in-out hover:scale-[1.2]">
+              <div className="bg-[#8ca28f] rounded-lg p-3 w-8 h-8 flex justify-center items-center duration-1000 ease-in-out hover:scale-[1.2]">
                 <img src={LeftArrow} alt="" />
               </div>
             </Link>
 
             <Link to="/decision/page2">
-              <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center duration-300 ease-in-out hover:scale-[1.2]">
+              <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center duration-1000 ease-in-out hover:scale-[1.2]">
                 <img src={RightArrow} alt="" />
               </div>
             </Link>

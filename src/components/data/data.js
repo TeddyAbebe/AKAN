@@ -467,14 +467,16 @@ export const analysisPageSec = [
   },
 ];
 
-export const analysisPageSecCards = [
-  {
-    card: require("./files/Images/deviceType.png"),
+export const analysisPageSecCards = {
+  card1: {
+    chart1: require("./files/Images/pieChart1.png"),
+    key1: require("./files/Images/key1.png"),
   },
-  {
-    card: require("./files/Images/visitors.png"),
+  card2: {
+    chart2: require("./files/Images/pieChart2.png"),
+    key2: require("./files/Images/key2.png"),
   },
-];
+};
 
 export const analysisPageSecNotes = [
   {
@@ -511,6 +513,11 @@ export const analysisPageFour = [
   {
     header: "Conversion Rate H1 2022",
     pyramid: require("./files/Images/pyramid.png"),
+    funnel1: require("./files/Images/funnel1.png"),
+    funnel2: require("./files/Images/funnel2.png"),
+    funnel3: require("./files/Images/funnel3.png"),
+    funnel4: require("./files/Images/funnel4.png"),
+    arrow: require("./files/Images/sideArrow.png"),
   },
 ];
 

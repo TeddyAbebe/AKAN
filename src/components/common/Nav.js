@@ -83,6 +83,8 @@ const Nav = ({ open, close }) => {
           </div>
         </div>
 
+        <div className="flex-grow"></div>
+
         <div className="mt-8">
           <div>
             {socials.map((social, i) => (

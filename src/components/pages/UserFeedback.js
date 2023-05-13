@@ -6,7 +6,7 @@ const UserFeedback = () => {
   return (
     <>
       <div className="w-screen min-h-screen">
-        <div className="flex flex-col h-full">
+        <div className="flex flex-col h-full"> 
           <div className="bg-black text-white p-3 flex flex-col items-center">
             <div className="w-full md:w-5/6">
               <h1 className="text-3xl md:text-5xl  text-center font-joane font-bold">

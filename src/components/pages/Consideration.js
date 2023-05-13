@@ -14,12 +14,12 @@ const Consideration = () => {
       // Stop the animation after 3 seconds
       stopAnimation = setTimeout(() => {
         setIsAnimating(false);
-      }, 1000);
+      }, 2000);
     } else {
       // Start the animation again after 2 seconds
       startAnimation = setTimeout(() => {
         setIsAnimating(true);
-      }, 2000);
+      }, 500);
     }
 
     return () => {
@@ -49,7 +49,7 @@ const Consideration = () => {
                 <div className=" flex flex-col pl-4 gap-3 text-2xl lg:text-3xl font-joane font-normal">
                   <div className="flex flex-row">
                     <div
-                      className={`mr-3 ${isAnimating ? "animate-spin" : ""}`}
+                      className={`mr-3 cursor-pointer hover:${isAnimating ? "animate-spin" : ""}`}
                     >
                       {val.icon1}
                     </div>
@@ -58,7 +58,7 @@ const Consideration = () => {
 
                   <div className="flex flex-row">
                     <div
-                      className={`mr-3 ${isAnimating ? "animate-spin" : ""}`}
+                      className={`mr-3 cursor-pointer hover:${isAnimating ? "animate-spin" : ""}`}
                     >
                       {val.icon2}
                     </div>
@@ -68,7 +68,7 @@ const Consideration = () => {
 
                   <div className="flex flex-row">
                     <div
-                      className={`mr-3 ${isAnimating ? "animate-spin" : ""}`}
+                      className={`mr-3 cursor-pointer hover:${isAnimating ? "animate-spin" : ""}`}
                     >
                       {val.icon3}
                     </div>
@@ -78,7 +78,7 @@ const Consideration = () => {
 
                   <div className="flex flex-row">
                     <div
-                      className={`mr-3 ${isAnimating ? "animate-spin" : ""}`}
+                      className={`mr-3 cursor-pointer hover:${isAnimating ? "animate-spin" : ""}`}
                     >
                       {val.icon4}
                     </div>

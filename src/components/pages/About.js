@@ -32,13 +32,7 @@ const About = () => {
       <div className="bg-black text-white w-screen min-h-screen analysisPageFour">
         <div className="flex flex-col justify-center items-center px-4 sm:px-10 md:px-18">
           <div className="flex justify-center ">
-            <img
-              className={`lg:mt-10 w-1/2 lg:w-[75%] ${
-                isAnimating ? "animate-ping" : ""
-              }`}
-              src={logo}
-              alt=""
-            />
+            <img className="lg:mt-10 w-1/2 lg:w-[75%]" src={logo} alt="" />
           </div>
 
           <div className="mb-8">
@@ -121,11 +115,11 @@ const About = () => {
               ))}
             </div>
             <div className="flex justify-start gap-4 sm:gap-6 md:gap-10">
-              <div className="duration-300 ease-in-out hover:scale-x-[1.2] cursor-pointer">
+              <div className="duration-1000 ease-in-out hover:scale-[1.2] cursor-pointer">
                 <img src={American} alt="" />
               </div>
               {company.map((val, i) => (
-                <div className="h-full rounded-lg bg-white px-4 duration-300 ease-in-out hover:scale-x-[1.2] cursor-pointer">
+                <div className="h-full rounded-lg bg-white px-4 duration-1000 ease-in-out hover:scale-[1.2] cursor-pointer">
                   <div className="flex justify-center items-center h-[79px] lg:w-[221.44px] ">
                     <img className="" src={val.image} alt="" />
                   </div>

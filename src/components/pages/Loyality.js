@@ -56,33 +56,27 @@ const Loyality = () => {
                 </div>
 
                 <div className="flex w-full justify-start md:justify-evenly lg:justify-between lg:ml-24 lg:w-[80%] max-w-[80rem] font-fira font-normal">
-                  <div className="bg-[#97A5EB] rounded-md w-[50%] p-2 md:w-1/3 duration-300 ease-in-out hover:scale-[1.12] cursor-pointer">
+                  <div className="bg-[#97A5EB] rounded-md w-[50%] p-2 md:w-1/3 duration-1000 ease-in-out hover:scale-[1.12] cursor-pointer">
                     <div className="flex justify-center">
-                      <div className={`${isAnimating ? "animate-ping" : ""}`}>
-                        {val.icon}
-                      </div>
+                      <div>{val.icon}</div>
                     </div>
                     <div className="text-center text-sm xl:text-lg 2xl:text-2xl ">
                       {val.blueNote}
                     </div>
                   </div>
 
-                  <div className="bg-[#7EB073] rounded-md w-[50%] p-2 md:w-1/3 mx-6 duration-300 ease-in-out hover:scale-[1.12] cursor-pointer">
+                  <div className="bg-[#7EB073] rounded-md w-[50%] p-2 md:w-1/3 mx-6 duration-1000 ease-in-out hover:scale-[1.12] cursor-pointer">
                     <div className="flex justify-center">
-                      <div className={`${isAnimating ? "animate-ping" : ""}`}>
-                        {val.icon}
-                      </div>
+                      <div>{val.icon}</div>
                     </div>
                     <div className="text-center text-sm xl:text-lg 2xl:text-2xl">
                       {val.greenNote}
                     </div>
                   </div>
 
-                  <div className="bg-[#E1929E] rounded-md w-[50%] p-2 md:w-1/3 duration-300 ease-in-out hover:scale-[1.12] cursor-pointer">
+                  <div className="bg-[#E1929E] rounded-md w-[50%] p-2 md:w-1/3 duration-1000 ease-in-out hover:scale-[1.12] cursor-pointer">
                     <div className="flex justify-center">
-                      <div className={`${isAnimating ? "animate-ping" : ""}`}>
-                        {val.icon}{" "}
-                      </div>
+                      <div>{val.icon} </div>
                     </div>
                     <div className="text-center text-sm xl:text-lg 2xl:text-2xl">
                       {val.pinkNote}
