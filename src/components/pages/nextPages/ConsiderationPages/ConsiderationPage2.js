@@ -54,6 +54,7 @@ const ConsiderationPage2 = () => {
                 Mobile responsive landing page
               </p>
             </div>
+            
             <div className="secondText cursor-pointer">
               <svg
                 width="15"
