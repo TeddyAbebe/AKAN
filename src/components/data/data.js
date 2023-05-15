@@ -844,15 +844,6 @@ export const DecisionPageFive = [
   },
 ];
 
-export const DecisionPageFiveCards = [
-  {
-    card: require("./files/Images/Card21.png"),
-  },
-  {
-    card: require("./files/Images/Card22.png"),
-  },
-];
-
 export const loyality = [
   {
     header: "Loyalty Phase: 50%",

@@ -48,7 +48,6 @@ const AnalysisPage2 = () => {
             <img
               src={analysisPageSecCards.card1.chart1}
               alt=""
-              className=" hover:animate-spin"
             />
           </div>
 
@@ -71,7 +70,6 @@ const AnalysisPage2 = () => {
             <img
               src={analysisPageSecCards.card2.chart2}
               alt=""
-              className=" hover:animate-spin"
             />
           </div>
         </div>

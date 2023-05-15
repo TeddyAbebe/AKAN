@@ -94,6 +94,9 @@
 .text26,
 .text27,
 .text28,
+.text29,
+.text30,
+.text31,
 .text32,
 .text33,
 .text34,
@@ -189,6 +192,15 @@
   display: block;
 }
 .textTwentyEight:hover .text28 {
+  display: block;
+}
+.textTwentyNine:hover .text29 {
+  display: block;
+}
+.textThirty:hover .text30 {
+  display: block;
+}
+.textThirtyOne:hover .text31 {
   display: block;
 }
 .textThirtyTwo:hover .text32 {

@@ -44,7 +44,7 @@ const Home = () => {
 
                 <div>
                   <Link to="/summary">
-                    <button className="flex justify-center items-center gap-2 bg-[#497E4F] h-12 w-48 text-white font-bold rounded-md 2xl:w-[15rem] 2xl:text-2xl duration-300 ease-in-out hover:scale-[1.12] cursor-pointer ">
+                    <button className="flex justify-center items-center gap-2 bg-[#497E4F] h-12 w-48 text-white font-bold rounded-md 2xl:w-[15rem] 2xl:text-2xl">
                       Start
                       <div
                         className={`${

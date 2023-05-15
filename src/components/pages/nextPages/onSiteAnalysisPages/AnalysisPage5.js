@@ -41,7 +41,7 @@ const AnalysisPage5 = () => {
             <div className="flex gap-16 mb-4">
               <img
                 className={`h-36 md:h-48 my-7 xl:h- 2xl:h-64 ${
-                  isAnimating ? "animate-spin" : ""
+                  isAnimating ? "animate-none" : ""
                 }`}
                 src={val.chart}
                 alt=""

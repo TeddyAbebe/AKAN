@@ -47,7 +47,7 @@ const Decision = () => {
 
                 <div className="lg:w-[75%]">
                   <div className="flex justify-center gap-2 my-2 lg:justify-normal">
-                    <div className={`${isAnimating ? "animate-ping" : ""}`}>
+                    <div className={`${isAnimating ? "animate-none" : ""}`}>
                       {val.icon}
                     </div>
                     <div className="text-xl font-nevrada md:text-2xl md:mb-4 2xl:text-3xl">
