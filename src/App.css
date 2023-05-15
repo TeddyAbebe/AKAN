@@ -81,6 +81,19 @@
 .text13,
 .text14,
 .text15,
+.text16,
+.text17,
+.text18,
+.text19,
+.text20,
+.text21,
+.text22,
+.text23,
+.text24,
+.text25,
+.text26,
+.text27,
+.text28,
 .text32,
 .text33,
 .text34,
@@ -137,6 +150,45 @@
   display: block;
 }
 .fifteenText:hover .text15 {
+  display: block;
+}
+.textSixteen:hover .text16 {
+  display: block;
+}
+.textSeventeen:hover .text17 {
+  display: block;
+}
+.textEightteen:hover .text18 {
+  display: block;
+}
+.textNineteen:hover .text19 {
+  display: block;
+}
+.textTwenty:hover .text20 {
+  display: block;
+}
+.textTwentOne:hover .text21 {
+  display: block;
+}
+.textTwentyTwo:hover .text22 {
+  display: block;
+}
+.textTwentyThree:hover .text23 {
+  display: block;
+}
+.textTwentyFour:hover .text24 {
+  display: block;
+}
+.textTwentyFive:hover .text25 {
+  display: block;
+}
+.textTwentySix:hover .text26 {
+  display: block;
+}
+.textTwentySeven:hover .text27 {
+  display: block;
+}
+.textTwentyEight:hover .text28 {
   display: block;
 }
 .textThirtyTwo:hover .text32 {

@@ -30,9 +30,6 @@ const Loyalitypage3 = () => {
             </div>
           </div>
           {loyalityPageThreeCards.map((val, i) => (
-            // <div className="border bg-white flex justify-center items-center rounded-xl sm:rounded-3xl">
-            //   <img className="" src={val.card} alt="" />
-            // </div>
             <div className="duration-300 ease-in-out hover:scale-[1.15] cursor-pointer">
               <img className="-mb-[182%]  sm:h-[253px]" src={iPhone} alt="" />
               <div>

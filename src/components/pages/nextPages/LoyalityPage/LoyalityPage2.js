@@ -22,7 +22,7 @@ const LoyalityPage2 = () => {
         </div>
 
         <div className="w-full gap-6 flex justify-between lg:justify-center">
-          <div className="relative">
+          <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
             <div className="cursor-pointer textThirtyTwo">
               <div className="w-3 h-2 sm:w-5 sm:h-3 left-[7%] top-[27.5%] sm:text-[8px] absolute sm:left-[8.5%] sm:top-[29%]"></div>
 
@@ -70,7 +70,7 @@ const LoyalityPage2 = () => {
             />
           </div>
 
-          <div className="relative">
+          <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
             <div className="cursor-pointer textThirtySix">
               <div className="w-3 h-2 sm:w-5 sm:h-3 left-[7%] top-[65%] sm:text-[8px] absolute sm:left-[8.5%] sm:top-[67%]"></div>
 
@@ -98,7 +98,7 @@ const LoyalityPage2 = () => {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
             <div className="cursor-pointer textThirtyEight">
               <div className=" w-3 h-2 sm:w-5 sm:h-3 left-[30%] top-[48.5%] sm:text-[8px] absolute sm:left-[32%] sm:top-[50%]"></div>
 
@@ -117,7 +117,7 @@ const LoyalityPage2 = () => {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
             <div className="cursor-pointer textThirtyNine">
               <div className="w-3 h-2 sm:w-5 sm:h-3 left-[5%] top-[71%] sm:text-[8px] absolute sm:left-[5.5%] sm:top-[72%]"></div>
 
@@ -135,6 +135,7 @@ const LoyalityPage2 = () => {
                 with the jars once empty; either recycle or return.
               </p>
             </div>
+            
             <img className="-mb-[150%] sm:h-[253px]" src={iPhone} alt="" />
             <div className="">
               <img

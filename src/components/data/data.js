@@ -4,7 +4,6 @@ export const navlink = [
   {
     url: "/",
     text: "Home",
-    // icon: require("./files/Icons/Home.png"),
     icon: (
       <svg
         width="22"
@@ -26,7 +25,6 @@ export const navlink = [
   {
     url: "/summary",
     text: "Executive Summary",
-    // icon: require("../data/files/Icons/message.png"),
     icon: (
       <svg
         width="20"
@@ -48,7 +46,6 @@ export const navlink = [
   {
     url: "/analysis",
     text: "Onsite Analysis",
-    // icon: require("../data/files/Icons/list.png"),
     icon: (
       <svg
         width="24"
@@ -105,7 +102,6 @@ export const navlink = [
   {
     url: "/mapping",
     text: "Experience Mapping",
-    // icon: require("../data/files/Icons/map.png"),
     icon: (
       <svg
         width="24"
@@ -141,7 +137,6 @@ export const navlink = [
   {
     url: "/consideration",
     text: "Consideration",
-    // icon: require("../data/files/Icons/consider.png"),
     icon: (
       <svg
         width="22"
@@ -179,7 +174,6 @@ export const navlink = [
   {
     url: "/decision",
     text: "Decision",
-    // icon: require("../data/files/Icons/bulb.png"),
     icon: (
       <svg
         width="18"
@@ -201,7 +195,6 @@ export const navlink = [
   {
     url: "/loyality",
     text: "Loyalty",
-    // icon: require("../data/files/Icons/loyality.png"),
     icon: (
       <svg
         width="21"
@@ -238,7 +231,6 @@ export const navlink = [
   {
     url: "/feedback",
     text: "User Feedback",
-    // icon: require("../data/files/Icons/repeat.png"),
     icon: (
       <svg
         width="24"
@@ -281,7 +273,6 @@ export const navlink = [
   {
     url: "/conclusion",
     text: "Conclusion",
-    // icon: require("../data/files/Icons/target.png"),
     icon: (
       <svg
         width="24"
@@ -317,7 +308,6 @@ export const navlink = [
   {
     url: "/about",
     text: "About Company",
-    // icon: require("../data/files/Icons/send.png"),
     icon: (
       <svg
         width="20"
@@ -830,21 +820,6 @@ export const DecisionPageTwo = [
   },
 ];
 
-export const DecisionPageTwoCards = [
-  {
-    card: require("./files/Images/Card9.png"),
-  },
-  {
-    card: require("./files/Images/Card10.png"),
-  },
-  {
-    card: require("./files/Images/Card11.png"),
-  },
-  {
-    card: require("./files/Images/Card12.png"),
-  },
-];
-
 export const DecisionPageThree = {
   FirstHeader: {
     header: "Product Page | Browsing",
@@ -854,21 +829,6 @@ export const DecisionPageThree = {
   },
 };
 
-export const DecisionPageThreeCards = [
-  {
-    card: require("./files/Images/Card13.png"),
-  },
-  {
-    card: require("./files/Images/Card14.png"),
-  },
-  {
-    card: require("./files/Images/Card15.png"),
-  },
-  {
-    card: require("./files/Images/Card16.png"),
-  },
-];
-
 export const DecisionPageFour = {
   FirstHeader: {
     header: "Cart | At The Till",
@@ -877,21 +837,6 @@ export const DecisionPageFour = {
     header: "Cart | At The Till",
   },
 };
-
-export const DecisionPageFoueCards = [
-  {
-    card: require("./files/Images/Card17.png"),
-  },
-  {
-    card: require("./files/Images/Card18.png"),
-  },
-  {
-    card: require("./files/Images/Card19.png"),
-  },
-  {
-    card: require("./files/Images/Card20.png"),
-  },
-];
 
 export const DecisionPageFive = [
   {
