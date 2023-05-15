@@ -36,11 +36,11 @@
   background-size: cover;
 }
 .consideration {
-  background-image: url("./components/data/files/Images/consideration.png");
+  background-image: url("./components/data/files/Images/consideration.svg");
   background-size: cover;
 }
 .decision {
-  background-image: url("./components/data/files/Images/decision.png");
+  background-image: url("./components/data/files/Images/decision.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }

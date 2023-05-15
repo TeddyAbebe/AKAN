@@ -3,6 +3,7 @@ import { experienceMappingPageTwo } from "../../../data/data";
 import LeftArrow from "../../../data/files/Icons/LeftArrow.png";
 import RightArrow from "../../../data/files/Icons/RightArrow.png";
 import { Link } from "react-router-dom";
+import mappingPage2 from "../../../data/files/Images/mappingPage2.svg";
 
 const ExperienceMappingPage2 = () => {
   return (
@@ -17,7 +18,7 @@ const ExperienceMappingPage2 = () => {
               <p>{val.note}</p>
             </div>
             <div>
-              <img src={val.image} alt="" />
+              <img src={mappingPage2} alt="" />
             </div>
           </div>
         ))}

@@ -3,6 +3,7 @@ import { analysisPageThird, analysisPageThirdNotes } from "../../../data/data";
 import LeftArrow from "../../../data/files/Icons/LeftArrow.png";
 import RightArrow from "../../../data/files/Icons/RightArrow.png";
 import { Link } from "react-router-dom";
+import graph from "../../../data/files/Images/graph.svg";
 
 const AnalysisPage3 = () => {
   return (
@@ -19,7 +20,7 @@ const AnalysisPage3 = () => {
               <div className="md:w-full">
                 <img
                   className="sm:h-52 xl:h-64 2xl:h-96 duration-500 ease-in-out hover:scale-[1.2] cursor-pointer"
-                  src={val.graph}
+                  src={graph}
                   alt=""
                 />
               </div>

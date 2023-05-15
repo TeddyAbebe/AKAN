@@ -483,7 +483,7 @@ export const analysisPageSecNotes = [
 export const analysisPageThird = [
   {
     header: "Unique Visitors | H1 2022",
-    graph: require("./files/Images/graph.png"),
+    // graph: require("./files/Images/graph.png"),
   },
 ];
 
@@ -640,7 +640,7 @@ export const experienceMappingPageTwo = [
   {
     header: "Customer Journey Phases",
     note: "The customer journey refers to the process that a customer goes through when interacting with a company or brand. The customer journey typically includes the following phases: awareness, consideration, decision, and loyalty. These phases describe the process that a customer goes through when interacting with a brand or company.",
-    image: require("./files/Images/mappingPage2.png"),
+    // image: require("./files/Images/mappingPage2.svg"),
   },
 ];
 
