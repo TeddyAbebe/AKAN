@@ -33,7 +33,7 @@ const Nav = ({ open, close }) => {
     <>
       <div
         className={
-          `sm:w-[30%] nav min-h-screen  flex-col flex fixed md:static md:flex ` +
+          `sm:w-[30%] nav min-h-screen flex-col flex absolute z-[1] md:static md:flex ` +
           (open === true ? "" : "hidden")
         }
       >

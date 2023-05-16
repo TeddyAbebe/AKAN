@@ -109,7 +109,9 @@ const ConsiderationPage3 = () => {
                 </p>
               </div>
               <p className="text11 absolute border bg-[#E7644A] font-fira font-normal rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[13%]">
-                Mobile responsive landing page
+                ‘Quiz’ UX feels clunky, and use of ‘herbalist algorithm’ makes
+                it feel impersonal and generic. Do your users want
+                recommendations from machines or expert/humans?
               </p>
             </div>
 

@@ -11,7 +11,7 @@ const Consideration = () => {
     let stopAnimation, startAnimation;
 
     if (isAnimating) {
-      // Stop the animation after 3 seconds
+      // Stop the animation after 2 seconds
       stopAnimation = setTimeout(() => {
         setIsAnimating(false);
       }, 2000);
@@ -49,7 +49,9 @@ const Consideration = () => {
                 <div className=" flex flex-col pl-4 gap-3 text-2xl lg:text-3xl font-joane font-normal">
                   <div className="flex flex-row">
                     <div
-                      className={`mr-3 cursor-pointer hover:${isAnimating ? "animate-spin" : ""}`}
+                      className={`mr-3 cursor-pointer duration-300 ease-in-out hover:scale-[1.2] hover:${
+                        isAnimating ? "animate-spin" : ""
+                      }`}
                     >
                       {val.icon1}
                     </div>
@@ -58,7 +60,9 @@ const Consideration = () => {
 
                   <div className="flex flex-row">
                     <div
-                      className={`mr-3 cursor-pointer hover:${isAnimating ? "animate-spin" : ""}`}
+                      className={`mr-3 cursor-pointer duration-300 ease-in-out hover:scale-[1.2] hover:${
+                        isAnimating ? "animate-spin" : ""
+                      }`}
                     >
                       {val.icon2}
                     </div>
@@ -68,7 +72,9 @@ const Consideration = () => {
 
                   <div className="flex flex-row">
                     <div
-                      className={`mr-3 cursor-pointer hover:${isAnimating ? "animate-spin" : ""}`}
+                      className={`mr-3 cursor-pointer duration-300 ease-in-out hover:scale-[1.2] hover:${
+                        isAnimating ? "animate-spin" : ""
+                      }`}
                     >
                       {val.icon3}
                     </div>
@@ -78,7 +84,9 @@ const Consideration = () => {
 
                   <div className="flex flex-row">
                     <div
-                      className={`mr-3 cursor-pointer hover:${isAnimating ? "animate-spin" : ""}`}
+                      className={`mr-3 cursor-pointer duration-300 ease-in-out hover:scale-[1.2] hover:${
+                        isAnimating ? "animate-spin" : ""
+                      }`}
                     >
                       {val.icon4}
                     </div>

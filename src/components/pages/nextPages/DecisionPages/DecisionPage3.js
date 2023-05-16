@@ -53,7 +53,7 @@ const DecisionPage3 = () => {
                 </div>
               </div>
 
-              <p className="text20 absolute border bg-[#E7644A] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[40%] sm:top-[60%] right-[3%] left-[3%] p-1">
+              <p className="text20 absolute border bg-[#E7644A] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[40%] sm:top-[60%] mx-3 p-1">
                 Currently the page feels very dense and clunky - which can be
                 overwhelming. You can simplify this section with collapsible
                 containers so users don’t need keep scrolling down the length of
@@ -96,7 +96,7 @@ const DecisionPage3 = () => {
                 </div>
               </div>
 
-              <p className="text21 absolute border bg-[#E7644A] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[35%] sm:top-[30%] right-[3%] left-[3%] p-1">
+              <p className="text21 absolute border bg-[#E7644A] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[35%] sm:top-[30%] mx-3 p-1">
                 Once an item is added to the cart a back end code is displayed
                 in error - this can be confusing for users and presents the
                 brand as unprofessional
@@ -138,7 +138,7 @@ const DecisionPage3 = () => {
                 </div>
               </div>
 
-              <p className="text22 absolute border bg-[#50B069] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[9%] sm:top-[15%] right-[3%] left-[3%] p-1">
+              <p className="text22 absolute border bg-[#50B069] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[9%] sm:top-[10%] mx-3 p-1">
                 Good use of ‘strikethrough pricing’ to reinforce value for the
                 user
               </p>
@@ -179,7 +179,7 @@ const DecisionPage3 = () => {
                 </div>
               </div>
 
-              <p className="text23 absolute border bg-[#50B069] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[53%] sm:top-[25%] right-[3%] left-[3%] p-1">
+              <p className="text23 absolute border bg-[#50B069] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[53%] sm:top-[20%] mx-3 p-1">
                 Good use of cross-sell in the Cart to provide additional value
                 to users and increase average basket value
               </p>

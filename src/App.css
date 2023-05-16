@@ -105,7 +105,12 @@
 .text37,
 .text38,
 .text39,
-.text40 {
+.text40,
+.text42,
+.text43,
+.text44,
+.text45,
+.text46 {
   display: none;
 }
 .firstText:hover .text1 {
@@ -228,5 +233,20 @@
   display: block;
 }
 .textFourty:hover .text40 {
+  display: block;
+}
+.textFourtyTwo:hover .text42 {
+  display: block;
+}
+.textFourtyThree:hover .text43 {
+  display: block;
+}
+.textFourtyFour:hover .text44 {
+  display: block;
+}
+.textFourtyFive:hover .text45 {
+  display: block;
+}
+.textFourtySix:hover .text46 {
   display: block;
 }

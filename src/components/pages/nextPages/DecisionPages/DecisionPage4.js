@@ -55,7 +55,7 @@ const DecisionPage4 = () => {
                 </div>
               </div>
 
-              <p className="text24 absolute border bg-[#D08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[18%] sm:top-[15%] right-[35%] left-[3%] p-1">
+              <p className="text24 absolute border bg-[#E7644A] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[18%] sm:top-[15%] right-[35%] left-[5%] p-1">
                 This page in the checkout experience looks & feels off-brand,
                 and is inconsistent with what the user has seen throughout the
                 journey; potentially eroding trust in a crucial phase of the
@@ -89,7 +89,7 @@ const DecisionPage4 = () => {
                 </div>
               </div>
 
-              <p className="text25 absolute border bg-[#D08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[26%] sm:top-[22%] right-[3%] left-[3%] p-1">
+              <p className="text25 absolute border bg-[#E7644A] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[26%] sm:top-[22%] mx-3 p-1">
                 Opportunity to add Progress Bar to calm users and set
                 expectations
               </p>
@@ -121,7 +121,7 @@ const DecisionPage4 = () => {
                 </div>
               </div>
 
-              <p className="text26 absolute border bg-[#D08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[47%] sm:top-[49%] right-[3%] left-[3%] p-1">
+              <p className="text26 absolute border bg-[#E7644A] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[47%] sm:top-[45%] mx-3 p-1">
                 Opportunity to simplify form by allowing users to search for an
                 address using postcode and remove non-essential fields like
                 ‘Company’.
@@ -163,7 +163,7 @@ const DecisionPage4 = () => {
                 </div>
               </div>
 
-              <p className="text28 absolute border bg-[#D08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[32%] sm:top-[35%] right-[3%] left-[3%] p-1">
+              <p className="text28 absolute border bg-[#E7644A] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[32%] sm:top-[30%] mx-3 p-1">
                 Hidden fees can erode trust so all ‘extra’ fees should be
                 highlighted earlier in the journey
               </p>
@@ -194,7 +194,7 @@ const DecisionPage4 = () => {
             <div className="cursor-pointer textTwentyEight">
               <div className="w-3 h-2 sm:w-5 sm:h-4 left-[55%] top-[32%] sm:text-[8px] absolute"></div>
 
-              <p className="text28 absolute border bg-[#D08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[40%] sm:top-[39%] right-[3%] left-[3%] p-1">
+              <p className="text28 absolute border bg-[#D08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[40%] sm:top-[40%] mx-3 p-1">
                 Copy could do with some injection of imagination to entice
                 users. Opportunity to briefly highlight the benefit of signing
                 up to your newsletter

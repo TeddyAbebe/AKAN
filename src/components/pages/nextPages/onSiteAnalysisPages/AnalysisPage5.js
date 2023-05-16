@@ -40,7 +40,7 @@ const AnalysisPage5 = () => {
             </div>
             <div className="flex gap-16 mb-4">
               <img
-                className={`h-36 md:h-48 my-7 xl:h- 2xl:h-64 ${
+                className={`h-36 md:h-48 my-7 xl:h- 2xl:h-64 duration-300 ease-in-out hover:scale-[1.2] cursor-pointer ${
                   isAnimating ? "animate-none" : ""
                 }`}
                 src={val.chart}

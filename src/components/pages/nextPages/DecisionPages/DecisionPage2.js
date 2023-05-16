@@ -26,7 +26,7 @@ const DecisionPage2 = () => {
             <div className="cursor-pointer textSixteen">
               <div className="w-3 h-2 sm:w-5 sm:h-4 left-[41%] top-[35%] sm:text-[8px] absolute"></div>
 
-              <p className="text16 absolute border bg-[#bcd6ac] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[40%] sm:top-[42%] right-[3%] left-[3%] p-1">
+              <p className="text16 absolute border bg-[#bcd6ac] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[40%] sm:top-[42%] mx-3 p-1">
                 Beautiful use of imagery to grab attention and entice
               </p>
             </div>
@@ -66,7 +66,7 @@ const DecisionPage2 = () => {
                 </div>
               </div>
 
-              <p className="text17 absolute border bg-[#E7644A] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[60%] sm:top-[70%] right-[3%] left-[3%] p-1">
+              <p className="text17 absolute border bg-[#E7644A] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[60%] sm:top-[70%] mx-3 p-1">
                 Only x2 subscription options doesn’t allow flexibility
               </p>
             </div>
@@ -106,7 +106,7 @@ const DecisionPage2 = () => {
                 </div>
               </div>
 
-              <p className="text18 absolute border bg-[#E7644A] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[13%] sm:top-[10%] right-[3%] left-[3%] p-1">
+              <p className="text18 absolute border bg-[#E7644A] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[13%] sm:top-[10%] mx-3 p-1">
                 The product description needs an injection of personality.
                 Moreover, taste is a key selling point but there’s little
                 information on what customer’s taste buds can expect
@@ -148,7 +148,7 @@ const DecisionPage2 = () => {
                 </div>
               </div>
 
-              <p className="text19 absolute border bg-[#E7644A] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[53%] sm:top-[30%] right-[3%] left-[3%] p-1">
+              <p className="text19 absolute border bg-[#E7644A] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[53%] sm:top-[30%] mx-3 p-1">
                 Icons to depicting the product benefits appear very generic
               </p>
             </div>

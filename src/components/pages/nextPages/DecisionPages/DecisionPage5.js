@@ -24,7 +24,7 @@ const DecisionPage5 = () => {
             <div className="cursor-pointer textTwentyNine">
               <div className="w-7 h-5 sm:w-5 sm:h-4 left-[68%] sm:left-[71%] top-[15.5%] sm:text-[8px] absolute"></div>
 
-              <p className="text29 absolute border bg-[#D08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[7px] top-[22%] sm:top-[23%] mx-2 p-1">
+              <p className="text29 absolute border bg-[#D08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[7px] top-[22%] sm:top-[23%] mx-3 p-1">
                 Confirmation email looks & feels off-brand and is inconsistent
                 with what the user has seen throughout the journey; potentially
                 eroding trust. The copy could also do with more personality
@@ -34,7 +34,7 @@ const DecisionPage5 = () => {
             <div className="cursor-pointer textThirty">
               <div className="w-7 h-5 sm:w-5 sm:h-4 left-[56%] sm:left-[59%] top-[68%] sm:text-[8px] absolute"></div>
 
-              <p className="text30 absolute border bg-[#BCD6AC] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[7px] top-[62%] sm:top-[55%] mx-2 p-1">
+              <p className="text30 absolute border bg-[#BCD6AC] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[7px] top-[62%] sm:top-[55%] mx-3 p-1">
                 Good use of Order Summary to reassure users
               </p>
             </div>
@@ -53,7 +53,7 @@ const DecisionPage5 = () => {
             <div className="cursor-pointer textThirtyOne">
               <div className="w-7 h-5 sm:w-5 sm:h-4 left-[72.5%] sm:left-[75%] top-[71%] sm:text-[8px] absolute"></div>
 
-              <p className="text31 absolute border bg-[#D08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[7px] top-[65%] sm:top-[57%] mx-2 p-1">
+              <p className="text31 absolute border bg-[#D08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[7px] top-[65%] sm:top-[57%] mx-3 p-1">
                 Missed opportunity to keep users engaged with content 
               </p>
             </div>

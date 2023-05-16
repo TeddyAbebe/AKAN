@@ -41,7 +41,7 @@ export const Pages = () => {
             className="flex md:hidden top-2 left-2"
             onClick={() => setOpenAppBar(!openAppBar)}
           >
-            <div className="px-2 py-1 absolute bg-[#497E4F] rounded-md">
+            <div className="px-2 py-1 absolute z-[1] bg-[#497E4F] rounded-md">
               <img className="w-18 h-18" src={Menu} alt="" />
             </div>
           </button>

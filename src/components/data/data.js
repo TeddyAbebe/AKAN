@@ -859,7 +859,6 @@ export const loyality = [
       "Nurture the personal connection with your customers through content & community development",
     pinkNote:
       "Reward customers with special promotions or early previews of new products",
-    // icon: require("../data/files/Icons/loyality.png"),
     icon: (
       <svg
         width="32"
@@ -901,51 +900,15 @@ export const loyalityPageTwo = [
   },
 ];
 
-export const loyalityPageTwoCards = [
-  {
-    card: require("./files/Images/Card23.png"),
-  },
-  {
-    card: require("./files/Images/Card24.png"),
-  },
-  {
-    card: require("./files/Images/Card25.png"),
-  },
-  {
-    card: require("./files/Images/Card26.png"),
-  },
-];
-
 export const loyalityPageThree = [
   {
     header: "The Proof | Top of Mind",
   },
 ];
 
-export const loyalityPageThreeCards = [
-  // {
-  //   card: require("./files/Images/Card27.png"),
-  // },
-  {
-    card: require("./files/Images/Card28.png"),
-  },
-  {
-    card: require("./files/Images/Card29.png"),
-  },
-  {
-    card: require("./files/Images/Card30.png"),
-  },
-];
-
 export const loyalityPageFour = [
   {
     header: "The Proof | Top of Mind",
-  },
-];
-
-export const loyalityPageFourCards = [
-  {
-    card: require("./files/Images/Card31.png"),
   },
 ];
 

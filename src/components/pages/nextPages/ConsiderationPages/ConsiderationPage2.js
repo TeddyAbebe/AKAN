@@ -50,7 +50,7 @@ const ConsiderationPage2 = () => {
                   1
                 </p>
               </div>
-              <p className="text1 absolute border bg-[#] font-fira font-normal rounded-lg text-[8px] sm:text-[10.5px] mx-2 p-0.5 top-[20%]">
+              <p className="text1 absolute border bg-[#50B069] font-fira font-normal rounded-lg text-[8px] sm:text-[10.5px] mx-2 p-0.5 top-[20%]">
                 Mobile responsive landing page
               </p>
             </div>
@@ -158,7 +158,7 @@ const ConsiderationPage2 = () => {
                   4b
                 </p>
               </div>
-              <p className="text5 absolute border bg-[#E7644A] font-fira font-normal rounded-lg mx-2 text-[8px] sm:text-[10.5px] p-0.5 top-[55%] sm:top-[82%]">
+              <p className="text5 absolute border bg-[#E7644A] font-fira font-normal rounded-lg mx-3 text-[8px] sm:text-[10.5px] p-0.5 top-[55%] sm:top-[55%]">
                 So many pop ups not staggered is disruptive
               </p>
             </div>
@@ -184,7 +184,7 @@ const ConsiderationPage2 = () => {
                   4c
                 </p>
               </div>
-              <p className="text6 absolute border bg-[#E7644A] font-fira font-normal rounded-lg text-[8px] sm:text-[10.5px] mx-2 p-0.5 top-[55%] sm:top-[65%]">
+              <p className="text6 absolute border bg-[#E7644A] font-fira font-normal rounded-lg text-[8px] sm:text-[10.5px] mx-3 p-0.5 top-[55%] sm:top-[60%]">
                 So many pop ups not staggered is disruptive
               </p>
             </div>
@@ -214,7 +214,7 @@ const ConsiderationPage2 = () => {
                   5
                 </p>
               </div>
-              <p className="text7 absolute border bg-[#E7644A] font-fira font-normal rounded-lg text-[4px] sm:text-[10.5px] mx-2 p-0.5 top-[20%] sm:top-[5%]">
+              <p className="text7 absolute border bg-[#E7644A] font-fira font-normal rounded-lg text-[4px] sm:text-[10.5px] p-0.5 top-[20%] sm:top-[10%] mx-3">
                 Good use of imagery to grab attention, however it’s a missed
                 opportunity to show the product vs the packaging
               </p>
@@ -241,7 +241,7 @@ const ConsiderationPage2 = () => {
                   6
                 </p>
               </div>
-              <p className="text8 absolute border bg-[#E7644A] font-fira font-normal rounded-lg text-[4px] sm:text-[10.5px] mx-2 p-0.5 top-[57%] sm:top-[35%]">
+              <p className="text8 absolute border bg-[#E7644A] font-fira font-normal rounded-lg text-[4px] sm:text-[10.5px] mx-3 p-0.5 top-[57%] sm:top-[35%]">
                 ‘Take Quiz’ can make the process seem daunting & tedious - ‘Tea
                 Finder’ could be more fit for purpose and helpful for the user
               </p>

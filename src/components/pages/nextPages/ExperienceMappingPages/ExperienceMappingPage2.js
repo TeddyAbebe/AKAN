@@ -17,8 +17,12 @@ const ExperienceMappingPage2 = () => {
             <div className="text-center font-fira font-normal max-w-[44rem] mb-16  lg:mb-18">
               <p>{val.note}</p>
             </div>
-            <div>
-              <img src={mappingPage2} alt="" />
+            <div className="flex justify-center items-center">
+              <img
+                src={mappingPage2}
+                alt=""
+                className="duration-300 ease-in-out hover:scale-[1.1] w-[90%] cursor-pointer"
+              />
             </div>
           </div>
         ))}

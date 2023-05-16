@@ -114,12 +114,12 @@ const About = () => {
                 </div>
               ))}
             </div>
-            <div className="flex justify-start gap-4 sm:gap-6 md:gap-10">
+            <div className="flex flex-col sm:flex-row justify-start gap-4 sm:gap-6 md:gap-10">
               <div className="duration-1000 ease-in-out hover:scale-[1.2] cursor-pointer">
                 <img src={American} alt="" />
               </div>
               {company.map((val, i) => (
-                <div className="h-full rounded-lg bg-white px-4 duration-1000 ease-in-out hover:scale-[1.2] cursor-pointer">
+                <div className="h-full w-[62%] sm:w-auto rounded-lg bg-white px-4 duration-1000 ease-in-out hover:scale-[1.2] cursor-pointer">
                   <div className="flex justify-center items-center h-[79px] lg:w-[221.44px] ">
                     <img className="" src={val.image} alt="" />
                   </div>
