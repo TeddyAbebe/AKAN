@@ -4,7 +4,7 @@ import LeftArrow from "../../../data/files/Icons/LeftArrow.png";
 import RightArrow from "../../../data/files/Icons/RightArrow.png";
 import { Link } from "react-router-dom";
 import iPhone from "../../../data/files/Images/iPhoneScreenWhite.png";
-import Card31 from "../../../data/files/Images/Card31.png"
+import Card31 from "../../../data/files/Images/Card31.svg"
 
 const LoyalityPage4 = () => {
   return (
@@ -55,7 +55,7 @@ const LoyalityPage4 = () => {
             <img className="-mb-[180%] sm:h-[265px]" src={iPhone} alt="" />
             <div className="">
               <img
-                className="ml-1.5 sm:h-[250px] sm:w-[90%]"
+                className="ml-1.5 sm:h-[250px] sm:w-[90%] rounded-xl sm:rounded-2xl"
                 src={Card31}
                 alt=""
               />

@@ -4,10 +4,10 @@ import LeftArrow from "../../../data/files/Icons/LeftArrow.png";
 import RightArrow from "../../../data/files/Icons/RightArrow.png";
 import { Link } from "react-router-dom";
 import iPhone from "../../../data/files/Images/iPhoneScreenWhite.png";
-import Card27 from "../../../data/files/Images/Card27.png";
-import Card28 from "../../../data/files/Images/Card28.png";
+import Card27 from "../../../data/files/Images/Card27.svg";
+import Card28 from "../../../data/files/Images/Card28.svg";
 import Card29 from "../../../data/files/Images/Card29.png";
-import Card30 from "../../../data/files/Images/Card30.png";
+import Card30 from "../../../data/files/Images/Card30.svg";
 
 const Loyalitypage3 = () => {
   return (
@@ -97,7 +97,7 @@ const Loyalitypage3 = () => {
             <img className="-mb-[182%]  sm:h-[253px]" src={iPhone} alt="" />
             <div>
               <img
-                className="w-[94%] ml-0.5 sm:h-[246px] sm:ml-1"
+                className="w-[94%] ml-0.5 sm:h-[246px] sm:ml-1 rounded-xl sm:rounded-2xl"
                 src={Card28}
                 alt=""
               />
@@ -178,7 +178,7 @@ const Loyalitypage3 = () => {
             <img className="-mb-[182%]  sm:h-[253px]" src={iPhone} alt="" />
             <div>
               <img
-                className="w-[94%] ml-0.5 sm:h-[246px] sm:ml-1"
+                className="w-[94%] ml-0.5 sm:h-[246px] sm:ml-1 rounded-xl sm:rounded-2xl"
                 src={Card30}
                 alt=""
               />

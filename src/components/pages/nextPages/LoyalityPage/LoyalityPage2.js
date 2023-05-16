@@ -4,10 +4,10 @@ import LeftArrow from "../../../data/files/Icons/LeftArrow.png";
 import RightArrow from "../../../data/files/Icons/RightArrow.png";
 import { Link } from "react-router-dom";
 import iPhone from "../../../data/files/Images/iPhoneScreenWhite.png";
-import Card23 from "../../../data/files/Images/Card23.png";
-import Card24 from "../../../data/files/Images/Card24.png";
-import Card25 from "../../../data/files/Images/Card25.png";
-import Card26 from "../../../data/files/Images/Card26.png";
+import Card23 from "../../../data/files/Images/Card23.svg";
+import Card24 from "../../../data/files/Images/Card24.svg";
+import Card25 from "../../../data/files/Images/Card25.svg";
+import Card26 from "../../../data/files/Images/Card26.svg";
 
 const LoyalityPage2 = () => {
   return (

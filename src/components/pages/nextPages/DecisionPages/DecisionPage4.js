@@ -4,9 +4,9 @@ import LeftArrow from "../../../data/files/Icons/LeftArrow.png";
 import RightArrow from "../../../data/files/Icons/RightArrow.png";
 import { Link } from "react-router-dom";
 import iPhone from "../../../data/files/Images/iphone-12-Screen.png";
-import Card17 from "../../../data/files/Images/Card17.png";
-import Card18 from "../../../data/files/Images/Card18.png";
-import Card19 from "../../../data/files/Images/Card19.png";
+import Card17 from "../../../data/files/Images/Card17.svg";
+import Card18 from "../../../data/files/Images/Card18.svg";
+import Card19 from "../../../data/files/Images/Card19.svg";
 import Card20 from "../../../data/files/Images/Card20.png";
 
 const DecisionPage4 = () => {
@@ -131,7 +131,7 @@ const DecisionPage4 = () => {
             <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
             <div className="">
               <img
-                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5"
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl"
                 src={Card17}
                 alt=""
               />
@@ -172,7 +172,7 @@ const DecisionPage4 = () => {
             <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
             <div className="">
               <img
-                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5"
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl"
                 src={Card18}
                 alt=""
               />
@@ -183,7 +183,7 @@ const DecisionPage4 = () => {
             <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
             <div className="">
               <img
-                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5"
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl"
                 src={Card19}
                 alt=""
               />

@@ -718,21 +718,6 @@ export const ConsiderationPageTwo = [
   },
 ];
 
-export const ConsiderationPageTwoCards = [
-  {
-    card: require("./files/Images/Card1.png"),
-  },
-  {
-    card: require("./files/Images/Card2.png"),
-  },
-  {
-    card: require("./files/Images/Card3.png"),
-  },
-  {
-    card: require("./files/Images/Card4.png"),
-  },
-];
-
 export const ConsiderationPageThree = {
   FirstHeader: {
     header1: "Onboarding | Tea Finder",
@@ -741,21 +726,6 @@ export const ConsiderationPageThree = {
     header2: "Browsing | Collections",
   },
 };
-
-export const ConsiderationPageThreeCards = [
-  {
-    card: require("./files/Images/Card5.png"),
-  },
-  {
-    card: require("./files/Images/Card6.png"),
-  },
-  {
-    card: require("./files/Images/Card7.png"),
-  },
-  {
-    card: require("./files/Images/Card8.png"),
-  },
-];
 
 export const arrows = [
   {

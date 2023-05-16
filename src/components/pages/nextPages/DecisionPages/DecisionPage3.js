@@ -4,10 +4,10 @@ import LeftArrow from "../../../data/files/Icons/LeftArrow.png";
 import RightArrow from "../../../data/files/Icons/RightArrow.png";
 import { Link } from "react-router-dom";
 import iPhone from "../../../data/files/Images/iphone-12-Screen.png";
-import Card13 from "../../../data/files/Images/Card13.png";
-import Card14 from "../../../data/files/Images/Card14.png";
-import Card15 from "../../../data/files/Images/Card15.png";
-import Card16 from "../../../data/files/Images/Card16.png";
+import Card13 from "../../../data/files/Images/Card13.svg";
+import Card14 from "../../../data/files/Images/Card14.svg";
+import Card15 from "../../../data/files/Images/Card15.svg";
+import Card16 from "../../../data/files/Images/Card16.svg";
 
 const DecisionPage3 = () => {
   return (
@@ -64,7 +64,7 @@ const DecisionPage3 = () => {
             <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
             <div className="">
               <img
-                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5"
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl"
                 src={Card13}
                 alt=""
               />
@@ -106,7 +106,7 @@ const DecisionPage3 = () => {
             <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
             <div className="">
               <img
-                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5"
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl"
                 src={Card14}
                 alt=""
               />
@@ -147,7 +147,7 @@ const DecisionPage3 = () => {
             <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
             <div className="">
               <img
-                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5"
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl"
                 src={Card15}
                 alt=""
               />
@@ -188,7 +188,7 @@ const DecisionPage3 = () => {
             <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
             <div className="">
               <img
-                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5"
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl"
                 src={Card16}
                 alt=""
               />
@@ -196,7 +196,7 @@ const DecisionPage3 = () => {
           </div>
         </div>
       </div>
-      
+
       <div className="flex-grow"></div>
 
       <div className="flex justify-center sm:justify-end gap-10 p-3">

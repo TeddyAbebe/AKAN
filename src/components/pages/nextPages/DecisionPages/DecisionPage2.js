@@ -5,9 +5,9 @@ import RightArrow from "../../../data/files/Icons/RightArrow.png";
 import { Link } from "react-router-dom";
 import iPhone from "../../../data/files/Images/iphone-12-Screen.png";
 import Card9 from "../../../data/files/Images/Card9.png";
-import Card10 from "../../../data/files/Images/Card10.png";
-import Card11 from "../../../data/files/Images/Card11.png";
-import Card12 from "../../../data/files/Images/Card12.png";
+import Card10 from "../../../data/files/Images/Card10.svg";
+import Card11 from "../../../data/files/Images/Card11.svg";
+import Card12 from "../../../data/files/Images/Card12.svg";
 
 const DecisionPage2 = () => {
   return (
@@ -34,7 +34,7 @@ const DecisionPage2 = () => {
             <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
             <div className="">
               <img
-                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5"
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 "
                 src={Card9}
                 alt=""
               />
@@ -74,7 +74,7 @@ const DecisionPage2 = () => {
             <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
             <div className="">
               <img
-                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5"
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl"
                 src={Card10}
                 alt=""
               />
@@ -116,7 +116,7 @@ const DecisionPage2 = () => {
             <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
             <div className="">
               <img
-                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5"
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl"
                 src={Card11}
                 alt=""
               />
@@ -156,7 +156,7 @@ const DecisionPage2 = () => {
             <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
             <div className="">
               <img
-                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5"
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl"
                 src={Card12}
                 alt=""
               />

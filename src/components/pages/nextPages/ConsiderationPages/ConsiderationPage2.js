@@ -1,14 +1,13 @@
 import React from "react";
-import {
-  ConsiderationPageTwo,
-} from "../../../data/data";
+import { ConsiderationPageTwo } from "../../../data/data";
 import LeftArrow from "../../../data/files/Icons/LeftArrow.png";
 import RightArrow from "../../../data/files/Icons/RightArrow.png";
 import { Link } from "react-router-dom";
-import Card1 from "../../../data/files/Images/Card1.png";
-import Card2 from "../../../data/files/Images/Card2.png";
-import Card3 from "../../../data/files/Images/Card3.png";
-import Card4 from "../../../data/files/Images/Card4.png";
+import Card1 from "../../../data/files/Images/Card1.svg";
+import Card2 from "../../../data/files/Images/Card2.svg";
+import Card3 from "../../../data/files/Images/Card3.svg";
+import Card4 from "../../../data/files/Images/Card4.svg";
+import iPhone from "../../../data/files/Images/iphone-12-Screen.png";
 // import angle from "../../../data/files/Images/angle.png";
 
 const ConsiderationPage2 = () => {
@@ -105,7 +104,15 @@ const ConsiderationPage2 = () => {
                 proper onboarding
               </p>
             </div>
-            <img className="lg:h-64" src={Card1} alt="" />
+
+            <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
+            <div>
+              <img
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl "
+                src={Card1}
+                alt=""
+              />
+            </div>
           </div>
 
           <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
@@ -189,7 +196,14 @@ const ConsiderationPage2 = () => {
               </p>
             </div>
 
-            <img className="lg:h-64" src={Card2} alt="" />
+            <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
+            <div>
+              <img
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl "
+                src={Card2}
+                alt=""
+              />
+            </div>
           </div>
 
           <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
@@ -246,7 +260,14 @@ const ConsiderationPage2 = () => {
                 Finder’ could be more fit for purpose and helpful for the user
               </p>
             </div>
-            <img className="lg:h-64" src={Card3} alt="" />
+            <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
+            <div>
+              <img
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl "
+                src={Card3}
+                alt=""
+              />
+            </div>
           </div>
 
           <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
@@ -277,7 +298,14 @@ const ConsiderationPage2 = () => {
               </p>
             </div>
 
-            <img className="lg:h-64" src={Card4} alt="" />
+            <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
+            <div>
+              <img
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl"
+                src={Card4}
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>

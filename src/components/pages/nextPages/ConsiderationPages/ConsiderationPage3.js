@@ -3,10 +3,11 @@ import { ConsiderationPageThree } from "../../../data/data";
 import LeftArrow from "../../../data/files/Icons/LeftArrow.png";
 import RightArrow from "../../../data/files/Icons/RightArrow.png";
 import { Link } from "react-router-dom";
-import Card5 from "../../../data/files/Images/Card5.png";
-import Card6 from "../../../data/files/Images/Card6.png";
-import Card7 from "../../../data/files/Images/Card7.png";
-import Card8 from "../../../data/files/Images/Card8.png";
+import Card5 from "../../../data/files/Images/Card5.svg";
+import Card6 from "../../../data/files/Images/Card6.svg";
+import Card7 from "../../../data/files/Images/Card7.svg";
+import Card8 from "../../../data/files/Images/Card8.svg";
+import iPhone from "../../../data/files/Images/iphone-12-Screen.png";
 
 const ConsiderationPage3 = () => {
   return (
@@ -83,7 +84,14 @@ const ConsiderationPage3 = () => {
               </p>
             </div>
 
-            <img className="lg:h-64" src={Card5} alt="" />
+            <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
+            <div>
+              <img
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl "
+                src={Card5}
+                alt=""
+              />
+            </div>
           </div>
 
           <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
@@ -115,7 +123,14 @@ const ConsiderationPage3 = () => {
               </p>
             </div>
 
-            <img className="lg:h-64" src={Card6} alt="" />
+            <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
+            <div>
+              <img
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl "
+                src={Card6}
+                alt=""
+              />
+            </div>
           </div>
 
           <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
@@ -225,7 +240,14 @@ const ConsiderationPage3 = () => {
               </p>
             </div>
 
-            <img className="lg:h-64" src={Card7} alt="" />
+            <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
+            <div>
+              <img
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl "
+                src={Card7}
+                alt=""
+              />
+            </div>
           </div>
 
           <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
@@ -256,7 +278,14 @@ const ConsiderationPage3 = () => {
               </p>
             </div>
 
-            <img className="lg:h-64" src={Card8} alt="" />
+            <img className="-mb-[180%] sm:h-[253px]" src={iPhone} alt="" />
+            <div>
+              <img
+                className="w-[92%] ml-1 sm:h-[246px] sm:ml-1.5 rounded-xl sm:rounded-2xl "
+                src={Card8}
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
