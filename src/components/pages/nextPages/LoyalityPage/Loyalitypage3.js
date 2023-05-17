@@ -8,6 +8,7 @@ import Card27 from "../../../data/files/Images/Card27.svg";
 import Card28 from "../../../data/files/Images/Card28.svg";
 import Card29 from "../../../data/files/Images/Card29.png";
 import Card30 from "../../../data/files/Images/Card30.svg";
+import { IoChatboxSharp } from "react-icons/io5";
 
 const Loyalitypage3 = () => {
   return (
@@ -22,7 +23,33 @@ const Loyalitypage3 = () => {
         </div>
 
         <div className="w-full gap-6 flex justify-evenly lg:justify-center">
-          <div className="duration-300 ease-in-out hover:scale-[1.15] cursor-pointer">
+          <div className="relative duration-300 ease-in-out hover:scale-[1.15] cursor-pointer">
+            <div className="textFourtyOne cursor-pointer">
+              <div className="">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  className="w-2 h-2 stroke-amber-300 fill-amber-300 absolute sm:top-[28%] sm:left-[56%]"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                  />
+                </svg>
+                <IoChatboxSharp className="absolute top-[30%] left-[50%] fill-[#bcd6ac] w-6 h-6" />
+                <p className=" text-[8px] text-black font-bold absolute top-[31.5%] sm:left-[55%]">
+                  41
+                </p>
+              </div>
+              <p className="text41 absolute border bg-[#bcd6ac] text-black font-fira font-normal rounded-lg text-[8px] sm:text-[10px] mx-2 p-0.5 top-[40%]">
+                TPs Brewing is fantastic; it’s distinctive and more noise should
+                be made of this USP.
+              </p>
+            </div>
             <img className="-mb-[150%]  sm:h-[253px]" src={iPhone} alt="" />
             <div className="">
               <img
@@ -35,60 +62,29 @@ const Loyalitypage3 = () => {
 
           <div className="relative duration-300 ease-in-out hover:scale-[1.15] cursor-pointer">
             <div className="cursor-pointer textFourtyTwo">
-              <div className="w-3 h-2 sm:w-5 sm:h-4 left-[50%] top-[20%] sm:text-[8px] absolute">
-                <div>
-                  <svg
-                    width="15"
-                    height="15"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="absolute top-[37%] left-[23%]"
-                  >
-                    <path
-                      d="M7.69928 17.039L7.69931 17.039L7.69564 17.0343C7.55281 16.8494 7.35354 16.7065 7.16111 16.6103C6.96956 16.5145 6.73469 16.44 6.5 16.44H5C2.51418 16.44 0.5 14.4319 0.5 11.96V4.98C0.5 2.5081 2.51418 0.5 5 0.5H15C17.4858 0.5 19.5 2.5081 19.5 4.98V11.96C19.5 14.4319 17.4858 16.44 15 16.44H13.5C13.0314 16.44 12.585 16.6649 12.3019 17.0375L12.3007 17.039L10.8007 19.029L10.8 19.03C10.5506 19.3626 10.2559 19.49 10 19.49C9.74414 19.49 9.44944 19.3626 9.2 19.03L9.19928 19.029L7.69928 17.039ZM5 12.25H11C11.6861 12.25 12.25 11.6861 12.25 11C12.25 10.3139 11.6861 9.75 11 9.75H5C4.31386 9.75 3.75 10.3139 3.75 11C3.75 11.6861 4.31386 12.25 5 12.25ZM5 7.25H15C15.6861 7.25 16.25 6.68614 16.25 6C16.25 5.31386 15.6861 4.75 15 4.75H5C4.31386 4.75 3.75 5.31386 3.75 6C3.75 6.68614 4.31386 7.25 5 7.25Z"
-                      fill="#E7644A"
-                      stroke="white"
-                    />
-                    <path d="M2 4H17V13H2V4Z" fill="#E7644A" />
-                  </svg>
-                  <p className="text-black font-bold text-[8px] absolute top-[37%] left-[35%]">
-                    42
-                  </p>
-                </div>
+              <div>
+                <IoChatboxSharp className="absolute left-[50%] top-[20%] fill-[#d08370] h-6 w-6" />
+                <p className="text-black font-bold text-[8px] absolute top-[21.5%] left-[55%]">
+                  42
+                </p>
               </div>
 
-              <p className="text42 absolute border bg-[#E7644A] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[33%] sm:top-[30%] mx-3 p-1">
+              <p className="text42 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[33%] sm:top-[30%] mx-3 p-1">
                 Subscription confirmation email is off-brand and looks like a
                 phishing email.
               </p>
             </div>
 
             <div className="cursor-pointer textFourtyThree">
-              <div className="w-3 h-2 sm:w-5 sm:h-4 left-[30%] top-[55%] sm:text-[8px] absolute">
-                <div>
-                  <svg
-                    width="15"
-                    height="15"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="absolute top-[37%] left-[23%]"
-                  >
-                    <path
-                      d="M7.69928 17.039L7.69931 17.039L7.69564 17.0343C7.55281 16.8494 7.35354 16.7065 7.16111 16.6103C6.96956 16.5145 6.73469 16.44 6.5 16.44H5C2.51418 16.44 0.5 14.4319 0.5 11.96V4.98C0.5 2.5081 2.51418 0.5 5 0.5H15C17.4858 0.5 19.5 2.5081 19.5 4.98V11.96C19.5 14.4319 17.4858 16.44 15 16.44H13.5C13.0314 16.44 12.585 16.6649 12.3019 17.0375L12.3007 17.039L10.8007 19.029L10.8 19.03C10.5506 19.3626 10.2559 19.49 10 19.49C9.74414 19.49 9.44944 19.3626 9.2 19.03L9.19928 19.029L7.69928 17.039ZM5 12.25H11C11.6861 12.25 12.25 11.6861 12.25 11C12.25 10.3139 11.6861 9.75 11 9.75H5C4.31386 9.75 3.75 10.3139 3.75 11C3.75 11.6861 4.31386 12.25 5 12.25ZM5 7.25H15C15.6861 7.25 16.25 6.68614 16.25 6C16.25 5.31386 15.6861 4.75 15 4.75H5C4.31386 4.75 3.75 5.31386 3.75 6C3.75 6.68614 4.31386 7.25 5 7.25Z"
-                      fill="#E7644A"
-                      stroke="white"
-                    />
-                    <path d="M2 4H17V13H2V4Z" fill="#E7644A" />
-                  </svg>
-                  <p className="text-black font-bold text-[8px] absolute top-[37%] left-[35%]">
-                    43
-                  </p>
-                </div>
+              <div>
+                <IoChatboxSharp className="absolute left-[30%] top-[55%] fill-[#d08370] h-6 w-6" />
+
+                <p className="text-black font-bold text-[8px] absolute top-[56.5%] left-[35%]">
+                  43
+                </p>
               </div>
 
-              <p className="text43 absolute border bg-[#E7644A] text-black font-fira font-normal rounded-lg text-[3px] sm:text-[7px] top-[68%] sm:top-[65%] mx-3 p-1">
+              <p className="text43 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[3px] sm:text-[7px] top-[68%] sm:top-[65%] mx-3 p-1">
                 The CTA for ‘Manage Subscription’ takes users to a standalone
                 Card Info page. The Membership dashboard lacks interactivity and
                 a sense of community
@@ -106,30 +102,15 @@ const Loyalitypage3 = () => {
 
           <div className="relative duration-300 ease-in-out hover:scale-[1.15] cursor-pointer">
             <div className="cursor-pointer textFourtyFour">
-              <div className="w-3 h-2 sm:w-5 sm:h-4 left-[60%] top-[30%] sm:text-[8px] absolute">
-                <div>
-                  <svg
-                    width="15"
-                    height="15"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="absolute top-[37%] left-[23%]"
-                  >
-                    <path
-                      d="M7.69928 17.039L7.69931 17.039L7.69564 17.0343C7.55281 16.8494 7.35354 16.7065 7.16111 16.6103C6.96956 16.5145 6.73469 16.44 6.5 16.44H5C2.51418 16.44 0.5 14.4319 0.5 11.96V4.98C0.5 2.5081 2.51418 0.5 5 0.5H15C17.4858 0.5 19.5 2.5081 19.5 4.98V11.96C19.5 14.4319 17.4858 16.44 15 16.44H13.5C13.0314 16.44 12.585 16.6649 12.3019 17.0375L12.3007 17.039L10.8007 19.029L10.8 19.03C10.5506 19.3626 10.2559 19.49 10 19.49C9.74414 19.49 9.44944 19.3626 9.2 19.03L9.19928 19.029L7.69928 17.039ZM5 12.25H11C11.6861 12.25 12.25 11.6861 12.25 11C12.25 10.3139 11.6861 9.75 11 9.75H5C4.31386 9.75 3.75 10.3139 3.75 11C3.75 11.6861 4.31386 12.25 5 12.25ZM5 7.25H15C15.6861 7.25 16.25 6.68614 16.25 6C16.25 5.31386 15.6861 4.75 15 4.75H5C4.31386 4.75 3.75 5.31386 3.75 6C3.75 6.68614 4.31386 7.25 5 7.25Z"
-                      fill="#50B068"
-                      stroke="white"
-                    />
-                    <path d="M2 4H17V13H2V4Z" fill="#50B069" />
-                  </svg>
-                  <p className="text-black font-bold text-[8px] absolute top-[37%] left-[35%]">
-                    44
-                  </p>
-                </div>
+              <div>
+                <IoChatboxSharp className="absolute left-[60%] top-[30%] fill-[#bcd6ac] h-6 w-6" />
+
+                <p className="text-black font-bold text-[8px] absolute top-[32%] left-[65%]">
+                  44
+                </p>
               </div>
 
-              <p className="text44 absolute border bg-[#50B069] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[10%] sm:top-[19%] right-[38%] ml-1  p-1">
+              <p className="text44 absolute border bg-[#bcd6ac] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[10%] sm:top-[19%] right-[39%] ml-1  p-1">
                 Great use of customer feedback to better understand your
                 customer experience from their perspective
               </p>
@@ -147,30 +128,15 @@ const Loyalitypage3 = () => {
 
           <div className="relative duration-300 ease-in-out hover:scale-[1.15] cursor-pointer">
             <div className="cursor-pointer textFourtyFive">
-              <div className="w-3 h-2 sm:w-5 sm:h-4 left-[40%] top-[26%] sm:text-[8px] absolute">
-                <div>
-                  <svg
-                    width="15"
-                    height="15"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="absolute top-[37%] left-[23%]"
-                  >
-                    <path
-                      d="M7.69928 17.039L7.69931 17.039L7.69564 17.0343C7.55281 16.8494 7.35354 16.7065 7.16111 16.6103C6.96956 16.5145 6.73469 16.44 6.5 16.44H5C2.51418 16.44 0.5 14.4319 0.5 11.96V4.98C0.5 2.5081 2.51418 0.5 5 0.5H15C17.4858 0.5 19.5 2.5081 19.5 4.98V11.96C19.5 14.4319 17.4858 16.44 15 16.44H13.5C13.0314 16.44 12.585 16.6649 12.3019 17.0375L12.3007 17.039L10.8007 19.029L10.8 19.03C10.5506 19.3626 10.2559 19.49 10 19.49C9.74414 19.49 9.44944 19.3626 9.2 19.03L9.19928 19.029L7.69928 17.039ZM5 12.25H11C11.6861 12.25 12.25 11.6861 12.25 11C12.25 10.3139 11.6861 9.75 11 9.75H5C4.31386 9.75 3.75 10.3139 3.75 11C3.75 11.6861 4.31386 12.25 5 12.25ZM5 7.25H15C15.6861 7.25 16.25 6.68614 16.25 6C16.25 5.31386 15.6861 4.75 15 4.75H5C4.31386 4.75 3.75 5.31386 3.75 6C3.75 6.68614 4.31386 7.25 5 7.25Z"
-                      fill="#50B068"
-                      stroke="white"
-                    />
-                    <path d="M2 4H17V13H2V4Z" fill="#50B069" />
-                  </svg>
-                  <p className="text-black font-bold text-[8px] absolute top-[37%] left-[35%]">
-                    45
-                  </p>
-                </div>
+              <div>
+                <IoChatboxSharp className="absolute left-[40%] top-[28%] fill-[#bcd6ac] h-6 w-6" />
+
+                <p className="text-black font-bold text-[8px] absolute top-[29.5%] left-[45%]">
+                  45
+                </p>
               </div>
 
-              <p className="text45 absolute border bg-[#50B069] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[39%] sm:top-[35%] right-[38%] ml-1  p-1">
+              <p className="text45 absolute border bg-[#bcd6ac] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[39%] sm:top-[37%] right-[38%] ml-1 p-1">
                 Helpful and informative content delivered in an eye-catching
                 template.
               </p>

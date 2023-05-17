@@ -34,7 +34,7 @@ const LoyalityPage2 = () => {
             <div className="cursor-pointer textThirtyThree">
               <div className="w-3 h-2 sm:w-5 sm:h-3 left-[7%] top-[37%] absolute sm:left-[8.5%] sm:top-[39%]"></div>
 
-              <p className="text33 absolute border bg-[#d08370] font-fira font-normal rounded-lg text-[5px] sm:text-[8px] sm:top-[42%] left-[25%] right-[3%] p-1">
+              <p className="text33 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[8px] sm:top-[42%] left-[25%] right-[3%] p-1">
                 The synthetic loose fill chips in the box disaffirm brand ethos
                 of ‘natural/ethical’. No smell from the box to excite and
                 reaffirm quality / freshness
@@ -52,7 +52,7 @@ const LoyalityPage2 = () => {
             <div className="cursor-pointer textThirtyFive">
               <div className="w-3 h-2 sm:w-5 sm:h-3 left-[68%] top-[40%] absolute sm:left-[68.5%] sm:top-[42%]"></div>
 
-              <p className="text35 absolute border bg-[#d08370] font-fira font-normal rounded-lg text-[3.5px] sm:text-[7px] sm:top-[48%] top-[47%] left-[3%] right-[3%] p-0.5">
+              <p className="text35 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[3.5px] sm:text-[7px] sm:top-[48%] top-[47%] left-[3%] right-[3%] p-0.5">
                 ..however design is off brand; feels more corporate/medicinal,
                 not herbal. No visual clues/designs on the sleeve or box to
                 indicate this is a product for the brain or a herbal tea. The
@@ -82,7 +82,7 @@ const LoyalityPage2 = () => {
             <div className="cursor-pointer textThirtySeven">
               <div className="w-3 h-2 sm:w-5 sm:h-3 left-[45%] top-[56%] absolute sm:left-[46%] sm:top-[59%]"></div>
 
-              <p className="text37 absolute border bg-[#d08370] font-fira font-normal rounded-lg text-[5px] sm:text-[8px] top-[29%] sm:top-[35%] left-[3%] right-[3%] p-1">
+              <p className="text37 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[8px] top-[29%] sm:top-[35%] left-[3%] right-[3%] p-1">
                 Glossy finish on the box feels unnatural and clashes with the
                 sleeve.
               </p>
@@ -129,7 +129,7 @@ const LoyalityPage2 = () => {
             <div className="cursor-pointer textFourty">
               <div className="w-3 h-2 sm:w-5 sm:h-3 left-[63%] top-[63%] sm:text-[8px] absolute"></div>
 
-              <p className="text40 absolute border bg-[#d08370] font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[40%] sm:top-[31%] right-[3%] left-[3%] p-1">
+              <p className="text40 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[40%] sm:top-[31%] right-[3%] left-[3%] p-1">
                 ..however it’s Very copy-heavy; less text and more
                 images/diagrams. Moreover there’s no information on what to do
                 with the jars once empty; either recycle or return.

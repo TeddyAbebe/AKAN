@@ -8,6 +8,7 @@ import Card6 from "../../../data/files/Images/Card6.svg";
 import Card7 from "../../../data/files/Images/Card7.svg";
 import Card8 from "../../../data/files/Images/Card8.svg";
 import iPhone from "../../../data/files/Images/iphone-12-Screen.png";
+import { IoChatboxSharp } from "react-icons/io5";
 
 const ConsiderationPage3 = () => {
   return (
@@ -31,26 +32,12 @@ const ConsiderationPage3 = () => {
           <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
             <div className="tenthText cursor-pointer">
               <div className="">
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="absolute top-[35%] left-[8%] sm:top-[40%]"
-                >
-                  <path
-                    d="M7.69928 17.039L7.69931 17.039L7.69564 17.0343C7.55281 16.8494 7.35354 16.7065 7.16111 16.6103C6.96956 16.5145 6.73469 16.44 6.5 16.44H5C2.51418 16.44 0.5 14.4319 0.5 11.96V4.98C0.5 2.5081 2.51418 0.5 5 0.5H15C17.4858 0.5 19.5 2.5081 19.5 4.98V11.96C19.5 14.4319 17.4858 16.44 15 16.44H13.5C13.0314 16.44 12.585 16.6649 12.3019 17.0375L12.3007 17.039L10.8007 19.029L10.8 19.03C10.5506 19.3626 10.2559 19.49 10 19.49C9.74414 19.49 9.44944 19.3626 9.2 19.03L9.19928 19.029L7.69928 17.039ZM5 12.25H11C11.6861 12.25 12.25 11.6861 12.25 11C12.25 10.3139 11.6861 9.75 11 9.75H5C4.31386 9.75 3.75 10.3139 3.75 11C3.75 11.6861 4.31386 12.25 5 12.25ZM5 7.25H15C15.6861 7.25 16.25 6.68614 16.25 6C16.25 5.31386 15.6861 4.75 15 4.75H5C4.31386 4.75 3.75 5.31386 3.75 6C3.75 6.68614 4.31386 7.25 5 7.25Z"
-                    fill="#50B068"
-                    stroke="white"
-                  />
-                  <path d="M2 4H17V13H2V4Z" fill="#50B069" />
-                </svg>
-                <p className="text-[8px] absolute top-[35.5%] left-[14%] sm:top-[40%] sm:left-[12.5%] ">
+                <IoChatboxSharp className="absolute top-[35%] left-[8%] sm:top-[40%] fill-[#bcd6ac] h-6 w-6" />
+                <p className="text-[8px] absolute sm:top-[41.5%] sm:left-[14.5%] text-black font-bold">
                   8
                 </p>
               </div>
-              <p className="text10 absolute border bg-[#50B069] font-fira font-normal rounded-lg text-[8px] sm:text-[10.5px] mx-2 p-0.5 left-[15%] sm:top-[10%]">
+              <p className="text10 absolute border bg-[#bcd6ac] text-black font-fira font-normal rounded-lg text-[8px] sm:text-[10px] mx-2 p-0.5 left-[15%] sm:top-[10%]">
                 Good use of chat box to help users find the right product for
                 their need
               </p>
@@ -58,27 +45,15 @@ const ConsiderationPage3 = () => {
 
             <div className="elevenText cursor-pointer">
               <div className="">
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="absolute top-[45%] left-[73%] sm:top-[45%] sm:left-[75%]"
-                >
-                  <path
-                    d="M7.69928 17.039L7.69931 17.039L7.69564 17.0343C7.55281 16.8494 7.35354 16.7065 7.16111 16.6103C6.96956 16.5145 6.73469 16.44 6.5 16.44H5C2.51418 16.44 0.5 14.4319 0.5 11.96V4.98C0.5 2.5081 2.51418 0.5 5 0.5H15C17.4858 0.5 19.5 2.5081 19.5 4.98V11.96C19.5 14.4319 17.4858 16.44 15 16.44H13.5C13.0314 16.44 12.585 16.6649 12.3019 17.0375L12.3007 17.039L10.8007 19.029L10.8 19.03C10.5506 19.3626 10.2559 19.49 10 19.49C9.74414 19.49 9.44944 19.3626 9.2 19.03L9.19928 19.029L7.69928 17.039ZM5 12.25H11C11.6861 12.25 12.25 11.6861 12.25 11C12.25 10.3139 11.6861 9.75 11 9.75H5C4.31386 9.75 3.75 10.3139 3.75 11C3.75 11.6861 4.31386 12.25 5 12.25ZM5 7.25H15C15.6861 7.25 16.25 6.68614 16.25 6C16.25 5.31386 15.6861 4.75 15 4.75H5C4.31386 4.75 3.75 5.31386 3.75 6C3.75 6.68614 4.31386 7.25 5 7.25Z"
-                    fill="#E7644A"
-                    stroke="white"
-                  />
-                  <path d="M2 4H17V13H2V4Z" fill="#E7644A" />
-                </svg>
-
-                <p className="text-[8px] absolute top-[46%] left-[80%] sm:top-[45%] sm:left-[79%] ">
+                <IoChatboxSharp
+                  className="absolute top-[45%] left-[73%] sm:top-[45%]
+                sm:left-[75%] fill-[#d08370] h-6 w-6"
+                />
+                <p className="text-[8px] absolute sm:top-[46.5%] sm:left-[81.5%] font-bold text-black">
                   9
                 </p>
               </div>
-              <p className="text11 absolute border bg-[#E7644A] font-fira font-normal rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[50%] right-[8%] sm:top-[50%]">
+              <p className="text11 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[6px] sm:text-[10px] mx-2 p-0.5 right-[8%] sm:top-[54%]">
                 Use of Gifs, while fun could come across as unprofessional so
                 ensure they align with your tone of voice
               </p>
@@ -103,7 +78,7 @@ const ConsiderationPage3 = () => {
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  className="w-2 h-2 stroke-amber-300 fill-amber-300 absolute top-[2%] left-[22%] sm:top-[4%] sm:left-[20%]"
+                  className="w-2 h-2 stroke-amber-300 fill-amber-300 absolute top-[2%] left-[22%] sm:top-[4%] sm:left-[24%]"
                 >
                   <path
                     stroke-linecap="round"
@@ -112,26 +87,12 @@ const ConsiderationPage3 = () => {
                   />
                 </svg>
 
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="absolute top-[7%] left-[18%]"
-                >
-                  <path
-                    d="M7.69928 17.039L7.69931 17.039L7.69564 17.0343C7.55281 16.8494 7.35354 16.7065 7.16111 16.6103C6.96956 16.5145 6.73469 16.44 6.5 16.44H5C2.51418 16.44 0.5 14.4319 0.5 11.96V4.98C0.5 2.5081 2.51418 0.5 5 0.5H15C17.4858 0.5 19.5 2.5081 19.5 4.98V11.96C19.5 14.4319 17.4858 16.44 15 16.44H13.5C13.0314 16.44 12.585 16.6649 12.3019 17.0375L12.3007 17.039L10.8007 19.029L10.8 19.03C10.5506 19.3626 10.2559 19.49 10 19.49C9.74414 19.49 9.44944 19.3626 9.2 19.03L9.19928 19.029L7.69928 17.039ZM5 12.25H11C11.6861 12.25 12.25 11.6861 12.25 11C12.25 10.3139 11.6861 9.75 11 9.75H5C4.31386 9.75 3.75 10.3139 3.75 11C3.75 11.6861 4.31386 12.25 5 12.25ZM5 7.25H15C15.6861 7.25 16.25 6.68614 16.25 6C16.25 5.31386 15.6861 4.75 15 4.75H5C4.31386 4.75 3.75 5.31386 3.75 6C3.75 6.68614 4.31386 7.25 5 7.25Z"
-                    fill="#E7644A"
-                    stroke="white"
-                  />
-                  <path d="M2 4H17V13H2V4Z" fill="#E7644A" />
-                </svg>
-                <p className="text-[6px] absolute top-[8%] left-[23%] sm:left-[21%] ">
+                <IoChatboxSharp className="absolute top-[7%] left-[18%] fill-[#d08370] h-6 w-6" />
+                <p className="text-[8px] absolute top-[8.5%] sm:left-[22.5%] text-black font-bold">
                   10
                 </p>
               </div>
-              <p className="text11 absolute border bg-[#E7644A] font-fira font-normal rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[13%]">
+              <p className="text11 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[6px] sm:text-[10px] mx-2 p-0.5 top-[16%]">
                 ‘Quiz’ UX feels clunky, and use of ‘herbalist algorithm’ makes
                 it feel impersonal and generic. Do your users want
                 recommendations from machines or expert/humans?
@@ -151,78 +112,39 @@ const ConsiderationPage3 = () => {
           <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
             <div className="elevenText cursor-pointer">
               <div className="">
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="absolute top-[6%] left-[3%] sm:top-[10%] sm:left-[5%]"
-                >
-                  <path
-                    d="M7.69928 17.039L7.69931 17.039L7.69564 17.0343C7.55281 16.8494 7.35354 16.7065 7.16111 16.6103C6.96956 16.5145 6.73469 16.44 6.5 16.44H5C2.51418 16.44 0.5 14.4319 0.5 11.96V4.98C0.5 2.5081 2.51418 0.5 5 0.5H15C17.4858 0.5 19.5 2.5081 19.5 4.98V11.96C19.5 14.4319 17.4858 16.44 15 16.44H13.5C13.0314 16.44 12.585 16.6649 12.3019 17.0375L12.3007 17.039L10.8007 19.029L10.8 19.03C10.5506 19.3626 10.2559 19.49 10 19.49C9.74414 19.49 9.44944 19.3626 9.2 19.03L9.19928 19.029L7.69928 17.039ZM5 12.25H11C11.6861 12.25 12.25 11.6861 12.25 11C12.25 10.3139 11.6861 9.75 11 9.75H5C4.31386 9.75 3.75 10.3139 3.75 11C3.75 11.6861 4.31386 12.25 5 12.25ZM5 7.25H15C15.6861 7.25 16.25 6.68614 16.25 6C16.25 5.31386 15.6861 4.75 15 4.75H5C4.31386 4.75 3.75 5.31386 3.75 6C3.75 6.68614 4.31386 7.25 5 7.25Z"
-                    fill="#E7644A"
-                    stroke="white"
-                  />
-                  <path d="M2 4H17V13H2V4Z" fill="#E7644A" />
-                </svg>
-                <p className=" text-[8px] absolute top-[6%] left-[7%] sm:left-[7%] sm:top-[10%]">
+                <IoChatboxSharp
+                  className="absolute top-[5%] left-[3%] sm:top-[8%]
+                sm:left-[5%] fill-[#d08370] h-6 w-6"
+                />
+                <p className="font-bold text-[8px] absolute top-[5%] left-[7%] sm:left-[10%] sm:top-[9.5%] text-black">
                   11
                 </p>
               </div>
-              <p className="text11 absolute border bg-[#E7644A] font-fira font-normal rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[8%] left-[12%]">
+              <p className="text11 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[6px] sm:text-[10px] mx-2 p-0.5 top-[15%] left-[12%]">
                 ‘Filter’ button is hidden and difficult to find
               </p>
             </div>
 
             <div className="twelveText cursor-pointer">
               <div className="">
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="absolute top-[33%] left-[33%] sm:top-[40%]"
-                >
-                  <path
-                    d="M7.69928 17.039L7.69931 17.039L7.69564 17.0343C7.55281 16.8494 7.35354 16.7065 7.16111 16.6103C6.96956 16.5145 6.73469 16.44 6.5 16.44H5C2.51418 16.44 0.5 14.4319 0.5 11.96V4.98C0.5 2.5081 2.51418 0.5 5 0.5H15C17.4858 0.5 19.5 2.5081 19.5 4.98V11.96C19.5 14.4319 17.4858 16.44 15 16.44H13.5C13.0314 16.44 12.585 16.6649 12.3019 17.0375L12.3007 17.039L10.8007 19.029L10.8 19.03C10.5506 19.3626 10.2559 19.49 10 19.49C9.74414 19.49 9.44944 19.3626 9.2 19.03L9.19928 19.029L7.69928 17.039ZM5 12.25H11C11.6861 12.25 12.25 11.6861 12.25 11C12.25 10.3139 11.6861 9.75 11 9.75H5C4.31386 9.75 3.75 10.3139 3.75 11C3.75 11.6861 4.31386 12.25 5 12.25ZM5 7.25H15C15.6861 7.25 16.25 6.68614 16.25 6C16.25 5.31386 15.6861 4.75 15 4.75H5C4.31386 4.75 3.75 5.31386 3.75 6C3.75 6.68614 4.31386 7.25 5 7.25Z"
-                    fill="#50B068"
-                    stroke="white"
-                  />
-                  <path d="M2 4H17V13H2V4Z" fill="#50B069" />
-                </svg>
-                <p className="text-[8px] absolute top-[33%] left-[36%] sm:top-[40%] sm:left-[35%] ">
+                <IoChatboxSharp className="absolute top-[33%] left-[33%] sm:top-[40%] fill-[#bcd6ac] h-6 w-6" />
+                <p className="text-[8px] absolute top-[33%] left-[36%] sm:top-[41.5%] sm:left-[38%] text-black font-bold">
                   12
                 </p>
               </div>
-              <p className="text12 absolute border bg-[#50B069] font-fira font-normal rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[45%]">
+              <p className="text12 absolute border bg-[#bcd6ac] text-black font-fira font-normal rounded-lg text-[6px] sm:text-[10px] mx-2 p-0.5 top-[49%]">
                 Great use of imagery to showcase products
               </p>
             </div>
 
             <div className="thirteenText cursor-pointer">
               <div className="">
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="absolute top-[76%] left-[10%]"
-                >
-                  <path
-                    d="M7.69928 17.039L7.69931 17.039L7.69564 17.0343C7.55281 16.8494 7.35354 16.7065 7.16111 16.6103C6.96956 16.5145 6.73469 16.44 6.5 16.44H5C2.51418 16.44 0.5 14.4319 0.5 11.96V4.98C0.5 2.5081 2.51418 0.5 5 0.5H15C17.4858 0.5 19.5 2.5081 19.5 4.98V11.96C19.5 14.4319 17.4858 16.44 15 16.44H13.5C13.0314 16.44 12.585 16.6649 12.3019 17.0375L12.3007 17.039L10.8007 19.029L10.8 19.03C10.5506 19.3626 10.2559 19.49 10 19.49C9.74414 19.49 9.44944 19.3626 9.2 19.03L9.19928 19.029L7.69928 17.039ZM5 12.25H11C11.6861 12.25 12.25 11.6861 12.25 11C12.25 10.3139 11.6861 9.75 11 9.75H5C4.31386 9.75 3.75 10.3139 3.75 11C3.75 11.6861 4.31386 12.25 5 12.25ZM5 7.25H15C15.6861 7.25 16.25 6.68614 16.25 6C16.25 5.31386 15.6861 4.75 15 4.75H5C4.31386 4.75 3.75 5.31386 3.75 6C3.75 6.68614 4.31386 7.25 5 7.25Z"
-                    fill="#E7644A"
-                    stroke="white"
-                  />
-                  <path d="M2 4H17V13H2V4Z" fill="#E7644A" />
-                </svg>
-                <p className="text-[8px] absolute top-[76%] left-[13%] sm:left-[12%]">
+                <IoChatboxSharp className="absolute top-[76%] left-[10%] fill-[#d08370] h-6 w-6" />
+                <p className="text-[8px] absolute top-[77.5%] left-[13.5%] sm:left-[14%] text-black font-bold">
                   13
                 </p>
               </div>
-              <p className="text13 absolute border bg-[#E7644A] font-fira font-normal rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[48%]">
+              <p className="text13 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[6px] sm:text-[10px] mx-2 p-0.5 top-[50%]">
                 Missed opportunity to include short and enticing product
                 description
               </p>
@@ -230,26 +152,12 @@ const ConsiderationPage3 = () => {
 
             <div className="fourteenText cursor-pointer">
               <div className="">
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="absolute top-[85%] left-[25%]"
-                >
-                  <path
-                    d="M7.69928 17.039L7.69931 17.039L7.69564 17.0343C7.55281 16.8494 7.35354 16.7065 7.16111 16.6103C6.96956 16.5145 6.73469 16.44 6.5 16.44H5C2.51418 16.44 0.5 14.4319 0.5 11.96V4.98C0.5 2.5081 2.51418 0.5 5 0.5H15C17.4858 0.5 19.5 2.5081 19.5 4.98V11.96C19.5 14.4319 17.4858 16.44 15 16.44H13.5C13.0314 16.44 12.585 16.6649 12.3019 17.0375L12.3007 17.039L10.8007 19.029L10.8 19.03C10.5506 19.3626 10.2559 19.49 10 19.49C9.74414 19.49 9.44944 19.3626 9.2 19.03L9.19928 19.029L7.69928 17.039ZM5 12.25H11C11.6861 12.25 12.25 11.6861 12.25 11C12.25 10.3139 11.6861 9.75 11 9.75H5C4.31386 9.75 3.75 10.3139 3.75 11C3.75 11.6861 4.31386 12.25 5 12.25ZM5 7.25H15C15.6861 7.25 16.25 6.68614 16.25 6C16.25 5.31386 15.6861 4.75 15 4.75H5C4.31386 4.75 3.75 5.31386 3.75 6C3.75 6.68614 4.31386 7.25 5 7.25Z"
-                    fill="#E7644A"
-                    stroke="white"
-                  />
-                  <path d="M2 4H17V13H2V4Z" fill="#E7644A" />
-                </svg>
-                <p className="text-[8px] absolute top-[86%] left-[28%] sm:top-[85%] sm:left-[27%]">
+                <IoChatboxSharp className="absolute top-[85%] left-[25%] fill-[#d08370] h-6 w-6" />
+                <p className="text-[8px] absolute top-[86%] left-[28%] sm:top-[87%] sm:left-[29%] font-bold text-black">
                   14
                 </p>
               </div>
-              <p className="text14 absolute border bg-[#E7644A] font-fira font-normal rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[57%] left-[15%]">
+              <p className="text14 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[6px] sm:text-[10px] mx-2 p-0.5 top-[59%]">
                 Opportunity to use pop window provide more detailed product
                 information
               </p>
@@ -274,7 +182,7 @@ const ConsiderationPage3 = () => {
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  className="w-2 h-2 stroke-amber-300 fill-amber-300 absolute top-[25%] left-[52.5%] sm:top-[30%] sm:left-[51%]"
+                  className="w-2 h-2 stroke-amber-300 fill-amber-300 absolute top-[25%] left-[52.5%] sm:top-[30%] sm:left-[54%]"
                 >
                   <path
                     stroke-linecap="round"
@@ -282,26 +190,13 @@ const ConsiderationPage3 = () => {
                     d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
                   />
                 </svg>
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="absolute top-[30%] left-[48%] sm:top-[33%]"
-                >
-                  <path
-                    d="M7.69928 17.039L7.69931 17.039L7.69564 17.0343C7.55281 16.8494 7.35354 16.7065 7.16111 16.6103C6.96956 16.5145 6.73469 16.44 6.5 16.44H5C2.51418 16.44 0.5 14.4319 0.5 11.96V4.98C0.5 2.5081 2.51418 0.5 5 0.5H15C17.4858 0.5 19.5 2.5081 19.5 4.98V11.96C19.5 14.4319 17.4858 16.44 15 16.44H13.5C13.0314 16.44 12.585 16.6649 12.3019 17.0375L12.3007 17.039L10.8007 19.029L10.8 19.03C10.5506 19.3626 10.2559 19.49 10 19.49C9.74414 19.49 9.44944 19.3626 9.2 19.03L9.19928 19.029L7.69928 17.039ZM5 12.25H11C11.6861 12.25 12.25 11.6861 12.25 11C12.25 10.3139 11.6861 9.75 11 9.75H5C4.31386 9.75 3.75 10.3139 3.75 11C3.75 11.6861 4.31386 12.25 5 12.25ZM5 7.25H15C15.6861 7.25 16.25 6.68614 16.25 6C16.25 5.31386 15.6861 4.75 15 4.75H5C4.31386 4.75 3.75 5.31386 3.75 6C3.75 6.68614 4.31386 7.25 5 7.25Z"
-                    fill="#E7644A"
-                    stroke="white"
-                  />
-                  <path d="M2 4H17V13H2V4Z" fill="#E7644A" />
-                </svg>
-                <p className=" text-[8px] absolute top-[30%] text-black left-[52%] sm:left-[50%] sm:top-[33%]">
+
+                <IoChatboxSharp className="absolute top-[30%] left-[48%] sm:top-[33%] fill-[#d08370] h-6 w-6" />
+                <p className=" text-[8px] absolute top-[30%] text-black left-[52%] sm:left-[53%] sm:top-[34.5%] font-bold">
                   15
                 </p>
               </div>
-              <p className="text15 absolute border bg-[#E7644A] font-fira font-normal rounded-lg text-[6px] sm:text-[10.5px] mx-2 p-0.5 top-[40%]">
+              <p className="text15 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[6px] sm:text-[10px] mx-2 p-0.5 top-[42%]">
                 Limited filtering options; enable users to filter by benefit,
                 taste, type (tea/blend) and subscription vs non-subscription
               </p>
