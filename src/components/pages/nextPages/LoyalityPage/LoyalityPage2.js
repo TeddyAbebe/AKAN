@@ -8,10 +8,18 @@ import Card23 from "../../../data/files/Images/Card23.svg";
 import Card24 from "../../../data/files/Images/Card24.svg";
 import Card25 from "../../../data/files/Images/Card25.svg";
 import Card26 from "../../../data/files/Images/Card26.svg";
+import angle from "../../../data/files/Images/angle2.png";
+
 
 const LoyalityPage2 = () => {
   return (
     <div className="flex flex-col dotmap bg-black text-white w-screen min-h-screen">
+      <div>
+        <h2 className="absolute top-[3%] right-[1%] z-[1] font-fira font-bold text-[17px]">
+          JES:50%
+        </h2>
+      </div>
+      <img src={angle} alt="" className="absolute top-0 right-0" />
       <div className="mt-32 lg:mt-20 flex flex-col justify-center items-center gap-6">
         <div>
           {loyalityPageTwo.map((val, i) => (
@@ -135,7 +143,7 @@ const LoyalityPage2 = () => {
                 with the jars once empty; either recycle or return.
               </p>
             </div>
-            
+
             <img className="-mb-[150%] sm:h-[253px]" src={iPhone} alt="" />
             <div className="">
               <img

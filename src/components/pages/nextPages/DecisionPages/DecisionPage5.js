@@ -6,10 +6,19 @@ import { Link } from "react-router-dom";
 import iPhone from "../../../data/files/Images/iphone-12-Screen.png";
 import Card21 from "../../../data/files/Images/Card21.png";
 import Card22 from "../../../data/files/Images/Card22.png";
+import angle from "../../../data/files/Images/angle.png";
+
 
 const DecisionPage5 = () => {
   return (
-    <div className="dotmap flex flex-col bg-black text-white w-screen min-h-screen">
+    <div className="dotmap relative flex flex-col bg-black text-white w-screen min-h-screen">
+      <div>
+        <h2 className="absolute top-[3%] right-[1%] z-[1] font-fira font-bold text-[17px]">
+          JES:38%
+        </h2>
+      </div>
+      <img src={angle} alt="" className="absolute top-0 right-0" />
+
       <div className="mt-32 lg:mt-36 flex flex-col justify-center items-center gap-6">
         <div>
           {DecisionPageFive.map((val, i) => (
@@ -54,7 +63,7 @@ const DecisionPage5 = () => {
               <div className="w-7 h-5 sm:w-5 sm:h-4 left-[72.5%] sm:left-[75%] top-[71%] sm:text-[8px] absolute"></div>
 
               <p className="text31 absolute border bg-[#D08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[7px] top-[65%] sm:top-[57%] mx-3 p-1">
-                Missed opportunity to keep users engaged with content 
+                Missed opportunity to keep users engaged with content
               </p>
             </div>
 

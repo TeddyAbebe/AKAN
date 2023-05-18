@@ -9,14 +9,17 @@ import Card3 from "../../../data/files/Images/Card3.svg";
 import Card4 from "../../../data/files/Images/Card4.svg";
 import iPhone from "../../../data/files/Images/iphone-12-Screen.png";
 import { IoChatboxSharp } from "react-icons/io5";
-// import angle from "../../../data/files/Images/angle.png";
+import angle from "../../../data/files/Images/angle.png";
 
 const ConsiderationPage2 = () => {
   return (
-    <div className="lines flex flex-col bg-black text-white w-screen min-h-screen lg:w-screen">
-      {/* <div className="">
-        <img src={angle} alt="" className="absolute top-0 right-0"/>
-      </div> */}
+    <div className="lines relative flex flex-col bg-black text-white w-screen min-h-screen">
+      <div>
+        <h2 className="absolute top-[3%] right-[1%] z-[1] font-fira font-bold text-[17px]">
+          JES:23%
+        </h2>
+      </div>
+      <img src={angle} alt="" className="absolute top-0 right-0" />
 
       <div className="mt-32 lg:mt-36 flex flex-col justify-center items-center gap-6">
         <div>
@@ -143,9 +146,7 @@ const ConsiderationPage2 = () => {
 
             <div className="eighthText cursor-pointer">
               <div>
-                <IoChatboxSharp
-                  className="absolute top-[82%] left-[55%] fill-[#d08370] h-3 w-3 sm:h-6 sm:w-6"
-                />
+                <IoChatboxSharp className="absolute top-[82%] left-[55%] fill-[#d08370] h-3 w-3 sm:h-6 sm:w-6" />
                 <p className="text-[6px] sm:text-[8px] absolute top-[83.5%] left-[62%] text-black font-bold">
                   6
                 </p>

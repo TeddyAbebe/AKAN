@@ -9,10 +9,18 @@ import Card28 from "../../../data/files/Images/Card28.svg";
 import Card29 from "../../../data/files/Images/Card29.png";
 import Card30 from "../../../data/files/Images/Card30.svg";
 import { IoChatboxSharp } from "react-icons/io5";
+import angle from "../../../data/files/Images/angle2.png";
+
 
 const Loyalitypage3 = () => {
   return (
     <div className="flex flex-col dotmap bg-black text-white w-screen min-h-screen">
+      <div>
+        <h2 className="absolute top-[3%] right-[1%] z-[1] font-fira font-bold text-[17px]">
+          JES:50%
+        </h2>
+      </div>
+      <img src={angle} alt="" className="absolute top-0 right-0" />
       <div className="mt-32 lg:mt-20 flex flex-col justify-center items-center gap-6">
         <div>
           {loyalityPageThree.map((val, i) => (

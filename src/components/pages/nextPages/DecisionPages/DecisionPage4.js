@@ -9,10 +9,18 @@ import Card18 from "../../../data/files/Images/Card18.svg";
 import Card19 from "../../../data/files/Images/Card19.svg";
 import Card20 from "../../../data/files/Images/Card20.png";
 import { IoChatboxSharp } from "react-icons/io5";
+import angle from "../../../data/files/Images/angle.png";
+
 
 const DecisionPage4 = () => {
   return (
-    <div className="dotmap bg-black flex flex-col text-white w-screen min-h-screen">
+    <div className="dotmap relative bg-black flex flex-col text-white w-screen min-h-screen">
+      <div>
+        <h2 className="absolute top-[3%] right-[1%] z-[1] font-fira font-bold text-[17px]">
+          JES:38%
+        </h2>
+      </div>
+      <img src={angle} alt="" className="absolute top-0 right-0" />
       <div className="mt-32 lg:mt-36 flex flex-col justify-center items-center gap-6">
         <div className="flex w-full justify-between lg:justify-center md:gap-24">
           <div className="">

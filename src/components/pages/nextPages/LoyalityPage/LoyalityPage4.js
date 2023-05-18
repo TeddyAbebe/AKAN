@@ -6,11 +6,19 @@ import { Link } from "react-router-dom";
 import iPhone from "../../../data/files/Images/iPhoneScreenWhite.png";
 import Card31 from "../../../data/files/Images/Card31.svg";
 import { IoChatboxSharp } from "react-icons/io5";
+import angle from "../../../data/files/Images/angle2.png";
+
 
 
 const LoyalityPage4 = () => {
   return (
     <div className="flex flex-col dotmap bg-black text-white w-screen min-h-screen">
+      <div>
+        <h2 className="absolute top-[3%] right-[1%] z-[1] font-fira font-bold text-[17px]">
+          JES:50%
+        </h2>
+      </div>
+      <img src={angle} alt="" className="absolute top-0 right-0" />
       <div className="mt-16 lg:mt-24 flex flex-col justify-center items-center gap-6">
         <div>
           {loyalityPageFour.map((val, i) => (

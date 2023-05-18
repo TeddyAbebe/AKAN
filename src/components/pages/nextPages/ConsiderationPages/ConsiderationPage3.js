@@ -9,10 +9,18 @@ import Card7 from "../../../data/files/Images/Card7.svg";
 import Card8 from "../../../data/files/Images/Card8.svg";
 import iPhone from "../../../data/files/Images/iphone-12-Screen.png";
 import { IoChatboxSharp } from "react-icons/io5";
+import angle from "../../../data/files/Images/angle.png";
 
 const ConsiderationPage3 = () => {
   return (
-    <div className="lines flex flex-col bg-black text-white w-screen min-h-screen lg:w-screen">
+    <div className="lines flex flex-col bg-black text-white w-screen min-h-screen relative">
+      <div>
+        <h2 className="absolute top-[3%] right-[1%] z-[1] font-fira font-bold text-[17px]">
+          JES:23%
+        </h2>
+      </div>
+      <img src={angle} alt="" className="absolute top-0 right-0" />
+
       <div className="mt-32 lg:mt-36 flex flex-col justify-center items-center gap-6">
         <div className="flex w-full justify-between lg:justify-center md:gap-24">
           <div className="">
@@ -112,9 +120,7 @@ const ConsiderationPage3 = () => {
           <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
             <div className="elevenText cursor-pointer">
               <div className="">
-                <IoChatboxSharp
-                  className="absolute left-[5%] top-[8%] fill-[#d08370] w-3 h-3 sm:h-6 sm:w-6"
-                />
+                <IoChatboxSharp className="absolute left-[5%] top-[8%] fill-[#d08370] w-3 h-3 sm:h-6 sm:w-6" />
                 <p className="font-bold text-[6px] sm:text-[8px] absolute top-[9%] left-[8%] sm:left-[10%] sm:top-[9.5%] text-black">
                   11
                 </p>
