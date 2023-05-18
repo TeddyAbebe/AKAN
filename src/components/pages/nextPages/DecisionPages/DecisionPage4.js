@@ -32,13 +32,13 @@ const DecisionPage4 = () => {
           <div className="relative duration-300 ease-in-out sm:hover:scale-[1.2] cursor-pointer">
             <div className="cursor-pointer textTwentyFour">
               <div className="">
-                <IoChatboxSharp className="absolute left-[15%] top-[2%] fill-[#d08370] h-6 w-6"/>
-                <p className="text-black font-bold text-[8px] absolute left-[20%] top-[3.5%]">
+                <IoChatboxSharp className="absolute left-[15%] top-[2%] fill-[#d08370] h-3 w-3 sm:h-6 sm:w-6" />
+                <p className="text-black font-bold text-[6px] sm:text-[8px] absolute left-[20%] top-[3.5%]">
                   24
                 </p>
               </div>
 
-              <p className="text24 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[18%] sm:top-[11%] right-[35%] left-[5%] p-1">
+              <p className="text24 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[11%] right-[35%] left-[5%] p-1">
                 This page in the checkout experience looks & feels off-brand,
                 and is inconsistent with what the user has seen throughout the
                 journey; potentially eroding trust in a crucial phase of the
@@ -48,13 +48,13 @@ const DecisionPage4 = () => {
 
             <div className="cursor-pointer textTwentyFive">
               <div className="">
-                <IoChatboxSharp className="absolute left-[70%] top-[15%] fill-[#d08370] h-6 w-6" />
-                <p className="text-black font-bold text-[8px] absolute top-[16.5%] left-[74.5%]">
+                <IoChatboxSharp className="absolute left-[70%] top-[15%] fill-[#d08370] h-3 w-3 sm:h-6 sm:w-6" />
+                <p className="text-black font-bold text-[6px] sm:text-[8px] absolute top-[16.5%] left-[74.5%]">
                   25
                 </p>
               </div>
 
-              <p className="text25 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[26%] sm:top-[24%] mx-3 p-1">
+              <p className="text25 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[24%] mx-3 p-1">
                 Opportunity to add Progress Bar to calm users and set
                 expectations
               </p>
@@ -62,13 +62,13 @@ const DecisionPage4 = () => {
 
             <div className="cursor-pointer textTwentySix">
               <div className="">
-                <IoChatboxSharp className="absolute left-[55%] top-[65%] fill-[#d08370] h-6 w-6" />
-                <p className="text-black font-bold text-[8px] absolute top-[66.5%] left-[60%]">
+                <IoChatboxSharp className="absolute left-[55%] top-[65%] fill-[#d08370] h-3 w-3 sm:h-6 sm:w-6" />
+                <p className="text-black font-bold text-[6px] sm:text-[8px] absolute top-[66.5%] left-[60%]">
                   26
                 </p>
               </div>
 
-              <p className="text26 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[47%] sm:top-[40%] mx-3 p-1">
+              <p className="text26 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[72%] sm:top-[40%] mx-2 p-1">
                 Opportunity to simplify form by allowing users to search for an
                 address using postcode and remove non-essential fields like
                 ‘Company’.
@@ -88,14 +88,14 @@ const DecisionPage4 = () => {
           <div className="relative duration-300 ease-in-out sm:hover:scale-[1.2] cursor-pointer">
             <div className="cursor-pointer textTwentyEight">
               <div className="">
-                <IoChatboxSharp className="absolute h-6 w-6 left-[55%] top-[50%] fill-[#d08370]" />
+                <IoChatboxSharp className="absolute h-3 w-3 sm:h-6 sm:w-6 left-[55%] top-[50%] fill-[#d08370]" />
 
-                <p className="text-black font-bold text-[8px] absolute top-[51.5%] left-[60%]">
+                <p className="text-black font-bold text-[6px] sm:text-[8px] absolute top-[51.5%] left-[60%]">
                   27
                 </p>
               </div>
 
-              <p className="text28 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[32%] sm:top-[28%] mx-3 p-1">
+              <p className="text28 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[26%] sm:top-[28%] mx-3 p-1">
                 Hidden fees can erode trust so all ‘extra’ fees should be
                 highlighted earlier in the journey
               </p>

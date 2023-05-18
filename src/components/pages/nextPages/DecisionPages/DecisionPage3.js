@@ -32,13 +32,13 @@ const DecisionPage3 = () => {
           <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
             <div className="cursor-pointer textTwenty">
               <div className="">
-                <IoChatboxSharp className="absolute left-[60%] top-[73%] sm:top-[50%] fill-[#d08370] h-6 w-6" />
-                <p className="text-black font-bold text-[8px] absolute top-[51.5%] left-[65%]">
+                <IoChatboxSharp className="absolute left-[60%] top-[50%] fill-[#d08370] h-3 w-3 sm:h-6 sm:w-6" />
+                <p className="text-black font-bold text-[6px] sm:text-[8px] absolute top-[51.5%] left-[65%]">
                   20
                 </p>
               </div>
 
-              <p className="text20 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[40%] sm:top-[59%] mx-3 p-1">
+              <p className="text20 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[1%] sm:top-[59%] mx-3 p-1">
                 Currently the page feels very dense and clunky - which can be
                 overwhelming. You can simplify this section with collapsible
                 containers so users don’t need keep scrolling down the length of
@@ -59,13 +59,13 @@ const DecisionPage3 = () => {
           <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
             <div className="cursor-pointer textTwentOne">
               <div className="">
-                <IoChatboxSharp className="absolute left-[70%] top-[20%] sm:left-[80%] fill-[#d08370] w-6 h-6" />
-                <p className="text-black font-bold text-[8px] absolute top-[21.5%] left-[85%]">
+                <IoChatboxSharp className="absolute left-[81%] top-[20%] sm:left-[80%] fill-[#d08370] h-3 w-3 sm:h-6 sm:w-6" />
+                <p className="text-black font-bold text-[6px] sm:text-[8px] absolute top-[21.5%] left-[85%]">
                   21
                 </p>
               </div>
 
-              <p className="text21 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[35%] sm:top-[29%] mx-3 p-1">
+              <p className="text21 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[7px] top-[29%] mx-3 p-1">
                 Once an item is added to the cart a back end code is displayed
                 in error - this can be confusing for users and presents the
                 brand as unprofessional
@@ -86,14 +86,14 @@ const DecisionPage3 = () => {
             <div className="cursor-pointer textTwentyTwo">
               <div className="">
                 <div>
-                  <IoChatboxSharp className="absolute left-[70%] top-[23%] sm:top-[26%] sm:left-[75%] fill-[#bcd6ac] h-6 w-6" />
-                  <p className="text-black font-bold text-[8px] absolute top-[27.5%] left-[45%] sm:left-[80%]">
+                  <IoChatboxSharp className="absolute left-[70%] top-[23%] sm:top-[26%] sm:left-[75%] fill-[#bcd6ac] h-3 w-3 sm:h-6 sm:w-6" />
+                  <p className="text-black font-bold text-[6px] sm:text-[8px] absolute sm:top-[27.5%] top-[24%] left-[74%] sm:left-[80%]">
                     22
                   </p>
                 </div>
               </div>
 
-              <p className="text22 absolute border bg-[#bcd6ac] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[9%] sm:top-[10%] mx-3 p-1">
+              <p className="text22 absolute border bg-[#bcd6ac] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[31%] sm:top-[10%] mx-3 p-1">
                 Good use of ‘strikethrough pricing’ to reinforce value for the
                 user
               </p>
@@ -112,13 +112,13 @@ const DecisionPage3 = () => {
           <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
             <div className="cursor-pointer textTwentyThree">
               <div className="">
-                <IoChatboxSharp className="absolute left-[40%] top-[40%] fill-[#bcd6ac] h-6 w-6" />
-                <p className="text-black font-bold text-[8px] absolute top-[41.5%] left-[45.5%]">
+                <IoChatboxSharp className="absolute left-[40%] top-[40%] fill-[#bcd6ac] h-3 w-3 sm:h-6 sm:w-6" />
+                <p className="text-black font-bold text-[6px] sm:text-[8px] absolute top-[41%] left-[43%] sm:top-[41.5%] sm:left-[45.5%]">
                   23
                 </p>
               </div>
 
-              <p className="text23 absolute border bg-[#bcd6ac] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[53%] sm:top-[19%] mx-3 p-1">
+              <p className="text23 absolute border bg-[#bcd6ac] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[48%] sm:top-[19%] mx-3 p-1">
                 Good use of cross-sell in the Cart to provide additional value
                 to users and increase average basket value
               </p>

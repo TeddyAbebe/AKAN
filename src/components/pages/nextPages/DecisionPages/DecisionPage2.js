@@ -45,13 +45,13 @@ const DecisionPage2 = () => {
           <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
             <div className="cursor-pointer textSeventeen">
               <div className="">
-                <IoChatboxSharp className="absolute left-[10%] top-[73%] sm:top-[80%] fill-[#d08370] w-6 h-6" />
-                <p className="text-black font-bold text-[8px] absolute top-[81.5%] left-[15%]">
+                <IoChatboxSharp className="absolute sm:left-[10%] left-[15%] top-[78%] sm:top-[80%] fill-[#d08370] w-3 h-3 sm:w-6 sm:h-6" />
+                <p className="text-black font-bold text-[6px] sm:text-[8px] absolute top-[79%] left-[17%] sm:top-[81.5%] sm:left-[15%]">
                   17
                 </p>
               </div>
 
-              <p className="text17 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[60%] sm:top-[68%] mx-3 p-1">
+              <p className="text17 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[7px] top-[55%] sm:top-[68%] mx-3 p-1">
                 Only x2 subscription options doesn’t allow flexibility
               </p>
             </div>
@@ -69,14 +69,14 @@ const DecisionPage2 = () => {
           <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
             <div className="cursor-pointer textEightteen">
               <div>
-                <IoChatboxSharp className="absolute left-[35%] top-[3%] fill-[#d08370] w-6 h-6" />
+                <IoChatboxSharp className="absolute left-[35%] top-[3%] fill-[#d08370] h-3 w-3 sm:w-6 sm:h-6" />
 
-                <p className="text-black font-bold text-[8px] absolute top-[5%] sm:left-[40%]">
+                <p className="text-black font-bold text-[6px] sm:text-[8px] absolute sm:top-[5%] top-[3.5%] left-[38%] sm:left-[40%]">
                   18
                 </p>
               </div>
 
-              <p className="text18 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] sm:top-[12%] mx-3 p-1">
+              <p className="text18 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[7px] top-[12%] mx-3 p-1">
                 The product description needs an injection of personality.
                 Moreover, taste is a key selling point but there’s little
                 information on what customer’s taste buds can expect
@@ -96,14 +96,14 @@ const DecisionPage2 = () => {
           <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
             <div className="cursor-pointer textNineteen">
               <div>
-                <IoChatboxSharp className="absolute left-[40%] top-[40%] fill-[#d08370] w-6 h-6" />
+                <IoChatboxSharp className="absolute left-[40%] top-[40%] fill-[#d08370] h-3 w-3 sm:w-6 sm:h-6" />
 
-                <p className="text-black font-bold text-[8px] absolute top-[41.5%] left-[46%]">
+                <p className="text-black font-bold text-[6px] sm:text-[8px] absolute sm:top-[41.5%] top-[40.5%] left-[43%] sm:left-[46%]">
                   19
                 </p>
               </div>
 
-              <p className="text19 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[53%] sm:top-[27%] mx-3 p-1">
+              <p className="text19 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[7px] top-[50%] sm:top-[27%] mx-3 p-1">
                 Icons to depicting the product benefits appear very generic
               </p>
             </div>

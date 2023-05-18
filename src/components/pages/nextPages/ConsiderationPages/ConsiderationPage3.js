@@ -32,12 +32,12 @@ const ConsiderationPage3 = () => {
           <div className="relative duration-300 ease-in-out hover:scale-[1.2] cursor-pointer">
             <div className="tenthText cursor-pointer">
               <div className="">
-                <IoChatboxSharp className="absolute top-[35%] left-[8%] sm:top-[40%] fill-[#bcd6ac] h-6 w-6" />
-                <p className="text-[8px] absolute sm:top-[41.5%] sm:left-[14.5%] text-black font-bold">
+                <IoChatboxSharp className="absolute top-[35%] left-[8%] sm:top-[40%] fill-[#bcd6ac] h-3 w-3 sm:h-6 sm:w-6" />
+                <p className="text-[6px] sm:text-[8px] absolute top-[36%] left-[13%] sm:top-[41.5%] sm:left-[14.5%] text-black font-bold">
                   8
                 </p>
               </div>
-              <p className="text10 absolute border bg-[#bcd6ac] text-black font-fira font-normal rounded-lg text-[8px] sm:text-[10px] mx-2 p-0.5 left-[15%] sm:top-[10%]">
+              <p className="text10 absolute border bg-[#bcd6ac] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[10px] mx-2 p-0.5 left-[15%] top-[10%]">
                 Good use of chat box to help users find the right product for
                 their need
               </p>
@@ -46,14 +46,14 @@ const ConsiderationPage3 = () => {
             <div className="elevenText cursor-pointer">
               <div className="">
                 <IoChatboxSharp
-                  className="absolute top-[45%] left-[73%] sm:top-[45%]
-                sm:left-[75%] fill-[#d08370] h-6 w-6"
+                  className="absolute top-[45%] left-[73%]
+                sm:left-[75%] fill-[#d08370] h-3 w-3 sm:h-6 sm:w-6"
                 />
-                <p className="text-[8px] absolute sm:top-[46.5%] sm:left-[81.5%] font-bold text-black">
+                <p className="text-[6px] sm:text-[8px] absolute top-[46.5%] left-[78%] sm:left-[81.5%] font-bold text-black">
                   9
                 </p>
               </div>
-              <p className="text11 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[6px] sm:text-[10px] mx-2 p-0.5 right-[8%] sm:top-[54%]">
+              <p className="text11 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[10px] mx-2 p-0.5 right-[8%] top-[54%]">
                 Use of Gifs, while fun could come across as unprofessional so
                 ensure they align with your tone of voice
               </p>
@@ -87,12 +87,12 @@ const ConsiderationPage3 = () => {
                   />
                 </svg>
 
-                <IoChatboxSharp className="absolute top-[7%] left-[18%] fill-[#d08370] h-6 w-6" />
-                <p className="text-[8px] absolute top-[8.5%] sm:left-[22.5%] text-black font-bold">
+                <IoChatboxSharp className="absolute top-[7%] left-[18%] fill-[#d08370] w-3 h-3 sm:h-6 sm:w-6" />
+                <p className="text-[6px] sm:text-[8px] absolute top-[8.5%] left-[22.5%] text-black font-bold">
                   10
                 </p>
               </div>
-              <p className="text11 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[6px] sm:text-[10px] mx-2 p-0.5 top-[16%]">
+              <p className="text11 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[10px] mx-2 p-0.5 top-[16%]">
                 ‘Quiz’ UX feels clunky, and use of ‘herbalist algorithm’ makes
                 it feel impersonal and generic. Do your users want
                 recommendations from machines or expert/humans?
@@ -113,38 +113,37 @@ const ConsiderationPage3 = () => {
             <div className="elevenText cursor-pointer">
               <div className="">
                 <IoChatboxSharp
-                  className="absolute top-[5%] left-[3%] sm:top-[8%]
-                sm:left-[5%] fill-[#d08370] h-6 w-6"
+                  className="absolute left-[5%] top-[8%] fill-[#d08370] w-3 h-3 sm:h-6 sm:w-6"
                 />
-                <p className="font-bold text-[8px] absolute top-[5%] left-[7%] sm:left-[10%] sm:top-[9.5%] text-black">
+                <p className="font-bold text-[6px] sm:text-[8px] absolute top-[9%] left-[8%] sm:left-[10%] sm:top-[9.5%] text-black">
                   11
                 </p>
               </div>
-              <p className="text11 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[6px] sm:text-[10px] mx-2 p-0.5 top-[15%] left-[12%]">
+              <p className="text11 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[10px] mx-2 p-0.5 top-[12%] left-[9%] sm:top-[15%] sm:left-[12%]">
                 ‘Filter’ button is hidden and difficult to find
               </p>
             </div>
 
             <div className="twelveText cursor-pointer">
               <div className="">
-                <IoChatboxSharp className="absolute top-[33%] left-[33%] sm:top-[40%] fill-[#bcd6ac] h-6 w-6" />
-                <p className="text-[8px] absolute top-[33%] left-[36%] sm:top-[41.5%] sm:left-[38%] text-black font-bold">
+                <IoChatboxSharp className="absolute top-[33%] left-[33%] sm:top-[40%] fill-[#bcd6ac] h-3 w-3 sm:h-6 sm:w-6" />
+                <p className="text-[6px] sm:text-[8px] absolute top-[34%] left-[36%] sm:top-[41.5%] sm:left-[38%] text-black font-bold">
                   12
                 </p>
               </div>
-              <p className="text12 absolute border bg-[#bcd6ac] text-black font-fira font-normal rounded-lg text-[6px] sm:text-[10px] mx-2 p-0.5 top-[49%]">
+              <p className="text12 absolute border bg-[#bcd6ac] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[10px] mx-2 p-0.5 top-[41%] sm:top-[49%]">
                 Great use of imagery to showcase products
               </p>
             </div>
 
             <div className="thirteenText cursor-pointer">
               <div className="">
-                <IoChatboxSharp className="absolute top-[76%] left-[10%] fill-[#d08370] h-6 w-6" />
-                <p className="text-[8px] absolute top-[77.5%] left-[13.5%] sm:left-[14%] text-black font-bold">
+                <IoChatboxSharp className="absolute top-[76%] left-[10%] fill-[#d08370] w-3 h-3 sm:h-6 sm:w-6" />
+                <p className="text-[6px] sm:text-[8px] absolute top-[77.5%] left-[13.5%] sm:left-[14%] text-black font-bold">
                   13
                 </p>
               </div>
-              <p className="text13 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[6px] sm:text-[10px] mx-2 p-0.5 top-[50%]">
+              <p className="text13 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[10px] mx-2 p-0.5 top-[50%]">
                 Missed opportunity to include short and enticing product
                 description
               </p>
@@ -152,12 +151,12 @@ const ConsiderationPage3 = () => {
 
             <div className="fourteenText cursor-pointer">
               <div className="">
-                <IoChatboxSharp className="absolute top-[85%] left-[25%] fill-[#d08370] h-6 w-6" />
-                <p className="text-[8px] absolute top-[86%] left-[28%] sm:top-[87%] sm:left-[29%] font-bold text-black">
+                <IoChatboxSharp className="absolute top-[85%] left-[25%] fill-[#d08370] h-3 w-3 sm:h-6 sm:w-6" />
+                <p className="text-[6px] sm:text-[8px] absolute top-[86%] left-[28%] sm:top-[87%] sm:left-[29%] font-bold text-black">
                   14
                 </p>
               </div>
-              <p className="text14 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[6px] sm:text-[10px] mx-2 p-0.5 top-[59%]">
+              <p className="text14 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[10px] mx-2 p-0.5 top-[59%]">
                 Opportunity to use pop window provide more detailed product
                 information
               </p>
@@ -191,12 +190,12 @@ const ConsiderationPage3 = () => {
                   />
                 </svg>
 
-                <IoChatboxSharp className="absolute top-[30%] left-[48%] sm:top-[33%] fill-[#d08370] h-6 w-6" />
-                <p className=" text-[8px] absolute top-[30%] text-black left-[52%] sm:left-[53%] sm:top-[34.5%] font-bold">
+                <IoChatboxSharp className="absolute top-[30%] left-[48%] sm:top-[33%] fill-[#d08370] w-3 h-3 sm:h-6 sm:w-6" />
+                <p className="text-[6px] sm:text-[8px] absolute top-[31%] text-black left-[51%] sm:left-[53%] sm:top-[34.5%] font-bold">
                   15
                 </p>
               </div>
-              <p className="text15 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[6px] sm:text-[10px] mx-2 p-0.5 top-[42%]">
+              <p className="text15 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[10px] mx-2 p-0.5 top-[38%] sm:top-[42%]">
                 Limited filtering options; enable users to filter by benefit,
                 taste, type (tea/blend) and subscription vs non-subscription
               </p>

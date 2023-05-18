@@ -31,7 +31,7 @@ const LoyalityPage4 = () => {
                 </p>
               </div>
 
-              <p className="text46 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[4px] sm:text-[7px] top-[60%] sm:top-[30%] sm:left-[26%] mx-3 p-1">
+              <p className="text46 absolute border bg-[#d08370] text-black font-fira font-normal rounded-lg text-[5px] sm:text-[7px] top-[42%] sm:top-[30%] sm:left-[26%] mx-3 p-1">
                 Not personalised and timing of the content relevant given the
                 time of year but also really random - i’d expect something more
                 personalised to my order. Yet this is recommended a product i’ve
