@@ -11,7 +11,7 @@ const Home = () => {
         <div className="flex flex-row p-8">
           {home.map((val, i) => (
             <div className="px-1 flex flex-col sm:flex-row h-auto" key={i}>
-              <div className="w-full lg:w-3/5 flex flex-col">
+              <div className="w-full lg:w-3/5 flex flex-col justify-center">
                 <h1 className="text-3xl lg:text-6xl mb-6 md:mb-14 font-joane font-bold">
                   {val.header}
                 </h1>
@@ -19,8 +19,6 @@ const Home = () => {
                 {/* <p className="font-normal md:font-medium text-sm lg:text-lg mb-5 font-fira">
                   {val.note}
                 </p> */}
-
-                <div className="flex-grow"></div>
 
                 <div>
                   <Link to="/summary">
