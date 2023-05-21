@@ -38,13 +38,7 @@ const Nav = ({ open, close }) => {
         }
       >
         <div className="flex flex-row mt-8 justify-center w-full">
-          <img
-            src={logo}
-            alt="Logo"
-            className={`h-14 object-contain ${
-              isAnimating ? "animate-pulse" : ""
-            }`}
-          />
+          <img src={logo} alt="Logo" className="h-14 object-contain" />
         </div>
 
         <div>
@@ -90,10 +84,21 @@ const Nav = ({ open, close }) => {
             {socials.map((social, i) => (
               <div className="" key={i}>
                 <div className="flex flex-row justify-evenly">
-                  {social.icon1}
-                  {social.icon2}
-                  {social.icon3}
-                  {social.icon4}
+                  <Link
+                    to="https://twitter.com/akanxp"
+                    target="_blank"
+                    className="duration-300 ease-in-out hover:animate-bounce"
+                  >
+                    {social.icon1}
+                  </Link>
+
+                  <Link
+                    to="https://instagram.com/akanxp"
+                    target="_blank"
+                    className="duration-300 ease-in-out hover:animate-bounce"
+                  >
+                    {social.icon2}
+                  </Link>
                 </div>
               </div>
             ))}

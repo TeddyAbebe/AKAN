@@ -30,7 +30,7 @@ const AnalysisPage2 = () => {
             <div className="flex gap-2 justify-center items-center text-xs">
               <div className="bg-[#eacb83] w-1.5 h-1.5 rounded-full"></div>
               <div className="flex gap-1">
-                Tables
+                Tablets
                 <p className="text-[#eacb83]">1.6%</p>
               </div>
               <div className="bg-[#9da6c6] w-1.5 h-1.5 rounded-full"></div>

@@ -30,7 +30,7 @@ const Decision = () => {
 
   return (
     <>
-      <div className="text-white w-screen min-h-screen decision">
+      <div className="text-white w-screen min-h-screen analysisPageFour">
         <div className="pt-10 flex flex-col bg-black bg-opacity-60 h-full">
           <div className="flex md:justify-center items-center">
             {decision.map((val, i) => (

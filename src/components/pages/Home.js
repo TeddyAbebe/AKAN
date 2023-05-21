@@ -10,15 +10,17 @@ const Home = () => {
       <div className="bg-black text-white w-full min-h-screen">
         <div className="flex flex-row p-8">
           {home.map((val, i) => (
-            <div className="px-1 flex flex-row h-auto" key={i}>
-              <div className="w-full lg:w-3/5 ">
+            <div className="px-1 flex flex-col sm:flex-row h-auto" key={i}>
+              <div className="w-full lg:w-3/5 flex flex-col">
                 <h1 className="text-3xl lg:text-6xl mb-6 md:mb-14 font-joane font-bold">
                   {val.header}
                 </h1>
 
-                <p className="font-normal md:font-medium text-sm lg:text-lg mb-5 font-fira">
+                {/* <p className="font-normal md:font-medium text-sm lg:text-lg mb-5 font-fira">
                   {val.note}
-                </p>
+                </p> */}
+
+                <div className="flex-grow"></div>
 
                 <div>
                   <Link to="/summary">
@@ -30,7 +32,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="w-64 hidden lg:flex ml-10">
+              <div className="w-40 mt-8 ml-[50%] sm:mt-0 sm:w-64 sm:ml-10 duration-300 ease-in-out hover:scale-[1.12] cursor-pointer">
                 <img src={woman} alt="Smile Woman" />
               </div>
             </div>

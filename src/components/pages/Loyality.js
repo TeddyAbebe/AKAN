@@ -37,7 +37,7 @@ const Loyality = () => {
                 <div className="w-full text-center font-joane font-bold text-2xl py-2 lg:text-start lg:text-5xl lg:pb-10 2xl:pb-16">
                   <h1>{val.header}</h1>
                 </div>
-                <div className="flex flex-col font-fira font-normal text-cente text-xs md:text-lg gap-y-3 lg:gap-y-4 lg:text-start 2xl:w-[90%] 2xl:text-2xl max-w-[100rem]">
+                <div className="flex flex-col font-fira font-normal text-xs md:text-lg gap-y-3 lg:gap-y-4 lg:text-start 2xl:w-[90%] 2xl:text-2xl max-w-[100rem] mb-14">
                   <div>
                     <p>{val.note1}</p>
                   </div>
@@ -51,9 +51,9 @@ const Loyality = () => {
               </div>
 
               <div className="flex flex-col ">
-                <div className="text-xl font-joane font-bold text-center mb-4 lg:text-start lg:text-3xl">
+                {/* <div className="text-xl font-joane font-bold text-center mb-4 lg:text-start lg:text-3xl">
                   {val.head}
-                </div>
+                </div> */}
 
                 <div className="flex w-full justify-start md:justify-evenly lg:justify-between lg:ml-24 lg:w-[80%] max-w-[80rem] font-fira font-normal">
                   <div className="bg-[#97A5EB] rounded-md w-[50%] p-2 md:w-1/3 duration-1000 ease-in-out hover:scale-[1.12] cursor-pointer">

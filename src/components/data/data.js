@@ -45,7 +45,7 @@ export const navlink = [
   },
   {
     url: "/analysis",
-    text: "Onsite Analysis",
+    text: "Onsite Analytics",
     icon: (
       <svg
         width="24"
@@ -373,41 +373,6 @@ export const socials = [
         </defs>
       </svg>
     ),
-    icon3: (
-      <svg
-        width="30"
-        height="30"
-        viewBox="0 0 30 30"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M27.7854 0H2.21458C1.62724 0 1.06395 0.233322 0.648637 0.648637C0.233322 1.06395 0 1.62724 0 2.21458V27.7854C0 28.3728 0.233322 28.9361 0.648637 29.3514C1.06395 29.7667 1.62724 30 2.21458 30H27.7854C28.3728 30 28.9361 29.7667 29.3514 29.3514C29.7667 28.9361 30 28.3728 30 27.7854V2.21458C30 1.62724 29.7667 1.06395 29.3514 0.648637C28.9361 0.233322 28.3728 0 27.7854 0ZM8.94167 25.5562H4.43125V11.2292H8.94167V25.5562ZM6.68333 9.24375C6.17171 9.24087 5.67239 9.08649 5.24842 8.80011C4.82444 8.51372 4.4948 8.10816 4.3011 7.63461C4.10739 7.16106 4.05831 6.64074 4.16004 6.13932C4.26177 5.6379 4.50975 5.17785 4.87269 4.81723C5.23564 4.45661 5.69727 4.21158 6.19933 4.11308C6.7014 4.01457 7.22139 4.06699 7.69369 4.26373C8.16599 4.46047 8.56942 4.79271 8.85308 5.21852C9.13674 5.64432 9.2879 6.14461 9.2875 6.65625C9.29233 6.99879 9.22814 7.3388 9.09877 7.65601C8.96939 7.97321 8.77748 8.26113 8.53446 8.50258C8.29145 8.74404 8.00231 8.9341 7.68428 9.06144C7.36625 9.18877 7.02584 9.25078 6.68333 9.24375ZM25.5667 25.5688H21.0583V17.7417C21.0583 15.4333 20.0771 14.7208 18.8104 14.7208C17.4729 14.7208 16.1604 15.7292 16.1604 17.8V25.5688H11.65V11.2396H15.9875V13.225H16.0458C16.4813 12.3438 18.0063 10.8375 20.3333 10.8375C22.85 10.8375 25.5688 12.3313 25.5688 16.7063L25.5667 25.5688Z"
-          fill="white"
-        />
-      </svg>
-    ),
-    icon4: (
-      <svg
-        width="30"
-        height="30"
-        viewBox="0 0 30 30"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g clip-path="url(#clip0_49_1600)">
-          <path
-            d="M25.3963 5.19459C23.4842 4.31724 21.4337 3.67084 19.2899 3.30063C19.2508 3.29348 19.2118 3.31134 19.1917 3.34705C18.928 3.81607 18.6359 4.42794 18.4314 4.90887C16.1255 4.56366 13.8315 4.56366 11.5729 4.90887C11.3683 4.41725 11.0656 3.81607 10.8007 3.34705C10.7806 3.31253 10.7416 3.29467 10.7026 3.30063C8.55989 3.66966 6.50945 4.31605 4.59617 5.19459C4.57961 5.20173 4.56541 5.21365 4.55599 5.22911C0.66674 11.0396 -0.398688 16.7072 0.123975 22.3046C0.12634 22.3319 0.141712 22.3581 0.162998 22.3748C2.72901 24.2592 5.21463 25.4032 7.6541 26.1615C7.69314 26.1734 7.73451 26.1591 7.75935 26.127C8.33641 25.339 8.8508 24.508 9.29185 23.6342C9.31787 23.5831 9.29303 23.5224 9.23983 23.5021C8.42391 23.1926 7.647 22.8152 6.89966 22.3867C6.84055 22.3522 6.83582 22.2676 6.8902 22.2272C7.04746 22.1093 7.20477 21.9867 7.35494 21.8629C7.38211 21.8403 7.41997 21.8355 7.45192 21.8498C12.3616 24.0914 17.6769 24.0914 22.5287 21.8498C22.5606 21.8343 22.5985 21.8391 22.6268 21.8617C22.7771 21.9855 22.9343 22.1093 23.0928 22.2272C23.1472 22.2676 23.1436 22.3522 23.0845 22.3867C22.3372 22.8236 21.5602 23.1926 20.7431 23.5009C20.6899 23.5212 20.6663 23.5831 20.6923 23.6342C21.1428 24.5068 21.6572 25.3377 22.2236 26.1258C22.2473 26.1591 22.2898 26.1734 22.3289 26.1615C24.7802 25.4032 27.2658 24.2592 29.8318 22.3748C29.8543 22.3581 29.8685 22.3331 29.8708 22.3057C30.4964 15.8346 28.8231 10.2134 25.4353 5.23029C25.427 5.21364 25.4128 5.20173 25.3963 5.19459ZM10.025 18.8963C8.54687 18.8963 7.32892 17.5393 7.32892 15.8727C7.32892 14.2061 8.52325 12.849 10.025 12.849C11.5386 12.849 12.7448 14.218 12.7211 15.8727C12.7211 17.5393 11.5268 18.8963 10.025 18.8963ZM19.9934 18.8963C18.5153 18.8963 17.2974 17.5393 17.2974 15.8727C17.2974 14.2061 18.4917 12.849 19.9934 12.849C21.507 12.849 22.7132 14.218 22.6896 15.8727C22.6896 17.5393 21.507 18.8963 19.9934 18.8963Z"
-            fill="white"
-          />
-        </g>
-        <defs>
-          <clipPath id="clip0_49_1600">
-            <rect width="30" height="30" fill="white" />
-          </clipPath>
-        </defs>
-      </svg>
-    ),
   },
 ];
 
@@ -438,8 +403,9 @@ export const home = [
 
 export const executiveSummary = [
   {
-    header: "Executive Summery",
-    note: "Journey Mapping Exercise presents an opportunity to transform an unmanaged Customer Experience by building on the solid foundation laid by it’s founders. At the halfway point of 2022 the Partner’s [TP] JeS* score and Onsite Conversion Rate (CvR) highlights a need to optimise all phases of the customer journey: A CvR increase to industry average is estimated to generate incremental ~£53k p.a for the business. The Consideration Phase of the journey identified as the highest friction point in the journey and therefore requires urgent attention. Onsite visits are volatile and only 13% of visitors return to the site. users are leaving the Partner’s [TP] website at almost twice the rate of the industry average after landing on the homepage",
+    header: "",
+    note: ``,
+
     image: "",
   },
 ];
@@ -500,27 +466,6 @@ export const analysisPageThirdNotes = [
 ];
 
 export const analysisPageFour = [
-  {
-    header: "Conversion Rate H1 2022",
-    pyramid: require("./files/Images/pyramid.png"),
-    funnel1: require("./files/Images/funnel1.png"),
-    funnel2: require("./files/Images/funnel2.png"),
-    funnel3: require("./files/Images/funnel3.png"),
-    funnel4: require("./files/Images/funnel4.png"),
-    arrow: require("./files/Images/sideArrow.png"),
-  },
-];
-
-export const analysisPageFourNotes = [
-  {
-    note: require("./files/Images/analysisPageFourNote1.png"),
-  },
-  {
-    note: require("./files/Images/analysisPageFourNote2.png"),
-  },
-];
-
-export const analysisPageFive = [
   {
     header: "Traffic Source H1 2022",
     chart: require("./files/Images/Chart.png"),
@@ -586,46 +531,66 @@ export const analysisPageFive = [
     ),
   },
 ];
-
-export const analysisPageSix = [
+export const analysisPageFive = [
   {
-    header: "Journey Experience Score High Level",
-    note: "scores for a customer experience framework that evaluates a company's strategy across different stages of the customer journey. The framework has three touchpoint levels with target scores of <70, <140, and <210. The scores for Consideration, Purchase, and Loyalty are 110, 40, and 60. These scores can help identify areas for improvement and optimize the overall customer experience.",
+    header: "Conversion Rate H1 2022",
+    pyramid: require("./files/Images/pyramid.png"),
+    funnel1: require("./files/Images/funnel1.png"),
+    funnel2: require("./files/Images/funnel2.png"),
+    funnel3: require("./files/Images/funnel3.png"),
+    funnel4: require("./files/Images/funnel4.png"),
+    arrow: require("./files/Images/sideArrow.png"),
   },
 ];
 
-export const analysisPageSixDiagram = [
+export const analysisPageFiveNotes = [
+  {
+    note: require("./files/Images/analysisPageFourNote1.png"),
+  },
+  {
+    note: require("./files/Images/analysisPageFourNote2.png"),
+  },
+];
+
+export const mappingPageThree = [
+  {
+    header: "Journey Experience Score | High Level",
+    note: "The JeS is an AKAN Digital rating framework that evaluates a company's 'experience clues' across the many touch points in the Customer Journey. The framework identifies areas for improvement and optimisation in the Customer Experience.",
+  },
+];
+
+export const mappingPageThreeDiagram = [
   {
     id: 1,
-    head: require("./files/Images/analysisPageSixDiagram/headPic1.png"),
+    head: require("./files/Images/mappingPageThreeDiagram/headPic1.png"),
     number: "70",
-    percentage1: require("./files/Images/analysisPageSixDiagram/percentage1.png"),
-    percentage2: require("./files/Images/analysisPageSixDiagram/percentage2.png"),
-    percentage3: require("./files/Images/analysisPageSixDiagram/percentage3.png"),
+    percentage1: require("./files/Images/mappingPageThreeDiagram/percentage1.png"),
+    percentage2: require("./files/Images/mappingPageThreeDiagram/percentage2.png"),
+    percentage3: require("./files/Images/mappingPageThreeDiagram/percentage3.png"),
   },
   {
     id: 2,
-    head: require("./files/Images/analysisPageSixDiagram/headPic2.png"),
+    head: require("./files/Images/mappingPageThreeDiagram/headPic2.png"),
     number: "75",
-    percentage1: require("./files/Images/analysisPageSixDiagram/percentage4.png"),
-    percentage2: require("./files/Images/analysisPageSixDiagram/percentage8.png"),
-    percentage3: require("./files/Images/analysisPageSixDiagram/percentage8.png"),
+    percentage1: require("./files/Images/mappingPageThreeDiagram/percentage4.png"),
+    percentage2: require("./files/Images/mappingPageThreeDiagram/percentage8.png"),
+    percentage3: require("./files/Images/mappingPageThreeDiagram/percentage8.png"),
   },
   {
     id: 3,
-    head: require("./files/Images/analysisPageSixDiagram/headPic3.png"),
+    head: require("./files/Images/mappingPageThreeDiagram/headPic3.png"),
     number: "30",
-    percentage1: require("./files/Images/analysisPageSixDiagram/percentage7.png"),
-    percentage2: require("./files/Images/analysisPageSixDiagram/percentage8.png"),
-    percentage3: require("./files/Images/analysisPageSixDiagram/percentage8.png"),
+    percentage1: require("./files/Images/mappingPageThreeDiagram/percentage7.png"),
+    percentage2: require("./files/Images/mappingPageThreeDiagram/percentage8.png"),
+    percentage3: require("./files/Images/mappingPageThreeDiagram/percentage8.png"),
   },
   {
     id: 4,
-    head: require("./files/Images/analysisPageSixDiagram/headPic4.png"),
+    head: require("./files/Images/mappingPageThreeDiagram/headPic4.png"),
     number: "30",
-    percentage1: require("./files/Images/analysisPageSixDiagram/percentage7.png"),
-    percentage2: require("./files/Images/analysisPageSixDiagram/percentage8.png"),
-    percentage3: require("./files/Images/analysisPageSixDiagram/percentage8.png"),
+    percentage1: require("./files/Images/mappingPageThreeDiagram/percentage7.png"),
+    percentage2: require("./files/Images/mappingPageThreeDiagram/percentage8.png"),
+    percentage3: require("./files/Images/mappingPageThreeDiagram/percentage8.png"),
   },
 ];
 
@@ -647,7 +612,12 @@ export const experienceMappingPageTwo = [
 export const consideration = [
   {
     header: "Consideration Phase: 23%",
-    note: "At this stage in the journey potential customers, through your marketing efforts, are evaluating:",
+    note1:
+      "At this stage in the journey potential customers, through your marketing efforts, are evaluating:",
+    note2:
+      "Your goal is to show them all the ways their problem can be solved, how beneficial it will be for them and how you and your product can help. You also need to show how you are better than the competitors.",
+    note3:
+      "Your onboarding journey is crucial at this stage; tea finder, product catalogue, product details & authority",
     list1: "The Problem",
     list2: "It’s Urgency",
     list3: "How it can be solved",
@@ -801,10 +771,7 @@ export const DecisionPageThree = {
 
 export const DecisionPageFour = {
   FirstHeader: {
-    header: "Cart | At The Till",
-  },
-  SecondHeader: {
-    header: "Cart | At The Till",
+    header: "Till | Checkout",
   },
 };
 

@@ -41,12 +41,12 @@ const Consideration = () => {
                 </div>
 
                 <div>
-                  <p className="text-center text-xl font-fira font-normal py-4 md:pl-3 lg:pb-16 lg:w-[75%] lg:text-start lg:text-2xl">
-                    {val.note}
+                  <p className="text-center text-xl font-fira font-normal py-4 md:pl-3 lg:pb-12 lg:w-[75%] lg:text-start">
+                    {val.note1}
                   </p>
                 </div>
 
-                <div className=" flex flex-col pl-4 gap-3 text-2xl lg:text-3xl font-joane font-normal">
+                <div className=" flex flex-col pl-4 gap-3 text-2xl lg:text-3xl font-joane font-normal pb-6">
                   <div className="flex flex-row">
                     <div
                       className={`mr-3 cursor-pointer duration-300 ease-in-out hover:scale-[1.2] hover:${
@@ -95,7 +95,17 @@ const Consideration = () => {
                   </div>
                 </div>
 
-                <div></div>
+                <div>
+                  <p className="text-center text-xl font-fira font-normal py-4 md:pl-3 lg:w-[75%] lg:text-start">
+                    {val.note2}
+                  </p>
+                </div>
+
+                <div>
+                  <p className="text-center text-xl font-fira font-normal py-4 md:pl-3 lg:w-[75%] lg:text-start">
+                    {val.note3}
+                  </p>
+                </div>
               </div>
             ))}
           </div>

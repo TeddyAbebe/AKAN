@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { analysisPageSix, analysisPageSixDiagram } from "../../../data/data";
-import headPic0 from "../../../data/files/Images/analysisPageSixDiagram/headPic0.png";
+import { mappingPageThree, mappingPageThreeDiagram } from "../../../data/data";
+import headPic0 from "../../../data/files/Images/mappingPageThreeDiagram/headPic0.png";
 import LeftArrow from "../../../data/files/Icons/LeftArrow.png";
 import RightArrow from "../../../data/files/Icons/RightArrow.png";
 
-const AnalysisPage6 = () => {
+const ExperienceMappingPage3 = () => {
   return (
     <div className="bg-black flex flex-col pt-16 2xl:pt-20 sm:pt-2 text-white w-screen min-h-screen analysisPageFour">
       <div>
-        <div className="px-4">
-          {analysisPageSix.map((val, i) => (
+        <div className="px-4 mb-5">
+          {mappingPageThree.map((val, i) => (
             <div className="flex flex-col justify-center items-center">
               <div className="sm:mb-6">
                 <h1 className="text-center font-joane font-bold text-2xl sm:text-3xl lg:text-4xl max-w-[35rem] ">
@@ -30,7 +30,7 @@ const AnalysisPage6 = () => {
           </div>
 
           <div className="flex flex-wrap lg:flex-row gap-2 lg:gap-4 justify-center border-[#497E4F] border-8 pr-6 pl-6 pb-4 pt-10 mt-12 mx-10">
-            {analysisPageSixDiagram.map((item) => (
+            {mappingPageThreeDiagram.map((item) => (
               <div className="flex sm:w-[30%]; 2xl:w-[20%] duration-300 ease-in-out hover:scale-[1.11] cursor-pointer">
                 <div className="flex flex-col bg-white rounded-xl overflow-hidden">
                   <div className="h-[30%] w-full bg-white flex justify-center items-center">
@@ -76,7 +76,7 @@ const AnalysisPage6 = () => {
       <div className="flex-grow"></div>
 
       <div className="flex justify-center sm:justify-end gap-10 p-3">
-        <Link to="/analysis/page5">
+        <Link to="/mapping/page2">
           <div className="bg-[#3f6d44] rounded-lg p-3 w-8 h-8 flex justify-center items-center duration-300 ease-in-out hover:scale-[1.2]">
             <img src={LeftArrow} alt="" />
           </div>
@@ -89,4 +89,4 @@ const AnalysisPage6 = () => {
   );
 };
 
-export default AnalysisPage6;
+export default ExperienceMappingPage3;

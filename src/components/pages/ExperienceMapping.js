@@ -17,9 +17,10 @@ const ExperienceMapping = () => {
                 </h1>
               </div>
 
-              <div className="text-center 2xl:text-3xl font-fira font-normal w-full md:w-3/4 lg:w-1/2">
+              {/* <div className="text-center 2xl:text-3xl font-fira font-normal w-full md:w-3/4 lg:w-1/2">
                 <p className="">{val.note}</p>
-              </div>
+              </div> */}
+              
             </div>
           ))}
         </div>

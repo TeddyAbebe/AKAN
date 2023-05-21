@@ -21,23 +21,17 @@ const Conclusion = () => {
                   </div>
                 </div>
 
-                <div className="text-sm font-fira font-normal flex flex-col gap-1">
+                <div className="text-sm font-fira font-normal flex flex-col gap-4">
                   <div className="flex flex-row gap-2">
                     <div>
                       <div className="w-1 h-1 rounded-full bg-white mt-2"></div>
                     </div>
                     <div className="2xl:text-lg">
                       <p>{val.note1}</p>
-                    </div>
-                  </div>
-                  <div className="flex flex-row gap-2">
-                    <div>
-                      <div className="w-1 h-1 rounded-full bg-white mt-2"></div>
-                    </div>
-                    <div className="2xl:text-lg">
                       <p>{val.note2}</p>
                     </div>
                   </div>
+
                   <div className="flex flex-row gap-2">
                     <div>
                       <div className="w-1 h-1 rounded-full bg-white mt-2"></div>

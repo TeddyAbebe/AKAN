@@ -23,11 +23,11 @@ import DecisionPage3 from "./nextPages/DecisionPages/DecisionPage3";
 import DecisionPage4 from "./nextPages/DecisionPages/DecisionPage4";
 import DecisionPage5 from "./nextPages/DecisionPages/DecisionPage5";
 import ExperienceMappingPage2 from "./nextPages/ExperienceMappingPages/ExperienceMappingPage2";
+import ExperienceMappingPage3 from "./nextPages/ExperienceMappingPages/ExperienceMappingPage3";
 import AnalysisPage2 from "./nextPages/onSiteAnalysisPages/AnalysisPage2";
 import AnalysisPage3 from "./nextPages/onSiteAnalysisPages/AnalysisPage3";
 import AnalysisPage4 from "./nextPages/onSiteAnalysisPages/AnalysisPage4";
 import AnalysisPage5 from "./nextPages/onSiteAnalysisPages/AnalysisPage5";
-import AnalysisPage6 from "./nextPages/onSiteAnalysisPages/AnalysisPage6";
 
 export const Pages = () => {
   const [openAppBar, setOpenAppBar] = useState(false);
@@ -53,12 +53,16 @@ export const Pages = () => {
             <Route exact path="/analysis/page3" element={<AnalysisPage3 />} />
             <Route exact path="/analysis/page4" element={<AnalysisPage4 />} />
             <Route exact path="/analysis/page5" element={<AnalysisPage5 />} />
-            <Route exact path="/analysis/page6" element={<AnalysisPage6 />} />
             <Route exact path="/mapping" element={<ExperienceMapping />} />
             <Route
               exact
               path="/mapping/page2"
               element={<ExperienceMappingPage2 />}
+            />
+            <Route
+              exact
+              path="/mapping/page3"
+              element={<ExperienceMappingPage3 />}
             />
             <Route exact path="/consideration" element={<Consideration />} />
             <Route

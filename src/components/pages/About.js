@@ -69,31 +69,19 @@ const About = () => {
                           key={i}
                         >
                           <Link
-                            to=""
+                            to="https://twitter.com/akanxp"
+                            target="_blank"
                             className="duration-300 ease-in-out hover:scale-[1.4]"
                           >
                             {social.icon1}
                           </Link>
 
                           <Link
-                            to=""
+                            to="https://instagram.com/akanxp"
+                            target="_blank"
                             className="duration-300 ease-in-out hover:scale-[1.4]"
                           >
                             {social.icon2}
-                          </Link>
-
-                          <Link
-                            to=""
-                            className="duration-300 ease-in-out hover:scale-[1.4]"
-                          >
-                            {social.icon3}
-                          </Link>
-
-                          <Link
-                            to=""
-                            className="duration-300 ease-in-out hover:scale-[1.8]"
-                          >
-                            {social.icon4}
                           </Link>
                         </div>
                       ))}
