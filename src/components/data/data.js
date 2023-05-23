@@ -906,8 +906,8 @@ export const feedback = [
   },
 ];
 
-export const conclusion = [
-  {
+export const conclusion = {
+  main: {
     header: "Conclusion",
     header2: "Key Takeaways",
     Key: require("../data/files/Icons/key.png"),
@@ -919,22 +919,25 @@ export const conclusion = [
     note3:
       "The Experience Mapping Exercise highlights the need to invest in all phases of the User Journey, however the the greatest opportunity to transform an unmanaged experience into one that people love, and scale the business lies in the Consideration Phase 23% :",
   },
-  {
+
+  desc1: {
     icon: require("../data/files/Icons/zigzag.png"),
     title: "Top funnel activity",
     desc: "volume and volatility of Visitors indicates a need to invest in your Paid & Organic marketing to drive consistent traffic",
   },
-  {
+
+  desc2: {
     icon: require("../data/files/Icons/onboard.png"),
     title: "Onboarding",
     desc: "optimise ‘tea finder’ experience to make your onboard experience more personalised & helpful",
   },
-  {
+
+  desc3: {
     icon: require("../data/files/Icons/browsing.png"),
     title: "Browsing",
     desc: "make it easier for users to find the products they want but improving your ‘Filter’ feature",
   },
-];
+};
 
 export const about = [
   {
