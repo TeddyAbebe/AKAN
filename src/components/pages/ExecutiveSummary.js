@@ -16,7 +16,7 @@ const ExecutiveSummary = () => {
             </div>
 
             <div className="w-full py-1 sm:py-3 lg:w-[72%]">
-              <div>
+              <div className="pb-3">
                 <p className="text-sm md:text-lg font-fira">
                   Journey Mapping Exercise presents an opportunity to transform
                   an unmanaged Customer Experience by building on the solid
@@ -24,8 +24,8 @@ const ExecutiveSummary = () => {
                 </p>
               </div>
 
-              <div className="flex flex-col gap-3 mx-5">
-                <div className="flex gap-3 flex-row ">
+              <div className="flex flex-col gap-2 mx-5">
+                <div className="flex gap-2 flex-row">
                   <div className="">
                     <div className="w-2 h-2 bg-white rounded-full mt-2"></div>
                   </div>
@@ -48,7 +48,7 @@ const ExecutiveSummary = () => {
                   </div>
                 </div>
 
-                <div className="flex gap-3 flex-row">
+                <div className="flex gap-2 flex-row">
                   <div>
                     <div className="w-2 h-2 bg-white rounded-full mt-2"></div>
                   </div>
@@ -61,7 +61,7 @@ const ExecutiveSummary = () => {
                   </div>
                 </div>
 
-                <div className="flex gap-3 flex-row">
+                <div className="flex gap-2 flex-row">
                   <div>
                     <div className="w-2 h-2 bg-white rounded-full mt-2"></div>
                   </div>
@@ -77,14 +77,14 @@ const ExecutiveSummary = () => {
               </div>
             </div>
 
-            <div className="flex gap-3 items-center justify-evenly px-2 xl:w-full lg:justify-center lg:gap-8 ">
+            <div className="flex gap-3 items-center justify-evenly px-2 xl:w-full lg:justify-center lg:gap-7 ">
               <img
-                className="w-1/2 sm:w-[30%] duration-500 ease-in-out hover:scale-[1.03] cursor-pointer"
+                className="w-1/2 sm:w-[27%] duration-500 ease-in-out hover:scale-[1.05] cursor-pointer"
                 src={man}
                 alt=""
               />
               <img
-                className="w-1/2 sm:w-[30%] duration-500 ease-in-out hover:scale-[1.03] cursor-pointer"
+                className="w-1/2 sm:w-[27%] duration-500 ease-in-out hover:scale-[1.05] cursor-pointer"
                 src={SmileMan}
                 alt=""
               />

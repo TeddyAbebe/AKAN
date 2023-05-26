@@ -83,7 +83,7 @@ const Nav = ({ open, close }) => {
           <div>
             {socials.map((social, i) => (
               <div className="" key={i}>
-                <div className="flex flex-row justify-evenly">
+                <div className="flex flex-row justify-center gap-10 ">
                   <Link
                     to="https://twitter.com/akanxp"
                     target="_blank"

@@ -307,7 +307,7 @@ export const navlink = [
   },
   {
     url: "/about",
-    text: "About Company",
+    text: "Get In Touch",
     icon: (
       <svg
         width="20"
@@ -467,7 +467,7 @@ export const analysisPageThirdNotes = [
 
 export const analysisPageFour = [
   {
-    header: "Traffic Source H1 2022",
+    header: "Traffic Source | H1 2022",
     chart: require("./files/Images/Chart.png"),
     desc: require("./files/Images/desc.png"),
     note1: "Paid Social drove highest volume of traffic",
@@ -533,7 +533,7 @@ export const analysisPageFour = [
 ];
 export const analysisPageFive = [
   {
-    header: "Conversion Rate H1 2022",
+    header: "Conversion Rate | H1 2022",
     pyramid: require("./files/Images/pyramid.png"),
     funnel1: require("./files/Images/funnel1.png"),
     funnel2: require("./files/Images/funnel2.png"),
@@ -597,7 +597,7 @@ export const mappingPageThreeDiagram = [
 export const experienceMapping = [
   {
     header: "Experience Mapping",
-    note: "At [Your Company Name], we help businesses understand their customers' journey through our Experience Mapping service. We identify touchpoints and pain points, then provide customized plans for improvement. With our expertise, you can deliver a seamless, engaging experience that drives results. Contact us today to learn more.",
+    note: "By mapping out your customers' journey, we develop a holistic understanding of how they interact with your and make data-driven decisions that improve their experience, increase engagement, and ultimately drive business growth.",
   },
 ];
 
@@ -617,7 +617,7 @@ export const consideration = [
     note2:
       "Your goal is to show them all the ways their problem can be solved, how beneficial it will be for them and how you and your product can help. You also need to show how you are better than the competitors.",
     note3:
-      "Your onboarding journey is crucial at this stage; tea finder, product catalogue, product details & authority",
+      "Your onboarding journey is crucial at this stage; tea finder, product catalogue, product details & authority.",
     list1: "The Problem",
     list2: "It’s Urgency",
     list3: "How it can be solved",
@@ -845,7 +845,7 @@ export const loyalityPageThree = [
 
 export const loyalityPageFour = [
   {
-    header: "The Proof | Top of Mind",
+    header: "The Proof Moment of Truth",
   },
 ];
 

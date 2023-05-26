@@ -42,7 +42,7 @@ const Conclusion = () => {
               </div>
             </div>
 
-            <div className="pl-6">
+            <div className="pl-6 flex flex-col">
               <div className="flex gap-4 md:mb-5 w-full md:w-5/6">
                 <div className="flex flex-row">
                   <div className="bg-white rounded-full flex items-center justify-center w-10 h-10 duration-300 ease-in-out hover:scale-[1.4] cursor-pointer">
@@ -91,7 +91,7 @@ const Conclusion = () => {
                 </div>
               </div>
 
-              <div className="flex gap-4 md:mb-5 w-full md:w-5/6">
+              <div className="flex gap-4 md:mt-5  w-full md:w-5/6">
                 <div className="flex flex-row">
                   <div className="bg-white rounded-full flex items-center justify-center w-10 h-10 duration-300 ease-in-out hover:scale-[1.4] cursor-pointer">
                     <img
