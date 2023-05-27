@@ -36,7 +36,7 @@ const Decision = () => {
             {decision.map((val, i) => (
               <div key={i} className="flex flex-col items-center">
                 <div className="lg:ml-10">
-                  <div className="w-full text-center font-joane font-bold  text-3xl py-2 lg:pb-12 md:text-5xl lg:text-start xl:text-6xl">
+                  <div className="w-full text-center font-joane font-bold  text-2xl py-2 lg:pb-12 md:text-5xl 2xl:text-7xl lg:text-start">
                     <h1>{val.header}</h1>
                   </div>
 

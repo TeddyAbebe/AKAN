@@ -34,7 +34,7 @@ const Loyality = () => {
           {loyality.map((val, i) => (
             <div key={i} className="lg:pt-14 px-12">
               <div className="lg:mb-6">
-                <div className="w-full text-center font-joane font-bold text-2xl py-2 lg:text-start lg:text-5xl lg:pb-10 2xl:pb-16">
+                <div className="w-full text-center font-joane font-bold text-2xl py-2 lg:text-start lg:text-5xl 2xl:text-7xl lg:pb-10 2xl:pb-16">
                   <h1>{val.header}</h1>
                 </div>
                 <div className="flex flex-col font-fira font-normal text-xs md:text-lg gap-y-3 lg:gap-y-4 lg:text-start 2xl:w-[90%] 2xl:text-2xl max-w-[100rem] mb-14">

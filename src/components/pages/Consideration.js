@@ -35,7 +35,7 @@ const Consideration = () => {
             {consideration.map((val, i) => (
               <div key={i} className="flex flex-col lg:px-4">
                 <div>
-                  <h1 className="text-center font-joane font-bold text-3xl py-2 lg:text-5xl lg:text-start 2xl:text-7xl  lg:pb-6">
+                  <h1 className="text-center font-joane font-bold text-2xl py-2 lg:text-5xl lg:text-start 2xl:text-7xl  lg:pb-6">
                     {val.header}
                   </h1>
                 </div>
