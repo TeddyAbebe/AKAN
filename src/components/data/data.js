@@ -839,13 +839,13 @@ export const loyalityPageTwo = [
 
 export const loyalityPageThree = [
   {
-    header: "The Proof | Top of Mind",
+    header: "The Proof | Moment of Truth",
   },
 ];
 
 export const loyalityPageFour = [
   {
-    header: "The Proof Moment of Truth",
+    header: "The Proof | Top of Mind",
   },
 ];
 
