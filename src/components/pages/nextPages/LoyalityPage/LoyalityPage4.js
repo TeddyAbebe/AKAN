@@ -25,7 +25,7 @@ const LoyalityPage4 = () => {
       <div className="mt-16 lg:mt-24 flex flex-col justify-center items-center gap-6">
         <div>
           {loyalityPageFour.map((val, i) => (
-            <div className="text-xl sm:text-2xl font-joane font-bold text-center md:text-3xl tracking-wide">
+            <div className="text-xl sm:text-2xl font-joane font-bold text-center md:text-3xl">
               <h1>{val.header}</h1>
             </div>
           ))}
