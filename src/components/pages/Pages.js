@@ -37,6 +37,7 @@ export const Pages = () => {
       <Router>
         <div className="flex">
           <Nav open={openAppBar} close={() => setOpenAppBar(false)} />
+
           <button
             className="flex md:hidden top-2 left-2"
             onClick={() => setOpenAppBar(!openAppBar)}
@@ -45,6 +46,7 @@ export const Pages = () => {
               <img className="w-18 h-18" src={Menu} alt="" />
             </div>
           </button>
+
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/summary" element={<ExecutiveSummary />} />

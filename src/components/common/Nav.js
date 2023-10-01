@@ -12,12 +12,10 @@ const Nav = ({ open, close }) => {
     let stopAnimation, startAnimation;
 
     if (isAnimating) {
-      // Stop the animation after 3 seconds
       stopAnimation = setTimeout(() => {
         setIsAnimating(false);
       }, 3000);
     } else {
-      // Start the animation again after 2 seconds
       startAnimation = setTimeout(() => {
         setIsAnimating(true);
       }, 2000);
